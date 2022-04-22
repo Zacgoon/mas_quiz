@@ -75,12 +75,15 @@
     </head>
 
     <body>
-        
         <h2 id="mainTitle1">M@S SONG QUIZ made by Zacgoon</h2>
         <img src='http://drive.google.com/uc?export=view&id=1YJPk_gbfoiT_95Rv9km-uhK03nqHsPGr' width="60" id="image1">
         <p id="mainTitle2" class="hankuku" >
             한국어도 됩니다! 영어는 대도록이면 소문자, 띄어쓰기 해주세요.
         </p>
+            <p id="tips" class="line">
+                TIP) 입력창을 선택하고 [Enter] = 제출 / [Alt] = 노래받기 / "//"입력 = 힌트
+            </p>
+        </fieldset>
         <div class="modal">
             <div class="modal_body" id="mod">Modal</div>
         </div> 
@@ -5448,6 +5451,7 @@
                     document.getElementById("tag3").style.color = "white";
                     document.getElementById("tag4").style.color = "white";
                     document.getElementById("tag5").style.color = "white";
+                    document.getElementById("tips").style.background = "#7E6CA8";
                     document.body.style.backgroundColor = "#333333";
                     document.getElementById("card-body").style.backgroundColor = "#333333";
                     document.getElementById("image1").src = "http://drive.google.com/uc?export=view&id=1m9BSsh_Is5FKxXdowyFHwh-l_dRjpaU8";
@@ -5463,6 +5467,7 @@
                     document.getElementById("tag3").style.color = "black";
                     document.getElementById("tag4").style.color = "black";
                     document.getElementById("tag5").style.color = "black";
+                    document.getElementById("tips").style.background = "";
                     document.body.style.backgroundColor = "#D3D0F7";
                     document.getElementById("card-body").style.backgroundColor = "#D3D0F7";
                     document.getElementById("image1").src = "http://drive.google.com/uc?export=view&id=1U0HfH1BiT9UOnYLHlNz8875D8e9J8VD-";
@@ -5478,6 +5483,7 @@
                     document.getElementById("tag3").style.color = "black";
                     document.getElementById("tag4").style.color = "black";
                     document.getElementById("tag5").style.color = "black";
+                    document.getElementById("tips").style.background = "";
                     document.body.style.backgroundColor = "white";
                     document.getElementById("card-body").style.backgroundColor = "white";
                     document.getElementById("image1").src = "http://drive.google.com/uc?export=view&id=1YJPk_gbfoiT_95Rv9km-uhK03nqHsPGr"; 
@@ -10455,15 +10461,36 @@
             .card-body {
                 background-color: white;
             }
-            .tips {
-                font-size: small;
-                margin-left:20px;
-                text-align: left;
+            
+            .line{
+                display: flex;
+                flex: basis 100%;
+                align-items: center;
+                color:rgba(0, 0, 0, 0.35);
+                font-size: 15px;
+                margin:8px 0px;
+            }
+            .line::before{
+                content:"";
+                flex-grow:1;
+                margin:0px 16px;
+                background: rgba(0,0,0,0.35);
+                height: 1px;
+                font-size: 0px;
+                line-height: 0px;
+            }
+            .line::after{
+                content:"";
+                flex-grow:1;
+                margin:0px 16px;
+                background: rgba(0,0,0,0.35);
+                height:1px;
+                font-size:0px;
+                line-height: 0px;
             }
         </style>
             <div class="d-flex justify-content-center">
             <fieldset style="background: rgb(208, 208, 208); width: 600px; height: 180px;">
-                <legend class="tips"> TIP!) 입력창을 선택하고 [Enter] = 제출 / [Alt] = 노래받기 / "//"입력 = 힌트 </legend>
                 <legend class="googleDrive"> Release 1.4 </legend>
                 <audio controls id="song" autoplay><source src="" type='audio/mp3'/></audio>
                 <!--<iframe src="" id="song" controls frameborder="0" scrolling="no" height="100" width="800"></iframe>-->
