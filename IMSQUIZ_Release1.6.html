@@ -89,6 +89,7 @@
         </div> 
         <script>
             // 스프레드 시트를 이용하여 DB 만들기 **
+            hardmode = 0;
             flag = "";
             notran = [""];
             randp = 100000;
@@ -2280,6 +2281,126 @@
                     answer[4] = "";
                     answer[5] = "";
                 }if (randp == 490 || randp == 491) {
+                    hints = "";
+                    answer[0] = "";
+                    answer[1] = "";
+                    answer[2] = "";
+                    answer[3] = "";
+                    answer[4] = "";
+                    answer[5] = "";
+                }if (randp == 492 || randp == 493) {
+                    hints = "";
+                    answer[0] = "";
+                    answer[1] = "";
+                    answer[2] = "";
+                    answer[3] = "";
+                    answer[4] = "";
+                    answer[5] = "";
+                }if (randp == 494 || randp == 495) {
+                    hints = "";
+                    answer[0] = "";
+                    answer[1] = "";
+                    answer[2] = "";
+                    answer[3] = "";
+                    answer[4] = "";
+                    answer[5] = "";
+                }if (randp == 496 || randp == 497) {
+                    hints = "";
+                    answer[0] = "";
+                    answer[1] = "";
+                    answer[2] = "";
+                    answer[3] = "";
+                    answer[4] = "";
+                    answer[5] = "";
+                }if (randp == 498 || randp == 499) {
+                    hints = "";
+                    answer[0] = "";
+                    answer[1] = "";
+                    answer[2] = "";
+                    answer[3] = "";
+                    answer[4] = "";
+                    answer[5] = "";
+                }if (randp == 500 || randp == 501) {
+                    hints = "";
+                    answer[0] = "";
+                    answer[1] = "";
+                    answer[2] = "";
+                    answer[3] = "";
+                    answer[4] = "";
+                    answer[5] = "";
+                }if (randp == 502 || randp == 503) {
+                    hints = "";
+                    answer[0] = "";
+                    answer[1] = "";
+                    answer[2] = "";
+                    answer[3] = "";
+                    answer[4] = "";
+                    answer[5] = "";
+                }if (randp == 504 || randp == 505) {
+                    hints = "";
+                    answer[0] = "";
+                    answer[1] = "";
+                    answer[2] = "";
+                    answer[3] = "";
+                    answer[4] = "";
+                    answer[5] = "";
+                }if (randp == 506 || randp == 507) {
+                    hints = "";
+                    answer[0] = "";
+                    answer[1] = "";
+                    answer[2] = "";
+                    answer[3] = "";
+                    answer[4] = "";
+                    answer[5] = "";
+                }if (randp == 508 || randp == 509) {
+                    hints = "";
+                    answer[0] = "";
+                    answer[1] = "";
+                    answer[2] = "";
+                    answer[3] = "";
+                    answer[4] = "";
+                    answer[5] = "";
+                }if (randp == 510 || randp == 511) {
+                    hints = "";
+                    answer[0] = "";
+                    answer[1] = "";
+                    answer[2] = "";
+                    answer[3] = "";
+                    answer[4] = "";
+                    answer[5] = "";
+                }if (randp == 512 || randp == 513) {
+                    hints = "";
+                    answer[0] = "";
+                    answer[1] = "";
+                    answer[2] = "";
+                    answer[3] = "";
+                    answer[4] = "";
+                    answer[5] = "";
+                }if (randp == 514 || randp == 515) {
+                    hints = "";
+                    answer[0] = "";
+                    answer[1] = "";
+                    answer[2] = "";
+                    answer[3] = "";
+                    answer[4] = "";
+                    answer[5] = "";
+                }if (randp == 516 || randp == 517) {
+                    hints = "";
+                    answer[0] = "";
+                    answer[1] = "";
+                    answer[2] = "";
+                    answer[3] = "";
+                    answer[4] = "";
+                    answer[5] = "";
+                }if (randp == 518 || randp == 519) {
+                    hints = "";
+                    answer[0] = "";
+                    answer[1] = "";
+                    answer[2] = "";
+                    answer[3] = "";
+                    answer[4] = "";
+                    answer[5] = "";
+                }if (randp == 520 || randp == 521) {
                     hints = "";
                     answer[0] = "";
                     answer[1] = "";
@@ -5796,6 +5917,9 @@
                     document.getElementById('input').value = "";
                     return 0;
                 } else if(inputText == "/reset"){
+                    document.getElementById("hintButton").style.visibility = "";
+                    document.getElementById("surButton").style.visibility = "";
+                    document.getElementById("linkButton").style.visibility = "";
                     메인1.style.backgroundColor = "#16033d";
                     메인2.style.backgroundColor = "#16033d";
                     해설.style.backgroundColor = "#16033d";
@@ -5866,8 +5990,7 @@
                     alert('?? : 오타쿠 개꿀이네 ㅋㅋ');
                     document.getElementById('input').value = "";
                     return 0;
-                }
-                else if(inputText == "//"){
+                } else if(inputText == "//" && hardmode == 0){
                     if(hints == ""){
                         document.getElementById("answer").textContent =
                         '노래 받기를 먼저 눌러주세요.';
@@ -5876,6 +5999,14 @@
                         document.getElementById("answer").textContent = '정답을 입력해주세요. 힌트는 " ' + hints + ' "입니다.';
                         document.getElementById('input').value = "";
                     }
+                    return 0;
+                } else if(inputText=="/hardmode"){
+                    hardmode = 1;
+                    document.getElementById("hintButton").style.visibility = "hidden";
+                    document.getElementById("surButton").style.visibility = "hidden";
+                    document.getElementById("linkButton").style.visibility = "hidden";
+                    alert('[ 챌린지 모드에 들어갑니다. ]');
+                    document.getElementById('input').value = "";
                     return 0;
                 }
 
@@ -6260,91 +6391,91 @@
                 } else if (randp == 82) {
                     urllink = "1SRj8ug5ESYbBCAodiA6Qnk8wbYmM0Y7c";  //홈스윗프렌드쉽
                     flag = "밀리";
-                    videourl = '';
+                    videourl = 'https://youtu.be/UKIuTb_tvvs';
                 } else if (randp == 83) {
                     urllink = "1n9TNdQMV57F1Z09woZzWldJQOumJfMRO";  //홈스윗프렌드쉽
                     flag = "밀리";
-                    videourl = '';
+                    videourl = 'https://youtu.be/UKIuTb_tvvs';
                 } else if (randp == 84) {
                     urllink = "1hbrvmztDivgJnKghQ1UXknWu4uhiHUAw";  //아이디드아이윌
                     flag = "밀리";
-                    videourl = '';
+                    videourl = 'https://youtu.be/oTDW5dGuoso';
                 } else if (randp == 85) {
                     urllink = "1BKd7efNiwYqMxMXsUyig511K62k0BBn3";  //아이디드아이윌
                     flag = "밀리";
-                    videourl = '';
+                    videourl = 'https://youtu.be/oTDW5dGuoso';
                 } else if (randp == 86) {
                     urllink = "19DwotzTKsliZCugwD3_o1dRQWCR3qABF";  //이스케이프프롬유토피아
                     flag = "밀리";
-                    videourl = '';
+                    videourl = 'https://youtu.be/0vYbf7JbCvs';
                 } else if (randp == 87) {
                     urllink = "1hMKjKaM51gXdyPYZJXsl608iN3fL2O11";  //이스케이프프롬유토피아
                     flag = "밀리";
-                    videourl = '';
+                    videourl = 'https://youtu.be/0vYbf7JbCvs';
                 } else if (randp == 88) {
                     urllink = "1jzrlwwBgfPJAjg6L7JB1tB0FII3jeCTH";  //임로코모션
                     flag = "밀리";
-                    videourl = '';
+                    videourl = 'https://youtu.be/7LGpS_Weip8';
                 } else if (randp == 89) {
                     urllink = "1Xk1QuKFtLRJtfKyC_xh6lCnYJ0LPgXUg";  //임로코모션
                     flag = "밀리";
-                    videourl = '';
+                    videourl = 'https://youtu.be/7LGpS_Weip8';
                 } else if (randp == 90) {
                     urllink = "1pehLFRF5VPg2ggrUg057qyJ5mS5-Ij0R";  //저스트비마이셀프
                     flag = "밀리";
-                    videourl = '';
+                    videourl = 'https://youtu.be/dedpfL0SJME';
                 } else if (randp == 91) {
                     urllink = "1T4_-q2Rn7wznmsdm392wKJNqfZJTAoBS";  //저스트비마이셀프
                     flag = "밀리";
-                    videourl = '';
+                    videourl = 'https://youtu.be/dedpfL0SJME';
                 } else if (randp == 92) {
                     urllink = "1wZ6Ce266E77vyW-py2jfc-YpdZNM282e";  //저스티스올보이스
                     flag = "밀리";
-                    videourl = '';
+                    videourl = 'https://youtu.be/R7f6IiqQcJY';
                 } else if (randp == 93) {
                     urllink = "1ddS-ALDDHk1RGcGhjrArBfr9X4PAsm3u";  //저스티스올보이스
                     flag = "밀리";
-                    videourl = '';
+                    videourl = 'https://youtu.be/R7f6IiqQcJY';
                 } else if (randp == 94) {
                     urllink = "12x5ejm5qUh6T6gN2A-aktkrFxMWdkoZd";  //카와이오브더월드
                     flag = "밀리";
-                    videourl = '';
+                    videourl = 'https://youtu.be/mwsayGuMhBY';
                 } else if (randp == 95) {
                     urllink = "1j5mw-Uk3vBGxJoqXs16Vo_LtXIPw-PPP";  //카와이오브더월드
                     flag = "밀리";
-                    videourl = '';
+                    videourl = 'https://youtu.be/mwsayGuMhBY';
                 } else if (randp == 96) {
                     urllink = "14W2JTdKZ4J1VwySZziS67fhUQGHWlBho";  //리더
                     flag = "밀리";
-                    videourl = '';
+                    videourl = 'https://youtu.be/jm6cuxX80gw';
                 } else if (randp == 97) {
                     urllink = "1Q4SiaOKG7AmgS8zNjQrtrEE1lyqZPjP7";  //리더
                     flag = "밀리";
-                    videourl = '';
+                    videourl = 'https://youtu.be/jm6cuxX80gw';
                 } else if (randp == 98) {
                     urllink = "1i6cBlk7Q1VldSJZDgGBiI-lnMd7Q075U";  //레전드걸스
                     flag = "밀리";
-                    videourl = '';
+                    videourl = 'https://youtu.be/6DfWcj9o6uM';
                 } else if (randp == 99) {
                     urllink = "1E4FvLTmvkm9rFMoH-dPYUpa2uLF5gUH3";  //레전드걸스
                     flag = "밀리";
-                    videourl = '';
+                    videourl = 'https://youtu.be/6DfWcj9o6uM';
                 } else if (randp == 100) {
                     urllink = "1qqabLRnbq_ZrMQRDZyqcakfFyyC6M72B";  //멜티판타지아
                     flag = "밀리";
-                    videourl = '';
+                    videourl = 'https://youtu.be/hSmiV5mGauE';
                 } else if (randp == 101) {
                     urllink = "1hH0x0jOXztVzEsos40V78ig_vqHLzsB6";  //멜티판타지아
                     flag = "밀리";
-                    videourl = '';
+                    videourl = 'https://youtu.be/hSmiV5mGauE';
                 } else if (randp == 102) {
                     urllink = "1f5dBWrsuBahSRyf7OzcM0RqfRo4P4l3x";  //뮤직저니
                     flag = "밀리";
-                    videourl = '';
+                    videourl = 'https://youtu.be/EKXxMnOrcEo';
                 } else if (randp == 103) {
                     urllink = "18tOHIfn4z0TMP7WchmnAp4suRwZfFaet";  //뮤직저니
                     flag = "밀리";
-                    videourl = '';
+                    videourl = 'https://youtu.be/EKXxMnOrcEo';
                 } else if (randp == 104) {
                     urllink = "1JNPH1H-wK1ba5cYLPCeWOPo0tOyjP_xL";  //온리원세컨드
                     flag = "밀리";
@@ -6356,11 +6487,11 @@
                 } else if (randp == 106) {
                     urllink = "1xJOEhb6oPMK65y6GLJYGRZxq4jpcHJ6i";  //피에스 아이러브유
                     flag = "밀리";
-                    videourl = '';
+                    videourl = 'https://youtu.be/7PkpyGkhMuE';
                 } else if (randp == 107) {
                     urllink = "1Df2xI4_0GgWE-nczYPtYm5QrxjVn31qH";  //피에스 아이러브유
                     flag = "밀리";
-                    videourl = '';
+                    videourl = 'https://youtu.be/7PkpyGkhMuE';
                 } else if (randp == 108) {
                     urllink = "1j0il-b_8hYoOW4_c5zlDu8oJf91uqB5-";  //패러독스오브러브
                     flag = "밀리";
@@ -6372,43 +6503,43 @@
                 } else if (randp == 110) {
                     urllink = "1K8Ng-8TndNN8ryFmvl_jjP4OdGKY4dNw";  //피스오브케이크
                     flag = "밀리";
-                    videourl = '';
+                    videourl = 'https://youtu.be/KatGfoP4NDw';
                 } else if (randp == 111) {
                     urllink = "1VicnFxdalqk82LQdAS7hH-ZtcepJ7ZA0";  //피스오브케이크
                     flag = "밀리";
-                    videourl = '';
+                    videourl = 'https://youtu.be/KatGfoP4NDw';
                 } else if (randp == 112) {
                     urllink = "19WsMOQlPkSzmSjStfr5XcwlTzh4FivNL";  //프리티드리머
                     flag = "밀리";
-                    videourl = '';
+                    videourl = 'https://youtu.be/ilt3eD26dB4';
                 } else if (randp == 113) {
                     urllink = "1I6XevsSAFcpfci8eiq1O56wl_1fTZOBe";  //프리티드리머
                     flag = "밀리";
-                    videourl = '';
+                    videourl = 'https://youtu.be/ilt3eD26dB4';
                 } else if (randp == 114) {
                     urllink = "1t5e2HNjABYSEHdKZkuWB2ttyd6-a2r0t";  //프린세스비엠비셔스
                     flag = "밀리";
-                    videourl = '';
+                    videourl = 'https://youtu.be/zRGG9SgY0w4';
                 } else if (randp == 115) {
                     urllink = "1j58zuohGC9OnXu48Z20V-xI4aNMUeWKQ";  //프린세스비엠비셔스
                     flag = "밀리";
-                    videourl = '';
+                    videourl = 'https://youtu.be/zRGG9SgY0w4';
                 } else if (randp == 116) {
                     urllink = "19luonISfJtSAxfbbGG86xiHk_r63zzcL";  //레이즈더플레그
                     flag = "밀리";
-                    videourl = '';
+                    videourl = 'https://youtu.be/W8BNwXkpgjo';
                 } else if (randp == 117) {
                     urllink = "18Euv8U0QwzQpSPVtsezjZNhsoqgdY1CP";  //레이즈더플레그
                     flag = "밀리";
-                    videourl = '';
+                    videourl = 'https://youtu.be/W8BNwXkpgjo';
                 } else if (randp == 118) {
                     urllink = "1rRBGhWH_MXLk9zJQ5ogQfHx5c3LjwTzH";  //리벨리온
                     flag = "밀리";
-                    videourl = '';
+                    videourl = 'https://youtu.be/LduX2XCaDX4';
                 } else if (randp == 119) {
                     urllink = "1Eeagq-UGZqt5okoH1D5Zlm03IfwJRxNb";  //리벨리온
                     flag = "밀리";
-                    videourl = '';
+                    videourl = 'https://youtu.be/LduX2XCaDX4';
                 } else if (randp == 120) {
                     urllink = "12TyGZCp8-2vZZdFmkhaEddU1hgfEvG_x";  //리테일
                     flag = "밀리";
@@ -6420,27 +6551,27 @@
                 } else if (randp == 122) {
                     urllink = "11LiHYLHEkHBCHor0JvtaHlS5qUipTN4r";  //사일런트 조커
                     flag = "밀리";
-                    videourl = '';
+                    videourl = 'https://youtu.be/8VA5cgg5sVI';
                 } else if (randp == 123) {
                     urllink = "1-XXjYUpmLvjYH7W8dSIbOgTZFGhL-YFV";  //사일런트 조커
                     flag = "밀리";
-                    videourl = '';
+                    videourl = 'https://youtu.be/8VA5cgg5sVI';
                 } else if (randp == 124) {
                     urllink = "10U12FUsHIkZOtJChTc5nRBZ81rGvc60s";  //스마일리 데이즈
                     flag = "밀리";
-                    videourl = '';
+                    videourl = 'https://youtu.be/Y_qj-LFmDFQ';
                 } else if (randp == 125) {
                     urllink = "1eMHuxLyTgTJGbfOdl6771vb1kIEkmRhr";  //스마일리 데이즈
                     flag = "밀리";
-                    videourl = '';
+                    videourl = 'https://youtu.be/Y_qj-LFmDFQ';
                 } else if (randp == 126) {
                     urllink = "1IINj3Sscxcv0AGp5ZKCsmcUnCPD0vl5_";  //스텐딩 얼라이브
                     flag = "밀리";
-                    videourl = '';
+                    videourl = 'https://youtu.be/rx5jTLLwUGs';
                 } else if (randp == 127) {
                     urllink = "1ZJo6swdUj5t-0WdajNzSZvV68ElQ2ieu";  //스텐딩 얼라이브
                     flag = "밀리";
-                    videourl = '';
+                    videourl = 'https://youtu.be/rx5jTLLwUGs';
                 } else if (randp == 128) {
                     urllink = "14Gez173g81cdO0dfikaaqRLhi0tGEjaN";  //스테리 멜로디
                     flag = "밀리";
@@ -6452,267 +6583,267 @@
                 } else if (randp == 130) {
                     urllink = "13v7PJH4m4V0Euko_05TqAppSeM-oFYei";  //스트레오포닉
                     flag = "밀리";
-                    videourl = '';
+                    videourl = 'https://youtu.be/kwV-C-5_b6s';
                 } else if (randp == 131) {
                     urllink = "1JTttATVTfoCmjpxNsAZFOZ9iJYYj8mXS";  //스트레오포닉
                     flag = "밀리";
-                    videourl = '';
+                    videourl = 'https://youtu.be/kwV-C-5_b6s';
                 } else if (randp == 132) {
                     urllink = "1TSvoDoWiZBNCMMc01fGQFJVE1ifjf6cy";  //수퍼두퍼
                     flag = "밀리";
-                    videourl = '';
+                    videourl = 'https://youtu.be/VZQ7P12baAs';
                 } else if (randp == 133) {
                     urllink = "1qeklHubaAHqBqh_Ba04I-4hl3KuRtzKb";  //수퍼두퍼
                     flag = "밀리";
-                    videourl = '';
+                    videourl = 'https://youtu.be/VZQ7P12baAs';
                 } else if (randp == 134) {
                     urllink = "1ciYu8bt8vwVYzw2XJks6Z4T0iw23l92j";  //수퍼러버
                     flag = "밀리";
-                    videourl = '';
+                    videourl = 'https://youtu.be/8eBrZlG8EWg';
                 } else if (randp == 135) {
                     urllink = "1xYCBDSR5AJCHf2-b1tlUuw3B5A9oc9Ud";  //수퍼러버
                     flag = "밀리";
-                    videourl = '';
+                    videourl = 'https://youtu.be/8eBrZlG8EWg';
                 } else if (randp == 136) {
                     urllink = "1IocpIYaJVmBTItgjIAje1Pm7jMfqMmBy";  //스위스윗소울
                     flag = "밀리";
-                    videourl = '';
+                    videourl = 'https://youtu.be/p5e0e2VCxTQ';
                 } else if (randp == 137) {
                     urllink = "1gE-9qljy9XlvhXqifhbXn1ynxx5aFMCC";  //스윗스윗소울
                     flag = "밀리";
-                    videourl = '';
+                    videourl = 'https://youtu.be/p5e0e2VCxTQ';
                 } else if (randp == 138) {
                     urllink = "1VUYWg67QsS_bcQQ15xvbavxF6A1HW1oW";  //테이크미스페이스
                     flag = "밀리";
-                    videourl = '';
+                    videourl = 'https://youtu.be/zwxibYcPSEQ';
                 } else if (randp == 139) {
                     urllink = "1463sM-VDFp8MIPaz8gUb6Dhw2aguzkRB";  //테이크미스페이스
                     flag = "밀리";
-                    videourl = '';
+                    videourl = 'https://youtu.be/zwxibYcPSEQ';
                 } else if (randp == 140) {
                     urllink = "1EsmupU71A1QlnIiZFB1cvoYAenxvu1C1";  //땡큐
                     flag = "밀리";
-                    videourl = '';
+                    videourl = 'https://youtu.be/18EQeIlIaqQ';
                 } else if (randp == 141) {
                     urllink = "1q4-xdjL388xlf7m1TxVhcbWHSWaxgPXc";  //땡큐
                     flag = "밀리";
-                    videourl = '';
+                    videourl = 'https://youtu.be/18EQeIlIaqQ';
                 } else if (randp == 142) {
                     urllink = "1uXfQ91R9ufyw4n0oxcS-lh5R_KdzdIiZ";  //투
                     flag = "밀리";
-                    videourl = '';
+                    videourl = 'https://youtu.be/KzVlWNGEZwo';
                 } else if (randp == 143) {
                     urllink = "1FpQv3dn8eTi8VPY8JDvgSLE8PxX8TntY";  //투
                     flag = "밀리";
-                    videourl = '';
+                    videourl = 'https://youtu.be/KzVlWNGEZwo';
                 } else if (randp == 144) {
                     urllink = "1H84MpJyUk1OdH3Z-61WO268vPz1RrFCT";  //유니온
                     flag = "밀리";
-                    videourl = '';
+                    videourl = 'https://youtu.be/K9x8p0vLMEI';
                 } else if (randp == 145) {
                     urllink = "1RBOWNhu8tQy-u3RYqjYvNLkoWPAAjRzr";  //유니온
                     flag = "밀리";
-                    videourl = '';
+                    videourl = 'https://youtu.be/K9x8p0vLMEI';
                 } else if (randp == 146) {
                     urllink = "1Pnae6XwQoYBFHjjq4Y_SJ0yNLEtpk9PI";  //업텐션
                     flag = "밀리";
-                    videourl = '';
+                    videourl = 'https://youtu.be/DC7JIWAX0wU';
                 } else if (randp == 147) {
                     urllink = "1yRytIHP6DmFbfDWjMjmM354aoDtl0LBu";  //업텐션
                     flag = "밀리";
-                    videourl = '';
+                    videourl = 'https://youtu.be/DC7JIWAX0wU';
                 } else if (randp == 148) {
                     urllink = "1QYV_w4v7y6PTWvdzfsQVwJtzqDw8PhAg";  //비비드컬러
                     flag = "밀리";
-                    videourl = '';
+                    videourl = 'https://youtu.be/aQ54jI1bJko';
                 } else if (randp == 149) {
                     urllink = "1Vrq6EXr8pdETqgG5d_gNcwpHaVB2xZ8e";  //비비드컬러
                     flag = "밀리";
-                    videourl = '';
+                    videourl = 'https://youtu.be/aQ54jI1bJko';
                 } else if (randp == 150) {
                     urllink = "1TPqWeHUXFN_qQnioXuI4pkgzvDAOohxz";  //웰컴
                     flag = "밀리";
-                    videourl = '';
+                    videourl = 'https://youtu.be/2Iyl_evVBtA';
                 } else if (randp == 151) {
                     urllink = "1g15BaDIanMy1t7RJbWcAVqr6YQ39FVHk";  //웰컴
                     flag = "밀리";
-                    videourl = '';
+                    videourl = 'https://youtu.be/2Iyl_evVBtA';
                 } else if (randp == 152) {
                     urllink = "1ZdPeSwgxGC8tdqq1zmhrZjrD0UXY877n";  //화이트보우즈
                     flag = "밀리";
-                    videourl = '';
+                    videourl = 'https://youtu.be/7upzJf4fjqQ';
                 } else if (randp == 153) {
                     urllink = "1jU2WscrFy_l8nCNWK6piSMKu1cb5OVcS";  //화이트보우즈
                     flag = "밀리";
-                    videourl = '';
+                    videourl = 'https://youtu.be/7upzJf4fjqQ';
                 } else if (randp == 154) {
                     urllink = "1X-Fafq18G2wIRJSfWChaoTvZPuGP-Xup";  //와이
                     flag = "밀리";
-                    videourl = '';
+                    videourl = 'https://youtu.be/vDuTzbZHEXw';
                 } else if (randp == 155) {
                     urllink = "1SQE9bekUzYYnnf03VYnCpWzgCTGhvHs3";  //와이
                     flag = "밀리";
-                    videourl = '';
+                    videourl = 'https://youtu.be/vDuTzbZHEXw';
                 } else if (randp == 156) {
                     urllink = "1_qtbQm53vwJufUsO2YVx5fXiOi2XAXPw";  //월드체인져
                     flag = "밀리";
-                    videourl = '';
+                    videourl = 'https://youtu.be/3FPd2n47ZH8';
                 } else if (randp == 157) {
                     urllink = "1xYYgul4EwWRDcrcY_aDaZGOdzAjEU9BZ";  //월드체인져
                     flag = "밀리";
-                    videourl = '';
+                    videourl = 'https://youtu.be/3FPd2n47ZH8';
                 } else if (randp == 158) {
                     urllink = "10LjtV89ck30oYSjmJz9lx116bztwvhrW";  //월드와이드댄스
                     flag = "밀리";
-                    videourl = '';
+                    videourl = 'https://youtu.be/x_P_wG-Bbbw';
                 } else if (randp == 159) {
                     urllink = "11XNnBOQzbZ_N6HxJQmVvEER2O3C0XMxG";  //월드와이드댄스
                     flag = "밀리";
-                    videourl = '';
+                    videourl = 'https://youtu.be/x_P_wG-Bbbw';
                 } else if (randp == 160) {
                     urllink = "157BXHO6GDIDJnySbiNqSvkHRldR3rRBs";  //와우아이니드
                     flag = "밀리";
-                    videourl = '';
+                    videourl = 'https://youtu.be/k2aqYy9YHYc';
                 } else if (randp == 161) {
                     urllink = "1BaE3nMW4i1b101HqghnSPRDv0s-8T6Gf";  //와우아이니드
                     flag = "밀리";
-                    videourl = '';
+                    videourl = 'https://youtu.be/k2aqYy9YHYc';
                 } else if (randp == 162) {
                     urllink = "1m1ATxO3g2U6RnSq9nc74jHWs9f-bMf7-";  //제타이브레이크
                     flag = "밀리";
-                    videourl = '';
+                    videourl = 'https://youtu.be/hKuznqe0_yQ';
                 } else if (randp == 163) {
                     urllink = "10xYne2NnYu5nXrPlV3TG6cggUSFNB97L";  //제타이브레이크
                     flag = "밀리";
-                    videourl = '';
+                    videourl = 'https://youtu.be/hKuznqe0_yQ';
                 } else if (randp == 164) {
                     urllink = "1c87YOLrjsCEeH-vLSckocF2L1i4UKIgu";  //가르쳐줘 라스트 노트
                     flag = "밀리";
-                    videourl = '';
+                    videourl = 'https://youtu.be/tLrKq9ftjyA';
                 } else if (randp == 165) {
                     urllink = "1eEiP9tCNSVctlVwZymdFcnz3sRQ-ftVI";  //가르쳐줘 라스트 노트
                     flag = "밀리";
-                    videourl = '';
+                    videourl = 'https://youtu.be/tLrKq9ftjyA';
                 } else if (randp == 166) {
                     urllink = "1rWhOyKXU5XEWduDFXWifBuEH6dQFa84h";  //거스르는 말씨
                     flag = "밀리";
-                    videourl = '';
+                    videourl = 'https://youtu.be/AxiD8GR2HuI';
                 } else if (randp == 167) {
                     urllink = "1RfaZRnPP7uyj93t7oA8mVI7NY9ETS4NI";  //거스르는 말씨
                     flag = "밀리";
-                    videourl = '';
+                    videourl = 'https://youtu.be/AxiD8GR2HuI';
                 } else if (randp == 168) {
                     urllink = "1CZ620sJkW-6NkRjHXJXd5MTKd5jvbSjM";  //공상문학소녀
                     flag = "밀리";
-                    videourl = '';
+                    videourl = 'https://youtu.be/4jcB2e45HBw';
                 } else if (randp == 169) {
                     urllink = "1BHSIwX8rtuAwe99EuTMAYa0kI5WByiaL";  //공상문학소녀
                     flag = "밀리";
-                    videourl = '';
+                    videourl = 'https://youtu.be/4jcB2e45HBw';
                 } else if (randp == 170) {
                     urllink = "1tqnFbulTlymvrTD3kbLkRH6RJnsyhvZD";  //구호는스타트업
                     flag = "밀리";
-                    videourl = '';
+                    videourl = 'https://youtu.be/lvS9g8VqJuY';
                 } else if (randp == 171) {
                     urllink = "1t_TpwHRiM3KIKS4O8J1c6Ts13q6x-kwo";  //구호는스타트업
                     flag = "밀리";
-                    videourl = '';
+                    videourl = 'https://youtu.be/lvS9g8VqJuY';
                 } else if (randp == 172) {
                     urllink = "1WwU0AnaC6fw-kVCrJN__g5fpICDPSWZt";  //그러므로 입니다
                     flag = "밀리";
-                    videourl = '';
+                    videourl = 'https://youtu.be/Ij-ia95JefA';
                 } else if (randp == 173) {
                     urllink = "16ok2dE_QC4nIYm4W9bLZV7aZdodmcm3F";  //그러므로 입니다
                     flag = "밀리";
-                    videourl = '';
+                    videourl = 'https://youtu.be/Ij-ia95JefA';
                 } else if (randp == 174) {
                     urllink = "1mLvI_dByKlGOLXmPK-Ymz4x3Ngwv8XSn";  //그로잉 뮤직
                     flag = "밀리";
-                    videourl = '';
+                    videourl = 'https://youtu.be/T__3Ls3xBj8';
                 } else if (randp == 175) {
                     urllink = "1GdtYG1vn4G10yXKjApYyo4i0AWTQpS23";  //그로잉 뮤직
                     flag = "밀리";
-                    videourl = '';
+                    videourl = 'https://youtu.be/T__3Ls3xBj8';
                 } else if (randp == 176) {
                     urllink = "1seJtoJ1XHVFVuhR2BA1Bci42wyJWd7u5";  //그림책
                     flag = "밀리";
-                    videourl = '';
+                    videourl = 'https://youtu.be/SjT-isoJcmk';
                 } else if (randp == 177) {
                     urllink = "1lXmCEmbv_dd9lvF7zHQAt1JK1vo5ZszM";  //그림책
                     flag = "밀리";
-                    videourl = '';
+                    videourl = 'https://youtu.be/SjT-isoJcmk';
                 } else if (randp == 178) {
                     urllink = "1HBMnguhS-l4IWZyKLEMm3kNxQAfMtmi7";  //근사한기적
                     flag = "밀리";
-                    videourl = '';
+                    videourl = 'https://youtu.be/-DcLYvVEDnw';
                 } else if (randp == 179) {
                     urllink = "1PAZXaCUqre_7FfsAVTFo4b34apByQNb4";  //근사한기적
                     flag = "밀리";
-                    videourl = '';
+                    videourl = 'https://youtu.be/-DcLYvVEDnw';
                 } else if (randp == 180) {
                     urllink = "19z_cYEw3o7fn7Ldo0HHah7ofgSPQD6xB";  //기다림의라크리마
                     flag = "밀리";
-                    videourl = '';
+                    videourl = 'https://youtu.be/9mCVVYdhEg8';
                 } else if (randp == 181) {
                     urllink = "1VNijUWy9DJBfrdco8XetWCvh2YoMJSoD";  //기다림의라크리마
                     flag = "밀리";
-                    videourl = '';
+                    videourl = 'https://youtu.be/9mCVVYdhEg8';
                 } else if (randp == 182) {
                     urllink = "1FbimBO9a6A9yrtAnDIzupOkT2d1OZZb-";  //꽃의 가락
                     flag = "밀리";
-                    videourl = '';
+                    videourl = 'https://youtu.be/kZmxQmRmQDk';
                 } else if (randp == 183) {
                     urllink = "1K4utP1_MdjCu0VoO9XKpmZ8rc6EU4OZK";  //꽃의 가락
                     flag = "밀리";
-                    videourl = '';
+                    videourl = 'https://youtu.be/kZmxQmRmQDk';
                 } else if (randp == 184) {
                     urllink = "1grrLkeUX71cCOHi551mhYVbDc557bX6f";  //꽃이 만발 위켄드
                     flag = "밀리";
-                    videourl = '';
+                    videourl = 'https://youtu.be/__C4IFwSpOY';
                 } else if (randp == 185) {
                     urllink = "1LHw-beBok7RjTuvHzgR3zS3SAun1gF7T";  //꽃이 만발 위켄드
                     flag = "밀리";
-                    videourl = '';
+                    videourl = 'https://youtu.be/__C4IFwSpOY';
                 } else if (randp == 186) {
                     urllink = "1M8gwEfTFwzymm76ffX_I_1D4sVS1tybm";  //꽃잎 메모리즈
                     flag = "밀리";
-                    videourl = '';
+                    videourl = 'https://youtu.be/JU1xi1CIqN0';
                 } else if (randp == 187) {
                     urllink = "1tl2m4NhWDjxq6LO4EH0vcqfqEEBpxxol";  //꽃잎 메모리즈
                     flag = "밀리";
-                    videourl = '';
+                    videourl = 'https://youtu.be/JU1xi1CIqN0';
                 } else if (randp == 188) {
                     urllink = "1AXHLvAv2ZushXevw_ZlsdE-d1rHVM2bz";  //꿈빛 트레인
                     flag = "밀리";
-                    videourl = '';
+                    videourl = 'https://youtu.be/ay8GFgC-HXE';
                 } else if (randp == 189) {
                     urllink = "1QA6n0oM9UXp3VsztJsIXIFB4So5an_sS";  //꿈빝 트레인
                     flag = "밀리";
-                    videourl = '';
+                    videourl = 'https://youtu.be/ay8GFgC-HXE';
                 } else if (randp == 190) {
                     urllink = "1i4zkWJla0n6TdtZ4AR8Lr9rXHCmSsRxy";  //네 생각 버스데이
                     flag = "밀리";
-                    videourl = '';
+                    videourl = 'https://youtu.be/s9Zx_f1t3l8';
                 } else if (randp == 191) {
                     urllink = "1jZcc1Z_SMS7YF2qLkcR6swmLaMM5QDb5";  //네 생각 버스데이
                     flag = "밀리";
-                    videourl = '';
+                    videourl = 'https://youtu.be/s9Zx_f1t3l8';
                 } else if (randp == 192) {
                     urllink = "10Qh36EyHSh9BZ6uZeeNteNQHLxDGSR7C";  //네가 해준 말이 있으니까
                     flag = "밀리";
-                    videourl = '';
+                    videourl = 'https://youtu.be/1k04fm1Utrc';
                 } else if (randp == 193) {
                     urllink = "1G9jYMhqd3NChtw1qUyOiDcgWbWDHiNiq";  //네가 해준 말이 있으니까
                     flag = "밀리";
-                    videourl = '';
+                    videourl = 'https://youtu.be/1k04fm1Utrc';
                 } else if (randp == 194) {
                     urllink = "1fniQZELye5_y4fpg54wQ3YnUKJczovR-";  //눈동자 시리우스
                     flag = "밀리";
-                    videourl = '';
+                    videourl = 'https://youtu.be/jE7wnQTR4KM';
                 } else if (randp == 195) {
                     urllink = "1yAOIC0evGiGFGoy5i6XDYx34HDU1YFYs";  //눈동자 시리우스
                     flag = "밀리";
-                    videourl = '';
+                    videourl = 'https://youtu.be/jE7wnQTR4KM';
                 } else if (randp == 196) {
                     urllink = "1Oz-VDm1W3FoaQe4SpHtia_kA8uILg6j2";  //다이아몬드 클라
                     flag = "밀리";
@@ -6724,251 +6855,251 @@
                 } else if (randp == 198) {
                     urllink = "1uTrNKeReEnlRgtvLhC45bOUpprjrQX6M";  //달의 곁에서
                     flag = "밀리";
-                    videourl = '';
+                    videourl = 'https://youtu.be/vPU6igB3Fvk';
                 } else if (randp == 199) {
                     urllink = "1lDgKI0RdDCgyOzn0AFIUfDXxuDLMXebl";  //달의 곁에서
                     flag = "밀리";
-                    videourl = '';
+                    videourl = 'https://youtu.be/vPU6igB3Fvk';
                 } else if (randp == 200) {
                     urllink = "1k0__tfrQ4t6lbXEIvT_LVkIwlQ5ydX0H";  //당신만의 조각
                     flag = "밀리";
-                    videourl = '';
+                    videourl = 'https://youtu.be/jUbnWEPy_XU';
                 } else if (randp == 201) {
                     urllink = "1TgdFtMohplcvOXBPYAD_NCiA-8T2ildh";  //당신만의 조각
                     flag = "밀리";
-                    videourl = '';
+                    videourl = 'https://youtu.be/jUbnWEPy_XU';
                 } else if (randp == 202) {
                     urllink = "1i7M9rXpcmrOcX5H1pWrpsJeFoG0stq7P";  //데워드릴까요?
                     flag = "밀리";
-                    videourl = '';
+                    videourl = 'https://youtu.be/uoy-wYZ9oqQ';
                 } else if (randp == 203) {
                     urllink = "1LH7IzTZRuYkUwyv10CHwro5Rv5dLzg6g";  //데워드릴까요?
                     flag = "밀리";
-                    videourl = '';
+                    videourl = 'https://youtu.be/uoy-wYZ9oqQ';
                 } else if (randp == 204) {
                     urllink = "1oXrgacJrO2kZ7Lxxmxu42U6xyJ20YH5U";  //데코레이션 드리밍
                     flag = "밀리";
-                    videourl = '';
+                    videourl = 'https://youtu.be/sWqwHQazNyw';
                 } else if (randp == 205) {
                     urllink = "14JifpTkUkq1g2dRUToXdOLMKhyRj0sU2";  //데코레이션 드리밍
                     flag = "밀리";
-                    videourl = '';
+                    videourl = 'https://youtu.be/sWqwHQazNyw';
                 } else if (randp == 206) {
                     urllink = "1p3yclFRU_E7hK5pxJoO-Z_56ebP-xh9l";  //라스트 액트리스
                     flag = "밀리";
-                    videourl = '';
+                    videourl = 'https://youtu.be/27VRWa58xuc';
                 } else if (randp == 207) {
                     urllink = "1ZlmG-X-0mNL3UQS952acbHflP9CCSTZu";  //라스트 액트리스
                     flag = "밀리";
-                    videourl = '';
+                    videourl = 'https://youtu.be/27VRWa58xuc';
                 } else if (randp == 208) {
                     urllink = "19S5pcjB2gvJFOP5zTu6WVAmPjTrMOD2K";  //라이어루주
                     flag = "밀리";
-                    videourl = '';
+                    videourl = 'https://youtu.be/SoJOomtA2kg';
                 } else if (randp == 209) {
                     urllink = "126SBbaPjgKG1KIBKVqJpoyMP206dcAAb";  //라이어루주
                     flag = "밀리";
-                    videourl = '';
+                    videourl = 'https://youtu.be/SoJOomtA2kg';
                 } else if (randp == 210) {
                     urllink = "1UwrkxsN8S1PpUZs8GRCAljnb61jG28Ep";  //래빗퍼
                     flag = "밀리";
-                    videourl = '';
+                    videourl = 'https://youtu.be/TqVXP0a6eEU';
                 } else if (randp == 211) {
                     urllink = "1AyPsp5s8AexuvIEJ3Oikjux_YwjyhAGU";  //래빗퍼
                     flag = "밀리";
-                    videourl = '';
+                    videourl = 'https://youtu.be/TqVXP0a6eEU';
                 } else if (randp == 212) {
                     urllink = "1a97kMSSQkDi2h-ILzQavsz-rsDrdPtOr";  //러닝하잇
                     flag = "밀리";
-                    videourl = '';
+                    videourl = 'https://youtu.be/4FE148bQIgM';
                 } else if (randp == 213) {
                     urllink = "1Rk1QxSshb4INm6W-IRrAmQnsfoco6gAw";  //러닝하잇
                     flag = "밀리";
-                    videourl = '';
+                    videourl = 'https://youtu.be/4FE148bQIgM';
                 } else if (randp == 214) {
                     urllink = "1qmbvLmP6tDzcjqDvJ3BTWbPFEOIW6-Cd";  //로켓스타
                     flag = "밀리";
-                    videourl = '';
+                    videourl = 'https://youtu.be/fUTi6CPHW24';
                 } else if (randp == 215) {
                     urllink = "16Poj7ti6ninK5gT5KvysDtCCSpdomhwH";  //로켓스타
                     flag = "밀리";
-                    videourl = '';
+                    videourl = 'https://youtu.be/fUTi6CPHW24';
                 } else if (randp == 216) {
                     urllink = "1ggkmFeYLudYHc9bK-JiKjWMP2IxvY8vI";  //롤링삼각
                     flag = "밀리";
-                    videourl = '';
+                    videourl = 'https://youtu.be/cDxRIhH7E6U';
                 } else if (randp == 217) {
                     urllink = "1P3tzGtNmNcyOV1Kntujc-Me3yRS1lVGW";  //롤링삼각
                     flag = "밀리";
-                    videourl = '';
+                    videourl = 'https://youtu.be/cDxRIhH7E6U';
                 } else if (randp == 218) {
                     urllink = "1MlncYy6o1CQm5z6zedFCJ6_0ZoDf5Rcg";  //마리오네트는 잠들지
                     flag = "밀리";
-                    videourl = '';
+                    videourl = 'https://youtu.be/pHFhKpzhARs';
                 } else if (randp == 219) {
                     urllink = "1uhAcbjthFDPoz__WVcs-Sg5Efy6xeA1s";  //마리오네트는 잠들지
                     flag = "밀리";
-                    videourl = '';
+                    videourl = 'https://youtu.be/pHFhKpzhARs';
                 } else if (randp == 220) {
                     urllink = "1Fd7xgK8bzAQpBkaWtBbrQY7qIaKEc18_";  //모순의달
                     flag = "밀리";
-                    videourl = '';
+                    videourl = 'https://youtu.be/IvxoRAMPsPM';
                 } else if (randp == 221) {
                     urllink = "16uCbm62NIzmQUwrwoT9DWtOFhstmJwTw";  //모순의달
                     flag = "밀리";
-                    videourl = '';
+                    videourl = 'https://youtu.be/IvxoRAMPsPM';
                 } else if (randp == 222) {
                     urllink = "1YucgK0wcAacQgtraEUrOoS9MAkPSX9Vn";  //미소짓기좋은날
                     flag = "밀리";
-                    videourl = '';
+                    videourl = 'https://youtu.be/0WeNp_VHBeE';
                 } else if (randp == 223) {
                     urllink = "19ELBMtW_sLlWbm8l1HdUuyDKOH5ohfXN";  //미소짓기좋은날
                     flag = "밀리";
-                    videourl = '';
+                    videourl = 'https://youtu.be/0WeNp_VHBeE';
                 } else if (randp == 224) {
                     urllink = "1r1Zsa6ELAcDPcVEJv0rIvQ69AvgQEFVY";  //반짝임진행형
                     flag = "밀리";
-                    videourl = '';
+                    videourl = 'https://youtu.be/_h0dn7nBQjA';
                 } else if (randp == 225) {
                     urllink = "1LFvLb3pd3J7qBNFiyg55b2mfxSXxGybY";  //반짝임진행형
                     flag = "밀리";
-                    videourl = '';
+                    videourl = 'https://youtu.be/_h0dn7nBQjA';
                 } else if (randp == 226) {
                     urllink = "1sHo-iT-0p4nbq1qaavShqnMckiRBFJGW";  //밤에 빛나는 별자리
                     flag = "밀리";
-                    videourl = '';
+                    videourl = 'https://youtu.be/v6QnWkuMGVA';
                 } else if (randp == 227) {
                     urllink = "1Det7fzoYRm0m_A8H7M4tCEdKVG4DbiDX";  //밤에 빛나는 별자리
                     flag = "밀리";
-                    videourl = '';
+                    videourl = 'https://youtu.be/v6QnWkuMGVA';
                 } else if (randp == 228) {
                     urllink = "1HxWOHznOAuC3QdjpKljEjkb9zL9grOrN";  //밤하고 불빛하고
                     flag = "밀리";
-                    videourl = '';
+                    videourl = 'https://youtu.be/avJkdJWguA8';
                 } else if (randp == 229) {
                     urllink = "1p6vEx-TZuHF_GaJvf1k9UH1wQx6R7B_o";  //밤하고 불빛하고
                     flag = "밀리";
-                    videourl = '';
+                    videourl = 'https://youtu.be/avJkdJWguA8';
                 } else if (randp == 230) {
                     urllink = "1JET55dLIkv7516xTwD1UyR8M2VDRw0Qw";  //백화는 월하
                     flag = "밀리";
-                    videourl = '';
+                    videourl = 'https://youtu.be/NLmc492G7II';
                 } else if (randp == 231) {
                     urllink = "1qCxXktuV1qi9xYTtQvYg7zxNblQSazO3";  //백화는 월하
                     flag = "밀리";
-                    videourl = '';
+                    videourl = 'https://youtu.be/NLmc492G7II';
                 } else if (randp == 232) {
                     urllink = "1Gky7BTvxb9RhcFzQnkJ3m1RcIQfnaPNw";  //별들의 심포니아
                     flag = "밀리";
-                    videourl = '';
+                    videourl = 'https://youtu.be/AmUmAsd4zmM';
                 } else if (randp == 233) {
                     urllink = "1-yPfZUHoOgaQd4EGRYgS5iCmvBFzizg_";  //별들의 심포니아
                     flag = "밀리";
-                    videourl = '';
+                    videourl = 'https://youtu.be/AmUmAsd4zmM';
                 } else if (randp == 234) {
                     urllink = "1AkqHoCz0O4NbKizROpLoKo1z4H8ThVV7";  //별천지의
                     flag = "밀리";
-                    videourl = '';
+                    videourl = 'https://youtu.be/vb7zeGlwl34';
                 } else if (randp == 235) {
                     urllink = "1GEgpx3bEo5b0cLoNee4f1f_NMWtbxWXH";  //별천지의
                     flag = "밀리";
-                    videourl = '';
+                    videourl = 'https://youtu.be/vb7zeGlwl34';
                 } else if (randp == 236) {
                     urllink = "1fh9r8YI16D08roQM16ayoNNT8BwkmMfO";  //봄을 기다리는
                     flag = "밀리";
-                    videourl = '';
+                    videourl = 'https://youtu.be/TK6jlsqB2F4';
                 } else if (randp == 237) {
                     urllink = "1SKH_Iu0frXuXixE1HB7TUfSUZbHQ4GGk";  //봄을 기다리는
                     flag = "밀리";
-                    videourl = '';
+                    videourl = 'https://youtu.be/TK6jlsqB2F4';
                 } else if (randp == 238) {
                     urllink = "1G0tzRWmu7yRIBEd-kZzRMimXeQs42aDC";  //비밀의 메모리즈
                     flag = "밀리";
-                    videourl = '';
+                    videourl = 'https://youtu.be/h1vfK8buniM';
                 } else if (randp == 239) {
                     urllink = "1W136yplcayA11659tbpXV2ajPW996_Bq";  //비밀의 메모리즈
                     flag = "밀리";
-                    videourl = '';
+                    videourl = 'https://youtu.be/h1vfK8buniM';
                 } else if (randp == 240) {
                     urllink = "1lC2NZMGgIJaTn6t3n7WC2Cie4jXkHgY3";  //빵과필름
                     flag = "밀리";
-                    videourl = '';
+                    videourl = 'https://youtu.be/TPB0UwnnQMg';
                 } else if (randp == 241) {
                     urllink = "1OvzhllJcB5zlpfeM2mQRH1wMGivZvzj3";  //빵과필름
                     flag = "밀리";
-                    videourl = '';
+                    videourl = 'https://youtu.be/TPB0UwnnQMg';
                 } else if (randp == 242) {
                     urllink = "1pMoTsORnuieW39bu7Ma-KbiGN7gg875h";  //사랑의와워음
                     flag = "밀리";
-                    videourl = '';
+                    videourl = 'https://youtu.be/55AkNLniEBI';
                 } else if (randp == 243) {
                     urllink = "1BYhmcybeeE4grDp3NOjK07uYKdx4Mngt";  //사랑의와워음
                     flag = "밀리";
-                    videourl = '';
+                    videourl = 'https://youtu.be/55AkNLniEBI';
                 } else if (randp == 244) {
                     urllink = "1GzP4L5WZs_fWvokomUBwKS_LmTtH3WZC";  //서머트리
                     flag = "밀리";
-                    videourl = '';
+                    videourl = 'https://youtu.be/7VE1OL2igSo';
                 } else if (randp == 245) {
                     urllink = "1zB5Mevz9aI3zE1UI_ij9eb1YBGEU1M5R";  //서머트리
                     flag = "밀리";
-                    videourl = '';
+                    videourl = 'https://youtu.be/7VE1OL2igSo';
                 } else if (randp == 246) {
                     urllink = "1XlKb4y4r4Cn65RFUI3aOu3rQz948ySZf";  //설렘의 음표
                     flag = "밀리";
-                    videourl = '';
+                    videourl = 'https://youtu.be/bCEpLEvEhvw';
                 } else if (randp == 247) {
                     urllink = "1Svu-xSfCbWFavc8sE4BCWBCQ4VcEWQOb";  //설렘의 음표
                     flag = "밀리";
-                    videourl = '';
+                    videourl = 'https://youtu.be/bCEpLEvEhvw';
                 } else if (randp == 248) {
                     urllink = "1UuSnl4bB1uYefcGR1s2IdDZAEM-bXo72";  //성장츄
                     flag = "밀리";
-                    videourl = '';
+                    videourl = 'https://youtu.be/8l3UvJMizCk';
                 } else if (randp == 249) {
                     urllink = "1QlD7tfTgLG8CTLQu9E4MGUi7LwX-yXS6";  //성장츄
                     flag = "밀리";
-                    videourl = '';
+                    videourl = 'https://youtu.be/8l3UvJMizCk';
                 } else if (randp == 250) {
                     urllink = "1CUjI39amvrLhMn193UlIC5gIh-Xn_sMb";  //세피아컬러풀
                     flag = "밀리";
-                    videourl = '';
+                    videourl = 'https://youtu.be/fHdJvpiCvQU';
                 } else if (randp == 251) {
                     urllink = "1Lc1iIajOVdspi7iggs3lBj5wPGgBdNQG";  //세피아컬러풀
                     flag = "밀리";
-                    videourl = '';
+                    videourl = 'https://youtu.be/fHdJvpiCvQU';
                 } else if (randp == 252) {
                     urllink = "1m-yKfdWTBT8PKEuWFvCZHJehvpUmgZXX";  //수중캔디
                     flag = "밀리";
-                    videourl = '';
+                    videourl = 'https://youtu.be/8PjFmzAeIb4';
                 } else if (randp == 253) {
                     urllink = "14vbyTuqjk3Wu--VAQJdIJTbGF47KgnNC";  //수중캔디
                     flag = "밀리";
-                    videourl = '';
+                    videourl = 'https://youtu.be/8PjFmzAeIb4';
                 } else if (randp == 254) {
                     urllink = "1AlttMSwBR-w-hYa6SW6us7NI7hqC-T7B";  //스노우레터
                     flag = "밀리";
-                    videourl = '';
+                    videourl = 'https://youtu.be/PYS0yZow6Qw';
                 } else if (randp == 255) {
                     urllink = "17qLIbOCfOAV4e_XKz38Z_XYj_yPhQZnI";  //스노우레터
                     flag = "밀리";
-                    videourl = '';
+                    videourl = 'https://youtu.be/PYS0yZow6Qw';
                 } else if (randp == 256) {
                     urllink = "1kFMqcD3zNUt7vM4iCs7mgEsKFVgJBpf1";  //스타트립
                     flag = "밀리";
-                    videourl = '';
+                    videourl = 'https://youtu.be/yze7ngSpOBY';
                 } else if (randp == 257) {
                     urllink = "1tLXnYXVPg-RrbQnQIGagvNSOmNeNFzMr";  //스타트립
                     flag = "밀리";
-                    videourl = '';
+                    videourl = 'https://youtu.be/yze7ngSpOBY';
                 } else if (randp == 258) {
                     urllink = "1wYTIpHlzcyUT4HQRQN7IhAJzIGvWW35b";  //스트로베리
                     flag = "밀리";
-                    videourl = '';
+                    videourl = 'https://youtu.be/HNkYyinIyMU';
                 } else if (randp == 259) {
                     urllink = "1PZ35Ehic40GtQRWVeGxbWVVMrd-eRkS1";  //스트로베리
                     flag = "밀리";
-                    videourl = '';
+                    videourl = 'https://youtu.be/HNkYyinIyMU';
                 } else if (randp == 260) {
                     urllink = "1j4LCXQZpvKKPqMQJLVjEmYNm5PO_qYaS";  //시크릿쥬얼
                     flag = "밀리";
@@ -6980,11 +7111,11 @@
                 } else if (randp == 262) {
                     urllink = "1Q7vdOoWKUAxgODoO4fKmvLXvLxjdd4zH";  //심층머메이드
                     flag = "밀리";
-                    videourl = '';
+                    videourl = 'https://youtu.be/FKxVZ33LYDA';
                 } else if (randp == 263) {
                     urllink = "1iapA8u2LyC-OT4JzSvDahkWjLrT_CY-4";  //심층머메이드
                     flag = "밀리";
-                    videourl = '';
+                    videourl = 'https://youtu.be/FKxVZ33LYDA';
                 } else if (randp == 264) {
                     urllink = "18C_dBmClQayJZ1DK1Yk5qfcYU73tcsu5";  //심홍의 파시온
                     flag = "밀리";
@@ -6996,179 +7127,179 @@
                 } else if (randp == 266) {
                     urllink = "1xGtXRHrElXSQoWx2yXgjipkDgeJZA49s";  //썬리듬
                     flag = "밀리";
-                    videourl = '';
+                    videourl = 'https://youtu.be/AhCoBQxoiB8';
                 } else if (randp == 267) {
                     urllink = "1N4kLTdTVVGnMqw1x_qSGRFqLvcT6-jOR";  //썬리듬
                     flag = "밀리";
-                    videourl = '';
+                    videourl = 'https://youtu.be/AhCoBQxoiB8';
                 } else if (randp == 268) {
                     urllink = "1yCUoZgZw8nL8bgkqNSoKvtmC45ylYVXg";  //아일
                     flag = "밀리";
-                    videourl = '';
+                    videourl = 'https://youtu.be/LsgAc9nmCXw';
                 } else if (randp == 269) {
                     urllink = "10XPR6UEuwdG5UKid8ect762KO2Ypjyvo";  //아일
                     flag = "밀리";
-                    videourl = '';
+                    videourl = 'https://youtu.be/LsgAc9nmCXw';
                 } else if (randp == 270) {
                     urllink = "1Pt8w38gZ_X1gSr9Gn2rbWZae5tyGiFGu";  //아침노을
                     flag = "밀리";
-                    videourl = '';
+                    videourl = 'https://youtu.be/kUln3wGpHl0';
                 } else if (randp == 271) {
                     urllink = "1j3_pkzBO3RT8EQUjjUMdqVwCWgt6i_C7";  //아침노을
                     flag = "밀리";
-                    videourl = '';
+                    videourl = 'https://youtu.be/kUln3wGpHl0';
                 } else if (randp == 272) {
                     urllink = "1xuafbVBW3CHbD48DAsT06aq4y1zQBDvJ";  //애로우
                     flag = "밀리";
-                    videourl = '';
+                    videourl = 'https://youtu.be/8LUBZK3eEyg';
                 } else if (randp == 273) {
                     urllink = "1fU7DDoL4b3SAaphLA1ZyyjIeDwjOGBSg";  //애로우
                     flag = "밀리";
-                    videourl = '';
+                    videourl = 'https://youtu.be/8LUBZK3eEyg';
                 } else if (randp == 274) {
                     urllink = "1dZjz6XrTNnvhCO6Z-4FH02lSRPW5BPrv";  //애타는 마음
                     flag = "밀리";
-                    videourl = '';
+                    videourl = 'https://youtu.be/pPUwSqIC2vA';
                 } else if (randp == 275) {
                     urllink = "1BMZlkNh4Te72EC5Waf92IjzmvrDkbH94";  //애타는 마음
                     flag = "밀리";
-                    videourl = '';
+                    videourl = 'https://youtu.be/pPUwSqIC2vA';
                 } else if (randp == 276) {
                     urllink = "18n31Z6AP9X4asUVKSVEFjsGLXeTuY6rl";  //얼라이브
                     flag = "밀리";
-                    videourl = '';
+                    videourl = 'https://youtu.be/TGJtJVa2oT8';
                 } else if (randp == 277) {
                     urllink = "1KA2-0usdPGqV3X5eBKu5_uaFxyzxyd3h";  //얼라이브
                     flag = "밀리";
-                    videourl = '';
+                    videourl = 'https://youtu.be/TGJtJVa2oT8';
                 } else if (randp == 278) {
                     urllink = "1_8mt0114-WmCXuNUgvsL9AZc0amanCV8";  //에바모요
                     flag = "밀리";
-                    videourl = '';
+                    videourl = 'https://youtu.be/Rj4gs_Qb-VQ';
                 } else if (randp == 279) {
                     urllink = "1rGkiGlMBFk9BuSUnnNltgO0rK8A9DW8Q";  //에바모요
                     flag = "밀리";
-                    videourl = '';
+                    videourl = 'https://youtu.be/Rj4gs_Qb-VQ';
                 } else if (randp == 280) {
                     urllink = "1GWDYGL-mNlqb9evN742y2kzTLT0E3hFA";  //영원의꽃
                     flag = "밀리";
-                    videourl = '';
+                    videourl = 'https://youtu.be/sVF1AHkmxRQ';
                 } else if (randp == 281) {
                     urllink = "1dFWB2niV4KlXfAkUlSgOmulJAmUgDc59";  //영원의꽃
                     flag = "밀리";
-                    videourl = '';
+                    videourl = 'https://youtu.be/sVF1AHkmxRQ';
                 } else if (randp == 282) {
                     urllink = "16Zwr_be5bjLQf33-tQ20pksVfDdCNyrU";  //오디너리 클로버
                     flag = "밀리";
-                    videourl = '';
+                    videourl = 'https://youtu.be/6ygThnMQjsw';
                 } else if (randp == 283) {
                     urllink = "1m9iEYIxTGeflxJjh1YtWXu7-QysKqc-j";  //오디너리 클로버
                     flag = "밀리";
-                    videourl = '';
+                    videourl = 'https://youtu.be/6ygThnMQjsw';
                 } else if (randp == 284) {
                     urllink = "17n--pJHR_7kGn1oBOQS6vk1gEdxQOTli";  //오렌지색 하늘
                     flag = "밀리";
-                    videourl = '';
+                    videourl = 'https://youtu.be/s1gdAEd1yWE';
                 } else if (randp == 285) {
                     urllink = "1lFIvIi18eaMMFzQlyUaWma0wr_qb03Fc";  //오렌지색 하늘
                     flag = "밀리";
-                    videourl = '';
+                    videourl = 'https://youtu.be/s1gdAEd1yWE';
                 } else if (randp == 286) {
                     urllink = "1xwCInLoS_WTTKSBTpQXlm7IFQXertkBW";  //오리지널 목소리
                     flag = "밀리";
-                    videourl = '';
+                    videourl = 'https://youtu.be/1PJBdsAK5fY';
                 } else if (randp == 287) {
                     urllink = "15f2GODqmaVWLT-Mi3E2K4MBmu-KP9HDw";  //오리지널 목소리
                     flag = "밀리";
-                    videourl = '';
+                    videourl = 'https://youtu.be/1PJBdsAK5fY';
                 } else if (randp == 288) {
                     urllink = "1h2OIuA1eaaR5WW5M3anR1rX3aLZ5kXJu";  //왜냐면 당신은
                     flag = "밀리";
-                    videourl = '';
+                    videourl = 'https://youtu.be/A1ygdjDGjOA';
                 } else if (randp == 289) {
                     urllink = "1CgVWWVLmKGAc5aDGj1XDVfc6qEJgLdBz";  //왜냐면 당신은
                     flag = "밀리";
-                    videourl = '';
+                    videourl = 'https://youtu.be/A1ygdjDGjOA';
                 } else if (randp == 290) {
                     urllink = "1NLBgooW_If29CZywaudLRA8Y3eeo5MnW";  //월요일의
                     flag = "밀리";
-                    videourl = '';
+                    videourl = 'https://youtu.be/D9qNF2F7AJc';
                 } else if (randp == 291) {
                     urllink = "1q9cDYoRojYc2rUEpBE9TpHG5e4D45XJv";  //월요일의
                     flag = "밀리";
-                    videourl = '';
+                    videourl = 'https://youtu.be/D9qNF2F7AJc';
                 } else if (randp == 292) {
                     urllink = "1Ghd4tpQ0bll78F6GZ_y-kDmMRodcFCna";  //유리색 금붕어
                     flag = "밀리";
-                    videourl = '';
+                    videourl = 'https://youtu.be/EqqodoFdygo';
                 } else if (randp == 293) {
                     urllink = "1c2Op8VHMSRYid1XJtBYKlD9fPayag7_u";  //유리색 금붕어
                     flag = "밀리";
-                    videourl = '';
+                    videourl = 'https://youtu.be/EqqodoFdygo';
                 } else if (randp == 294) {
                     urllink = "1DpkhLyEI3w1F7r0MVjzTzVjrN-AGo9hL";  //유성군
                     flag = "밀리";
-                    videourl = '';
+                    videourl = 'https://youtu.be/iAvrTAQk9fw';
                 } else if (randp == 295) {
                     urllink = "1r0G00q9HiNl-0G-eHQ4GHRJSRHAddldq";  //유성군
                     flag = "밀리";
-                    videourl = '';
+                    videourl = 'https://youtu.be/iAvrTAQk9fw';
                 } else if (randp == 296) {
                     urllink = "1YP99MVizseB6ua7M5Syd_xYiluhIoOAS";  //인빈시블
                     flag = "밀리";
-                    videourl = '';
+                    videourl = 'https://youtu.be/hVvnDqzVQOA';
                 } else if (randp == 297) {
                     urllink = "1wYTguENNRChxemPa35qgkxWQfHdWAJf6";  //인빈시블
                     flag = "밀리";
-                    videourl = '';
+                    videourl = 'https://youtu.be/hVvnDqzVQOA';
                 } else if (randp == 298) {
                     urllink = "11qgy-g5O1FoIdf9aq3Um69e7Pp_0gstr";  //전별의 새
                     flag = "밀리";
-                    videourl = '';
+                    videourl = 'https://youtu.be/njLtObI9CQo';
                 } else if (randp == 299) {
                     urllink = "1ACL3ntSpvxvChjRDI9fScmZods_wCcHB";  //전별의 새
                     flag = "밀리";
-                    videourl = '';
+                    videourl = 'https://youtu.be/njLtObI9CQo';
                 } else if (randp == 300) {
                     urllink = "1JTdm1Pgi4Zh4Dkzv4vhrqwXmabxiesHj";  //절대적 퍼포머
                     flag = "밀리";
-                    videourl = '';
+                    videourl = 'https://youtu.be/qb-gOHaQz-E';
                 } else if (randp == 301) {
                     urllink = "1VID_ZrPqvi3XZ27u25FflyUpkayJzGvq";  //절대적 퍼포머
                     flag = "밀리";
-                    videourl = '';
+                    videourl = 'https://youtu.be/qb-gOHaQz-E';
                 } else if (randp == 302) {
                     urllink = "160rFuAkaDr-EKhRJx-1DS0meRoZhZTll";  //종이접기 이야기
                     flag = "밀리";
-                    videourl = '';
+                    videourl = 'https://youtu.be/LXznNYiOecc';
                 } else if (randp == 303) {
                     urllink = "1d_m8garlAZV592KgJVi__xOU4CCKLm1a";  //종이접기 이야기
                     flag = "밀리";
-                    videourl = '';
+                    videourl = 'https://youtu.be/LXznNYiOecc';
                 } else if (randp == 304) {
                     urllink = "1rvfyKvwCnWevgkaqfxSoTF9t3_jiXvhj";  //주말뿐인 할리퀸
                     flag = "밀리";
-                    videourl = '';
+                    videourl = 'https://youtu.be/qSC_Dcwxx3I';
                 } else if (randp == 305) {
                     urllink = "1-fb5tIkrSDtmgW1mT666_T25ODpJIct5";  //주말뿐인 할리퀸
                     flag = "밀리";
-                    videourl = '';
+                    videourl = 'https://youtu.be/qSC_Dcwxx3I';
                 } else if (randp == 306) {
                     urllink = "1S1aKTYk1V36Qz9wkcUepiV1NYSj9d_c2";  //주문
                     flag = "밀리";
-                    videourl = '';
+                    videourl = 'https://youtu.be/1GIxJQMo98o';
                 } else if (randp == 307) {
                     urllink = "1WzO7Nrl9oqlptH7cmWRdXc0XLG3KAr-B";  //주문
                     flag = "밀리";
-                    videourl = '';
+                    videourl = 'https://youtu.be/1GIxJQMo98o';
                 } else if (randp == 308) {
                     urllink = "1lpvhb0RfGmyrxMEbNzBJHnNk3pYEfGc6";  //첫사랑 버터플라이
                     flag = "밀리";
-                    videourl = '';
+                    videourl = 'https://youtu.be/u5oTntUOCsc';
                 } else if (randp == 309) {
                     urllink = "14l_bqHD3tXRNvNeO-b-npg2YYy39k0Hd";  //첫사랑 버터플라이
                     flag = "밀리";
-                    videourl = '';
+                    videourl = 'https://youtu.be/u5oTntUOCsc';
                 } else if (randp == 310) {
                     urllink = "1qGC73Bqpwi5BcQ-m1WLI1n4OIQEkMVCu";  //첫울음과 클럽
                     flag = "밀리";
@@ -7180,179 +7311,179 @@
                 } else if (randp == 312) {
                     urllink = "1tzbV-hwT3xrJrZjOfRnhEkacJY3CMSTn";  //초자연현상
                     flag = "밀리";
-                    videourl = '';
+                    videourl = 'https://youtu.be/80bsTjlbR9Q';
                 } else if (randp == 313) {
                     urllink = "1MsHH7gRcuZv_96OcU19VSLEbT2tBOXMM";  //초자연현상
                     flag = "밀리";
-                    videourl = '';
+                    videourl = 'https://youtu.be/80bsTjlbR9Q';
                 } else if (randp == 314) {
                     urllink = "1QsMhk-bjq9g4nHWS2BTuxlsybbtBrjzz";  //카니발 자포네스크
                     flag = "밀리";
-                    videourl = '';
+                    videourl = 'https://youtu.be/g6jHcg8wocI';
                 } else if (randp == 315) {
                     urllink = "1Myy6TjLpqPcOEU6rYzQz1rAZY3cgcEpL";  //카니발 자포네스크
                     flag = "밀리";
-                    videourl = '';
+                    videourl = 'https://youtu.be/g6jHcg8wocI';
                 } else if (randp == 316) {
                     urllink = "1L9yapkdspdJE2tsT8uQkW0eZ-oI5MMzL";  //투명한 프롤로그
                     flag = "밀리";
-                    videourl = '';
+                    videourl = 'https://youtu.be/CbH3hT8DsA8';
                 } else if (randp == 317) {
                     urllink = "16i7kkFo7FhgcMY0Rda4lNdZmaEc4ib3R";  //투명한 프롤로그
                     flag = "밀리";
-                    videourl = '';
+                    videourl = 'https://youtu.be/CbH3hT8DsA8';
                 } else if (randp == 318) {
                     urllink = "12mGdQLfv6uj0uGQPNvslz6T1y3hGH-oB";  //페스타 일루
                     flag = "밀리";
-                    videourl = '';
+                    videourl = 'https://youtu.be/-5FI41msQa0';
                 } else if (randp == 319) {
                     urllink = "14MeGMlxGBL3CaVbRw5YDIF26QVDV5TnW";  //페스타 일루
                     flag = "밀리";
-                    videourl = '';
+                    videourl = 'https://youtu.be/-5FI41msQa0';
                 } else if (randp == 320) {
                     urllink = "1pinqT8O32s7pVHqlaj1wG4tdg-0ErFjf";  //프랄린
                     flag = "밀리";
-                    videourl = '';
+                    videourl = 'https://youtu.be/Y7N_6J-aESs';
                 } else if (randp == 321) {
                     urllink = "10icvwOIIL4AkISMBjd8n8Y5A2mB_f_Xq";  //프랄린
                     flag = "밀리";
-                    videourl = '';
+                    videourl = 'https://youtu.be/Y7N_6J-aESs';
                 } else if (randp == 322) {
                     urllink = "162bfAxOW1Z8oxouynPyU9NP1HG_Wx2dP";  //프리뮬러
                     flag = "밀리";
-                    videourl = '';
+                    videourl = 'https://youtu.be/7qe5ejqavmw';
                 } else if (randp == 323) {
                     urllink = "1AaOh1avmTYWY79FQ0IUYiG_feLljw2QR";  //프리뮬러
                     flag = "밀리";
-                    videourl = '';
+                    videourl = 'https://youtu.be/7qe5ejqavmw';
                 } else if (randp == 324) {
                     urllink = "19f5FjizxCeA7KLFHBFPXJdtdEzk23fbF";  //피는것은속세의
                     flag = "밀리";
-                    videourl = '';
+                    videourl = 'https://youtu.be/9u4y-kDmSvc';
                 } else if (randp == 325) {
                     urllink = "1D_KY2ZjygjCh75PgjFPiflxp1M7HWZYV";  //피는것은속세의
                     flag = "밀리";
-                    videourl = '';
+                    videourl = 'https://youtu.be/9u4y-kDmSvc';
                 } else if (randp == 326) {
                     urllink = "1lkWZtb-4ebTWLF1SM3G2aZ5nPWKnHnxk";  //피코피코
                     flag = "밀리";
-                    videourl = '';
+                    videourl = 'https://youtu.be/IQgQZsnEh9c';
                 } else if (randp == 327) {
                     urllink = "1GVFb18QiFJqr2SfmZT2BUnoZsAdHTwd4";  //피코피코
                     flag = "밀리";
-                    videourl = '';
+                    videourl = 'https://youtu.be/IQgQZsnEh9c';
                 } else if (randp == 328) {
                     urllink = "1gc-_eCKRpLjTvgMTgXQZ1XxTWe8-Xdpy";  //하모닉스
                     flag = "밀리";
-                    videourl = '';
+                    videourl = 'https://youtu.be/--O-nW2vkT8';
                 } else if (randp == 329) {
                     urllink = "1B7yiCDHmxFTUxD6_HHZh9zdIXzXSeJxG";  //하모닉스
                     flag = "밀리";
-                    videourl = '';
+                    videourl = 'https://youtu.be/--O-nW2vkT8';
                 } else if (randp == 330) {
                     urllink = "1NkkrRGlsebDQJX_uLJH_0zXK3gKPZIBH";  //한여름의 다이아
                     flag = "밀리";
-                    videourl = '';
+                    videourl = 'https://youtu.be/2MN90kwnpIo';
                 } else if (randp == 331) {
                     urllink = "1mf67ZEyZkxInJYW6Y1sriwmxHIslb4EO";  //한여름의 다이아
                     flag = "밀리";
-                    videourl = '';
+                    videourl = 'https://youtu.be/2MN90kwnpIo';
                 } else if (randp == 332) {
                     urllink = "1-XRZmQtpEHliVNAnobOHdVWcf350FufC";  //한탄의 프렉션
                     flag = "밀리";
-                    videourl = '';
+                    videourl = 'https://youtu.be/O9E_xoVQnLM';
                 } else if (randp == 333) {
                     urllink = "1M2WBLf20-Do14LofskuhTbLR4YTDp4wZ";  //한탄의 프렉션
                     flag = "밀리";
-                    videourl = '';
+                    videourl = 'https://youtu.be/O9E_xoVQnLM';
                 } else if (randp == 334) {
                     urllink = "1GraaP7ssrTrBZ_RQwBm56jOniq5MMoFR";  //해피마이가든
                     flag = "밀리";
-                    videourl = '';
+                    videourl = 'https://youtu.be/lsiMQ_o_S6o';
                 } else if (randp == 335) {
                     urllink = "1QP4DvnQ_NiHFsJ2MDQW4ICoPvtYZyPIn";  //해피마이가든
                     flag = "밀리";
-                    videourl = '';
+                    videourl = 'https://youtu.be/lsiMQ_o_S6o';
                 } else if (randp == 336) {
                     urllink = "17wIUUVEH_aRYLRxhSvcw-5RexF0a1SMw";  //해피이펙트
                     flag = "밀리";
-                    videourl = '';
+                    videourl = 'https://youtu.be/eeH-Qgvgrs4';
                 } else if (randp == 337) {
                     urllink = "1TvvnxzLfODWRc8HwFsaCRqzHXxkIFYtd";  //해피이펙트
                     flag = "밀리";
-                    videourl = '';
+                    videourl = 'https://youtu.be/eeH-Qgvgrs4';
                 } else if (randp == 338) {
                     urllink = "1OIg_apqv5Wi-PC-RquKYAg6kxyAotg1r";  //허밍로드
                     flag = "밀리";
-                    videourl = '';
+                    videourl = 'https://youtu.be/lacbHUBy2as';
                 } else if (randp == 339) {
                     urllink = "1SS-GFbBFtaqtDUTcqBJn3eb2X3nNBx9J";  //허밍로드
                     flag = "밀리";
-                    videourl = '';
+                    videourl = 'https://youtu.be/lacbHUBy2as';
                 } else if (randp == 340) {
                     urllink = "1wkZVM2BMmoCXffZZVWyD-lJIhr73OuJB";  //허밍버드
                     flag = "밀리";
-                    videourl = '';
+                    videourl = 'https://youtu.be/Mk2GE3k-V7o';
                 } else if (randp == 341) {
                     urllink = "1w2y4Z_ITK6DDsiu1yO7I8ME3TJEoMAkf";  //허밍버드
                     flag = "밀리";
-                    videourl = '';
+                    videourl = 'https://youtu.be/Mk2GE3k-V7o';
                 } else if (randp == 342) {
                     urllink = "1KZ0pRcAGrO020bF_-kmZu3KZQpu2L4XX";  //협기난무
                     flag = "밀리";
-                    videourl = '';
+                    videourl = 'https://youtu.be/IgbLWtaNUuc';
                 } else if (randp == 343) {
                     urllink = "19PkbQMULZ20UBNSV8B4mexr5zOYqgHSI";  //협기난무
                     flag = "밀리";
-                    videourl = '';
+                    videourl = 'https://youtu.be/IgbLWtaNUuc';
                 } else if (randp == 344) {
                     urllink = "1KR-Ir_1jKuFJgs6NxJB38cgAzMkH4SqA";  //데이트 퍼레이드 ++
                     flag = "밀리";
-                    videourl = '';
+                    videourl = 'https://youtu.be/O--YcLJNe60';
                 } else if (randp == 345) {
                     urllink = "1xzAtcsZn-J5ssWZYMhBuoKuaduZ2p6Bc";  //데이트 퍼레이드
                     flag = "밀리";
-                    videourl = '';
+                    videourl = 'https://youtu.be/O--YcLJNe60';
                 } else if (randp == 346) {
                     urllink = "193uA35v12MQJzqJRpYaxn94cwLYEWacY";  //샴록 비바스
                     flag = "밀리";
-                    videourl = '';
+                    videourl = 'https://youtu.be/t2u3O2iJr2k';
                 } else if (randp == 347) {
                     urllink = "1yfDbOe4Oqmfc_lnLcCo1IyGDblat_rGM";  //샴록 비바스
                     flag = "밀리";
-                    videourl = '';
+                    videourl = 'https://youtu.be/t2u3O2iJr2k';
                 } else if (randp == 348) {
                     urllink = "1iXgOTpRpuPa4JsYRYCbV2zL8xUxUr210";  //듀얼
                     flag = "밀리";
-                    videourl = '';
+                    videourl = 'https://youtu.be/y0qzE4Nc4nw';
                 } else if (randp == 349) {
                     urllink = "1dFLESIx61Ot_rwy2WQSC0ptGBUdYx-Rq";  //듀얼
                     flag = "밀리";
-                    videourl = '';
+                    videourl = 'https://youtu.be/y0qzE4Nc4nw';
                 } else if (randp == 350) {
                     urllink = "1nWkAvmVl8tYIlB37RS_4XEYRTiOpd-gS";  //너에게 비치는
                     flag = "밀리";
-                    videourl = '';
+                    videourl = 'https://youtu.be/uQR5u51fZzo';
                 } else if (randp == 351) {
                     urllink = "193d8KWqSdXpaDefaoaL6cbru2m9pghsH";  //너에게 비치는
                     flag = "밀리";
-                    videourl = '';
+                    videourl = 'https://youtu.be/uQR5u51fZzo';
                 } else if (randp == 352) {
                     urllink = "1ruVGNm-lYgcQftaP61W7MwMrvYRPIkir";  //네가 한가운데
                     flag = "밀리";
-                    videourl = '';
+                    videourl = 'https://youtu.be/FtDv9t1pdOs';
                 } else if (randp == 353) {
                     urllink = "1mcFxnee28QfwsyniqXMs3UPJs7Bv7sxO";  //네가 한가운데
                     flag = "밀리";
-                    videourl = '';
+                    videourl = 'https://youtu.be/FtDv9t1pdOs';
                 } else if (randp == 354) {
                     urllink = "1sl00vgCMS4i1-40_GIb-McK3kluNa0Uz";  //반짝 픽업
                     flag = "밀리";
-                    videourl = '';
+                    videourl = 'https://youtu.be/dXrv0ys18jQ';
                 } else if (randp == 355) {
                     urllink = "1iTFnb-1V14aMf52nxOpn-uP3odzcljY3";  //반짝 픽업
                     flag = "밀리";
-                    videourl = '';
+                    videourl = 'https://youtu.be/dXrv0ys18jQ';
                 } else if (randp == 356) {
                     urllink = "1GzXaJa9rfIbzaVm49_NWygu39cd_DFnF";  //아이돌은 이렇게
                     flag = "밀리";
@@ -7364,11 +7495,11 @@
                 } else if (randp == 358) {
                     urllink = "1ifWhOi8ct4bqgq_tvOEe9CXybCPVBfy5";  //용기의
                     flag = "밀리";
-                    videourl = '';
+                    videourl = 'https://youtu.be/iNytTYQ75v4';
                 } else if (randp == 359) {
                     urllink = "16VpEYzyDKJC4-D8aNjL0173C_hyH7j9H";  //용기의
                     flag = "밀리";
-                    videourl = '';
+                    videourl = 'https://youtu.be/iNytTYQ75v4';
                 } else if (randp == 360) {
                     urllink = "1HywLM_5VNCpHjEeMfO7I6msS284-Kw7m";  //뷰티풀 빌리버
                     flag = "밀리";
@@ -7412,488 +7543,608 @@
                 } else if (randp == 370) {
                     urllink = "1Ne3-32K58Rzoiejwu1CJi10uL2a7r8f8";  //러브이즈겜
                     flag = "밀리";
-                    videourl = '';
+                    videourl = 'https://youtu.be/O5Teb02I8Po';
                 } else if (randp == 371) {
                     urllink = "1RxNsyUgYYbFG0M0Wn6znJ4t5c1Wtgyj6";  //러브이즈겜
                     flag = "밀리";
-                    videourl = '';
+                    videourl = 'https://youtu.be/O5Teb02I8Po';
                 } else if (randp == 372) {
                     urllink = "1U2QFYsHdyPkLh2TP-gg6hFQw1pnJHmO4";  //미래 비행
                     flag = "밀리";
-                    videourl = '';
+                    videourl = 'https://youtu.be/5-fP0W1J51A';
                 } else if (randp == 373) {
                     urllink = "1m0o87M-sCJvu6EEE7d-t16JApDgRhBe2";  //미래 비행
                     flag = "밀리";
-                    videourl = '';
+                    videourl = 'https://youtu.be/5-fP0W1J51A';
                 } else if (randp == 374) {
                     urllink = "106NWmacssTzOxqSivpL8Ol8LIicAXHpc";  //미래계 드리머
                     flag = "밀리";
-                    videourl = '';
+                    videourl = 'https://youtu.be/Fuy3xknAsEs';
                 } else if (randp == 375) {
                     urllink = "1azL7Nzz8qmtsGl-nxG_BwvLh6HypLfsm";  //미래계 드리머
                     flag = "밀리";
-                    videourl = '';
+                    videourl = 'https://youtu.be/Fuy3xknAsEs';
                 } else if (randp == 376) {
                     urllink = "13o1uv2vnjaAc3KQKaWkqk4cUTvHIgHzs";  //Precious Grain
                     flag = "밀리";
-                    videourl = '';
+                    videourl = 'https://youtu.be/1MzOJDiSKcg';
                 } else if (randp == 377) {
                     urllink = "1vktOvTASXD-F_Duet4Kgc8avUJnnWL1C";  //Precious Grain
                     flag = "밀리";
-                    videourl = '';
+                    videourl = 'https://youtu.be/1MzOJDiSKcg';
                 } else if (randp == 378) {
                     urllink = "1gaYYTx4mlQEY2tLz9Vt0sqOab5frxG1E";  //Catch my dream
                     flag = "밀리";
-                    videourl = '';
+                    videourl = 'https://youtu.be/zg44NdDaNOo';
                 } else if (randp == 379) {
                     urllink = "1oOyVP-eiA41pYeAf-TLhnTJ2TNsnZJBt";  //Catch my dream
                     flag = "밀리";
-                    videourl = '';
+                    videourl = 'https://youtu.be/zg44NdDaNOo';
                 } else if (randp == 380) {
                     urllink = "1EhkOKeMwA8gTHoWAVY7jIcTEeGzBffWu";  //SING MY SONG
                     flag = "밀리";
-                    videourl = '';
+                    videourl = 'https://youtu.be/8ylJMoKn5ag';
                 } else if (randp == 381) {
                     urllink = "158vUZcELZCgWoXfD1Q5hM310niAHIT8O";  //SING MY SONG
                     flag = "밀리";
-                    videourl = '';
+                    videourl = 'https://youtu.be/8ylJMoKn5ag';
                 } else if (randp == 382) {
                     urllink = "1nruQKwqy4fBK8DOtkRzPAocon83wCM2F";  //사랑의 Lesson 초급편
                     flag = "밀리";
-                    videourl = '';
+                    videourl = 'https://youtu.be/aOVI5eCWRek';
                 } else if (randp == 383) {
                     urllink = "13sDFc5Kb2lHmjHQi9dHJHyygXHPWkhCQ";  //사랑의 Lesson 초급편
                     flag = "밀리";
-                    videourl = '';
+                    videourl = 'https://youtu.be/aOVI5eCWRek';
                 } else if (randp == 384) {
                     urllink = "1AcdeyvkZMxEJ1BTkS0AjRB5eh8KvAIC1";  //아침노을의 크레센도
                     flag = "밀리";
-                    videourl = '';
+                    videourl = 'https://youtu.be/kUln3wGpHl0';
                 } else if (randp == 385) {
                     urllink = "13fC1pw0TJXBfKUDPIjbyi76Iq4QwCPIR";  //아침노을의 크레센도
                     flag = "밀리";
-                    videourl = '';
+                    videourl = 'https://youtu.be/kUln3wGpHl0';
                 } else if (randp == 386) {
                     urllink = "1Uz6ItxiRfp8PI67JpakbtbWPl9sCK9vh";  //진정한 나
                     flag = "밀리";
-                    videourl = '';
+                    videourl = 'https://youtu.be/md6cTKuOLIA';
                 } else if (randp == 387) {
                     urllink = "1nbuMh5aNrZ9rUxneH0kmVOdB1od0MHXC";  //진정한 나
                     flag = "밀리";
-                    videourl = '';
+                    videourl = 'https://youtu.be/md6cTKuOLIA';
                 } else if (randp == 388) {
                     urllink = "1H1Mobk7pzhnmwnVP69U45y97qeQeArFD";  //Hearty!!
                     flag = "밀리";
-                    videourl = '';
+                    videourl = 'https://youtu.be/ITvgx50r-mI';
                 } else if (randp == 389) {
                     urllink = "1yFjNBV53EkUZtN0ws-Q3A_pj6yboo0YN";  //Hearty!!
                     flag = "밀리";
-                    videourl = '';
+                    videourl = 'https://youtu.be/ITvgx50r-mI';
                 } else if (randp == 390) {
                     urllink = "1WqdDj7JiQYv14Mc5u5f4VlERLClMkq0G";  //애프터 스쿨 파티 타임
                     flag = "밀리";
-                    videourl = '';
+                    videourl = 'https://youtu.be/aO1nAPWP4EY';
                 } else if (randp == 391) {
                     urllink = "1FgleY9RZcMXJY1h55kPFUjSgF84Ht_UX";  //애프터 스쿨 파티 타임
                     flag = "밀리";
-                    videourl = '';
+                    videourl = 'https://youtu.be/aO1nAPWP4EY';
                 } else if (randp == 392) {
                     urllink = "1-nrqa6KoLhUHTCjr5Xd0gYJmt3m8szn8";  //프로즌 워드
                     flag = "밀리";
-                    videourl = '';
+                    videourl = 'https://youtu.be/1Nq9K8GCtk0';
                 } else if (randp == 393) {
                     urllink = "1nrw7UxJaerriSsdC4OY5ETKTG3TICbIg";  //프로즌 워드
                     flag = "밀리";
-                    videourl = '';
+                    videourl = 'https://youtu.be/1Nq9K8GCtk0';
                 } else if (randp == 394) {
                     urllink = "10mmSVAtpndJmhp6tFkY8Kc0Emo9waJsf";  //마음은 Carnaval
                     flag = "밀리";
-                    videourl = '';
+                    videourl = 'https://youtu.be/2WdrDqo3n2Q';
                 } else if (randp == 395) {
                     urllink = "1-zMN9TNf4B92b0BFJJONk_S7r5Mm_va0";  //마음은 Carnaval
                     flag = "밀리";
-                    videourl = '';
+                    videourl = 'https://youtu.be/2WdrDqo3n2Q';
                 } else if (randp == 396) {
                     urllink = "1QFIxvX-PHhEthJPi_FmZ5XKc4ua1AuJX";  //판타지스타 카니발
                     flag = "밀리";
-                    videourl = '';
+                    videourl = 'https://youtu.be/il8Udk-4gfk';
                 } else if (randp == 397) {
                     urllink = "10If8OvnKKidyrgIb_hcnIRfPn8XqytGs";  //판타지스타 카니발
                     flag = "밀리";
-                    videourl = '';
+                    videourl = 'https://youtu.be/il8Udk-4gfk';
                 } else if (randp == 398) {
                     urllink = "1Fw-PKkXylfP8187LZV7Kho3mCswW_xuc";  //프린세스 아라모드
                     flag = "밀리";
-                    videourl = '';
+                    videourl = 'https://youtu.be/wN10I1rUxwc';
                 } else if (randp == 399) {
                     urllink = "1GX15TCFl_-qgPRC6JdXPj7TCRhgVvgUV";  //프린세스 아라모드
                     flag = "밀리";
-                    videourl = '';
+                    videourl = 'https://youtu.be/wN10I1rUxwc';
                 } else if (randp == 400) {
                     urllink = "1M8veKyASTYJZDE8-DT-6eUyF7JJGrEWE";  //Maria Trap
                     flag = "밀리";
-                    videourl = '';
+                    videourl = 'https://youtu.be/T_PxnnggQIA';
                 } else if (randp == 401) {
                     urllink = "1OXwlFJYvFf74or-kpLlyo2y5P-doNQG7";  //Maria Trap
                     flag = "밀리";
-                    videourl = '';
+                    videourl = 'https://youtu.be/T_PxnnggQIA';
                 } else if (randp == 402) {
                     urllink = "1vca84UpI2d_7PCMuJfeATkXSt4YrOrXq";  //새장 스크립쳐
                     flag = "밀리";
-                    videourl = '';
+                    videourl = 'https://youtu.be/U9MPfI2vhsM';
                 } else if (randp == 403) {
                     urllink = "1u9LMNMptuDROHQ5knd9xiq_dlee_2vGj";  //새장 스크립쳐
                     flag = "밀리";
-                    videourl = '';
+                    videourl = 'https://youtu.be/U9MPfI2vhsM';
                 } else if (randp == 404) {
                     urllink = "1eMIuNLBVgV7s5M6IIfrTUgLPguD12T6K";  //Heart♡・데이즈・Night☆
                     flag = "밀리";
-                    videourl = '';
+                    videourl = 'https://youtu.be/-8EWTTE4xgM';
                 } else if (randp == 405) {
                     urllink = "1kgxk9oYhvv6gIw-SYBu_L_Ww9nuzN0Qv";  //Heart♡・데이즈・Night☆
                     flag = "밀리";
-                    videourl = '';
+                    videourl = 'https://youtu.be/-8EWTTE4xgM';
                 } else if (randp == 406) {
                     urllink = "1-bGMk55xbbgvXf67pAv1ZE7R40FavT0W";  //프리티~~~잇→ 냥냥!
                     flag = "밀리";
-                    videourl = '';
+                    videourl = 'https://youtu.be/b5FWzrwuXfQ';
                 } else if (randp == 407) {
                     urllink = "1MybAu0_tM3JwuGht3sGr8sSaqK50yl57";  //프리티~~~잇→ 냥냥!
                     flag = "밀리";
-                    videourl = '';
+                    videourl = 'https://youtu.be/b5FWzrwuXfQ';
                 } else if (randp == 408) {
                     urllink = "1oWsBBEXj9xHsVgsBfRqg0_MY-SNF9PFf";  //AIKANE?
                     flag = "밀리";
-                    videourl = '';
+                    videourl = 'https://youtu.be/nDVkDF8Hm3c';
                 } else if (randp == 409) {
                     urllink = "1pTHumVmnM3-M7bzlbp-ZrOSnU-mZfKnL";  //AIKANE?
                     flag = "밀리";
-                    videourl = '';
+                    videourl = 'https://youtu.be/nDVkDF8Hm3c';
                 } else if (randp == 410) {
                     urllink = "1psMKa8thwxESL8OWhz2CTxNgSeWE-9i5";  //Get My Shinin'
                     flag = "밀리";
-                    videourl = '';
+                    videourl = 'https://youtu.be/P1TI5cFK-F0';
                 } else if (randp == 411) {
                     urllink = "1g_t6x5F8cGTFT9ytcchgcGb76cXhhL7s";  //Get My Shinin'
                     flag = "밀리";
-                    videourl = '';
+                    videourl = 'https://youtu.be/P1TI5cFK-F0';
                 } else if (randp == 412) {
                     urllink = "1tQixzQPra15ZIRMmVV8Z_F14B4HIqRa8";  //유니존☆비트
                     flag = "밀리";
-                    videourl = '';
+                    videourl = 'https://youtu.be/FKs88_-iJKc';
                 } else if (randp == 413) {
                     urllink = "15vwtca7ua6DAFMXv8TtZG2vEPszbnobk";  //유니존☆비트
                     flag = "밀리";
-                    videourl = '';
+                    videourl = 'https://youtu.be/FKs88_-iJKc';
                 } else if (randp == 414) {
                     urllink = "1cd2fFZqT8aXcGZ5_0j0_UBEhG982rAoU";  //Oli Oli DISCO
                     flag = "밀리";
-                    videourl = '';
+                    videourl = 'https://youtu.be/6nFqLCrJtN4';
                 } else if (randp == 415) {
                     urllink = "1-HLRKZvHPyr3l9bhalTcu6ZLVZg9Rsf4";  //Oli Oli DISCO
                     flag = "밀리";
-                    videourl = '';
+                    videourl = 'https://youtu.be/6nFqLCrJtN4';
                 } else if (randp == 416) {
                     urllink = "19xc6A2cJ9qkwqE1iTmwox0Nu6xMbKhSc";  //저기, 들어줬으면 하는게 있어
                     flag = "밀리";
-                    videourl = '';
+                    videourl = 'https://youtu.be/uN81uI8Dv4c';
                 } else if (randp == 417) {
                     urllink = "1wjN63fAEpDI_24wWxvjbtec1iYUUy_2s";  //저기, 들어줬으면 하는게 있어
                     flag = "밀리";
-                    videourl = '';
+                    videourl = 'https://youtu.be/uN81uI8Dv4c';
                 } else if (randp == 418) {
                     urllink = "1YAIkr9p7WltK0GX7nSitU0soVX54JJrd";  //사과의 마치
                     flag = "밀리";
-                    videourl = '';
+                    videourl = 'https://youtu.be/7H_sVYE0i0U';
                 } else if (randp == 419) {
                     urllink = "1GTVxT9ARIIN-Z8y47I3TLaNvOEMf_SaS";  //사과의 마치
                     flag = "밀리";
-                    videourl = '';
+                    videourl = 'https://youtu.be/7H_sVYE0i0U';
                 } else if (randp == 420) {
                     urllink = "1X4LhOa1MmSzvtW0AwBKz6xPitB49Tpp3";  //마음☆엑서사이즈
                     flag = "밀리";
-                    videourl = '';
+                    videourl = 'https://youtu.be/NmeU5Nz3a9g';
                 } else if (randp == 421) {
                     urllink = "1mL6qHhg2BUVuX278WUGu1hwGXbNqnsjj";  //마음☆엑서사이즈
                     flag = "밀리";
-                    videourl = '';
+                    videourl = 'https://youtu.be/NmeU5Nz3a9g';
                 } else if (randp == 422) {
                     urllink = "11LPADJkQB5h1sBLo3xYH5hW_1amUe2sg";  //POKER POKER
                     flag = "밀리";
-                    videourl = '';
+                    videourl = 'https://youtu.be/mNzGb7c6jLs';
                 } else if (randp == 423) {
                     urllink = "1785_jkf68EWFwJLP3gJ9egLJMsNOGAGt";  //POKER POKER
                     flag = "밀리";
-                    videourl = '';
+                    videourl = 'https://youtu.be/mNzGb7c6jLs';
                 } else if (randp == 424) {
                     urllink = "1Y70MVFpvgkSf2aGzw0XMQWvD92go-iJO";  //홉♪ 스텝♪ 레인보우♪
                     flag = "밀리";
-                    videourl = '';
+                    videourl = 'https://youtu.be/8U-gpPLAE2g';
                 } else if (randp == 425) {
                     urllink = "1NeCMNutT6m5_OHp0rGvuGm9_BXMcqctq";  //홉♪ 스텝♪ 레인보우♪
                     flag = "밀리";
-                    videourl = '';
+                    videourl = 'https://youtu.be/8U-gpPLAE2g';
                 } else if (randp == 426) {
                     urllink = "1deBKrqfW77LOCk7AE6JLB9kGmunhkvM2";  //BOUNCING♪ SMILE!
                     flag = "밀리";
-                    videourl = '';
+                    videourl = 'https://youtu.be/hadxYP_pJL8';
                 } else if (randp == 427) {
                     urllink = "1Xw6us91FQC_rHpDujdBHGaj6nOUFREO-";  //BOUNCING♪ SMILE!
                     flag = "밀리";
-                    videourl = '';
+                    videourl = 'https://youtu.be/hadxYP_pJL8';
                 } else if (randp == 428) {
                     urllink = "12WZmxBw8fTuOyq9t9pseX1E8xBcQEDoQ";  //탐험 모험☆하이호-대
                     flag = "밀리";
-                    videourl = '';
+                    videourl = 'https://youtu.be/NRZz8kU3sRY';
                 } else if (randp == 429) {
                     urllink = "1ggPfHaTJdJ3Veu82KjgWziMtxdsnfD03";  //탐험 모험☆하이호-대
                     flag = "밀리";
-                    videourl = '';
+                    videourl = 'https://youtu.be/NRZz8kU3sRY';
                 } else if (randp == 430) {
                     urllink = "1F6JC9tHEgpuNNt1IVab60E5vNmkHU2In";  //비기너즈☆스트라이크
                     flag = "밀리";
-                    videourl = '';
+                    videourl = 'https://youtu.be/FmwPyWjAEXQ';
                 } else if (randp == 431) {
                     urllink = "1x7XvfC3ROncXFqXMuEpP2vAe_rwR4nrt";  //비기너즈☆스트라이크
                     flag = "밀리";
-                    videourl = '';
+                    videourl = 'https://youtu.be/FmwPyWjAEXQ';
                 } else if (randp == 432) {
                     urllink = "1Vzn_hI55L6XJSGmTmyLdKz4WQYm3_bFr";  //HOME RUN SONG♪
                     flag = "밀리";
-                    videourl = '';
+                    videourl = 'https://youtu.be/9gjcg5lcDeM';
                 } else if (randp == 433) {
                     urllink = "1ff8qlVysWLcFFtm2YjkqgL4njCMCz0l6";  //HOME RUN SONG♪
                     flag = "밀리";
-                    videourl = '';
+                    videourl = 'https://youtu.be/9gjcg5lcDeM';
                 } else if (randp == 434) {
                     urllink = "1RAqJwZoiVOzfySXVA-AMH1SMvT6VDyl6";  //후와리즘
                     flag = "밀리";
-                    videourl = '';
+                    videourl = 'https://youtu.be/76cAA437TyQ';
                 } else if (randp == 435) {
                     urllink = "1pGxUWhX37k0_0nyRQOlj_qRaXe4ddcnR";  //후와리즘
                     flag = "밀리";
-                    videourl = '';
+                    videourl = 'https://youtu.be/76cAA437TyQ';
                 } else if (randp == 436) {
                     urllink = "1ZA8uHaygpKNfnCKN9Hxu6zPODPMFhjdW";  //해피☆러키☆제트 머신
                     flag = "밀리";
-                    videourl = '';
+                    videourl = 'https://youtu.be/3iyUvLNXcfc';
                 } else if (randp == 437) {
                     urllink = "159kxPWQqeJzyN_F2tsdO7obtjKv017vN";  //해피☆러키☆제트 머신
                     flag = "밀리";
-                    videourl = '';
+                    videourl = 'https://youtu.be/3iyUvLNXcfc';
                 } else if (randp == 438) {
                     urllink = "1jjWZ2oP543IOEL-BuPtRqFuvW-GiSBL7";  //Super Lover
                     flag = "밀리";
-                    videourl = '';
+                    videourl = 'https://youtu.be/8eBrZlG8EWg';
                 } else if (randp == 439) {
                     urllink = "1PcZB0kdmGdwv5PxhqyvrBqNZa4VKURvb";  //Super Lover
                     flag = "밀리";
-                    videourl = '';
+                    videourl = 'https://youtu.be/8eBrZlG8EWg';
                 } else if (randp == 440) {
                     urllink = "1-2syOqwqRhx-ihX_sRuRRy1ykjIHnVcK";  //Home is a coming now!
                     flag = "밀리";
-                    videourl = '';
+                    videourl = 'https://youtu.be/KOtf6T9UoPc';
                 } else if (randp == 441) {
                     urllink = "1pNnbeL7Lvb7-CRukon5J0QJktLNuwDow";  //Home is a coming now!
                     flag = "밀리";
-                    videourl = '';
+                    videourl = 'https://youtu.be/KOtf6T9UoPc';
                 } else if (randp == 442) {
                     urllink = "1_9OCL_DuE2fL9_nmNM1VtSr16No4xiwz";  //스타 트립
                     flag = "밀리";
-                    videourl = '';
+                    videourl = 'https://youtu.be/yze7ngSpOBY';
                 } else if (randp == 443) {
                     urllink = "1vTIHUg5SWT6emCHIV41ueZqx2pv39tGS";  //스타 트립
                     flag = "밀리";
-                    videourl = '';
+                    videourl = 'https://youtu.be/yze7ngSpOBY';
                 } else if (randp == 444) {
                     urllink = "1yi9bbY9-wKSP2DlaOJhsXXuI0ECdeqkR";  //최고의 스마일
                     flag = "밀리";
-                    videourl = '';
+                    videourl = 'https://youtu.be/nTzhx29imLM';
                 } else if (randp == 445) {
                     urllink = "1y-hUtpAvHr71gg34LKHAq0ihuOw2o1AT";  //최고의 스마일
                     flag = "밀리";
-                    videourl = '';
+                    videourl = 'https://youtu.be/nTzhx29imLM';
                 } else if (randp == 446) {
                     urllink = "1TkAUHa_TFvd8iFlRlPfuDZywGUy-m6eG";  //SUPER SIZE LOVE!!
                     flag = "밀리";
-                    videourl = '';
+                    videourl = 'https://youtu.be/-RMXgJB8Buw';
                 } else if (randp == 447) {
                     urllink = "1W0tTjD9VxsAarzISkaGzMdpH1l4srLSv";  //SUPER SIZE LOVE!!
                     flag = "밀리";
-                    videourl = '';
+                    videourl = 'https://youtu.be/-RMXgJB8Buw';
                 } else if (randp == 448) {
                     urllink = "16xRe3ZNqZwL1JvFaDn0gHd9pHoCQ2fkx";  //만복 지극 풀코오스
                     flag = "밀리";
-                    videourl = '';
+                    videourl = 'https://youtu.be/TCaOX22I7eg';
                 } else if (randp == 449) {
                     urllink = "1UzFeQTZHtMEPr71hwGtX6N4jU5-zfSJG";  //만복 지극 풀코오스
                     flag = "밀리";
-                    videourl = '';
+                    videourl = 'https://youtu.be/TCaOX22I7eg';
                 } else if (randp == 450) {
                     urllink = "1uRjKBK_qFYZhqV1EmZFD7opp2Pvw3usA";  //지구본에 없는 나라
                     flag = "밀리";
-                    videourl = '';
+                    videourl = 'https://youtu.be/YvcC7DRSFEU';
                 } else if (randp == 451) {
                     urllink = "13dJKxxtOWx7sxa3Ev9HA0FD6xPkKFqnz";  //지구본에 없는 나라
                     flag = "밀리";
-                    videourl = '';
+                    videourl = 'https://youtu.be/YvcC7DRSFEU';
                 } else if (randp == 452) {
                     urllink = "1R-LzP344992cuTEHxeU1mHC9-Y2fx0EG";  //VIVID 이매지네이션
                     flag = "밀리";
-                    videourl = '';
+                    videourl = 'https://youtu.be/zsKTXVFk3BE';
                 } else if (randp == 453) {
                     urllink = "1owCnrrYx5fwfcKQjMMnhz27ZbL1U34vS";  //VIVID 이매지네이션
                     flag = "밀리";
-                    videourl = '';
+                    videourl = 'https://youtu.be/zsKTXVFk3BE';
                 } else if (randp == 454) {
                     urllink = "1iqvt10msYdySx2Uub_XUXsUL91A6Iq2s";  //ENTER→PLEASURE
                     flag = "밀리";
-                    videourl = '';
+                    videourl = 'https://youtu.be/gfOpjTZNkCI';
                 } else if (randp == 455) {
                     urllink = "1raxqGSVavEa8l_UEimA0Io7N2IyGECyH";  //ENTER→PLEASURE
                     flag = "밀리";
-                    videourl = '';
+                    videourl = 'https://youtu.be/gfOpjTZNkCI';
                 } else if (randp == 456) {
                     urllink = "15d4DOmKNIZLfpvKL6rtIPFpzkocguRmt";  //연정의 매스커레이드
                     flag = "밀리";
-                    videourl = '';
+                    videourl = 'https://youtu.be/zXCqTm42K1I';
                 } else if (randp == 457) {
                     urllink = "1q2qUf4SRCRyRGIbtJz3ZelCGyeHYvidG";  //연정의 매스커레이드
                     flag = "밀리";
-                    videourl = '';
+                    videourl = 'https://youtu.be/zXCqTm42K1I';
                 } else if (randp == 458) {
                     urllink = "1wVXoAif5rMJgIvXE8exSuxNy5Pv-5ZBq";  //사랑의 음색 라인
                     flag = "밀리";
-                    videourl = '';
+                    videourl = 'https://youtu.be/hephcw_UcjA';
                 } else if (randp == 459) {
                     urllink = "11N3KSOxUvpnQxAGlIJsB6S786yYGRy-V";  //사랑의 음색 라인
                     flag = "밀리";
-                    videourl = '';
+                    videourl = 'https://youtu.be/hephcw_UcjA';
                 } else if (randp == 460) {
                     urllink = "1ti1NsO3aaD_N9pgsO9WJKfoRbL44Orzs";  //문 골드
                     flag = "밀리";
-                    videourl = '';
+                    videourl = 'https://youtu.be/Al75ApIm8AU';
                 } else if (randp == 461) {
                     urllink = "1VOvXloLNlgwuNPZM7JGHgINUIjyc5gmQ";  //문 골드
                     flag = "밀리";
-                    videourl = '';
+                    videourl = 'https://youtu.be/Al75ApIm8AU';
                 } else if (randp == 462) {
                     urllink = "1ixK0N5V1ynxj5NFAV3W-vrU4e3YlfcJs";  //굿 데이 선샤인!
                     flag = "밀리";
-                    videourl = '';
+                    videourl = 'https://youtu.be/irhWedAwec4';
                 } else if (randp == 463) {
                     urllink = "1SFN64mxyHj9K6IJhMyIjbiWd0cVhUNKN";  //굿 데이 선샤인!
                     flag = "밀리";
-                    videourl = '';
+                    videourl = 'https://youtu.be/irhWedAwec4';
                 } else if (randp == 464) {
                     urllink = "1BRn6_49SG6vzIt3IB9taCR_VFvcW23nX";  //애니멀☆스테이션!
                     flag = "밀리";
-                    videourl = '';
+                    videourl = 'https://youtu.be/PR2ZYKtoVmE';
                 } else if (randp == 465) {
                     urllink = "1oafFOaC3JU7nLiuyoevAvyGR2tlyyGPp";  //애니멀☆스테이션!
                     flag = "밀리";
-                    videourl = '';
+                    videourl = 'https://youtu.be/PR2ZYKtoVmE';
                 } else if (randp == 466) {
                     urllink = "1QeasHS5vTBO-BCbeyiAHO05l-CZIcM8h";  //가끔은 시소
                     flag = "밀리";
-                    videourl = '';
+                    videourl = 'https://youtu.be/Njecpg87niE';
                 } else if (randp == 467) {
                     urllink = "1-ng9K-WblNPJoW7J3pmoXUQJICLtEWmP";  //가끔은 시소
                     flag = "밀리";
-                    videourl = '';
+                    videourl = 'https://youtu.be/Njecpg87niE';
                 } else if (randp == 468) {
                     urllink = "1m3j4s1FlSuPHnTAouBeP7c5cO78yjIuq";  //Border LINE→→→♡
                     flag = "밀리";
-                    videourl = '';
+                    videourl = 'https://youtu.be/CtxnOF32M3Y';
                 } else if (randp == 469) {
                     urllink = "1R7uBWECwCRiKWlaKV6nosCRYKDO2Mg1u";  //Border LINE→→→♡
                     flag = "밀리";
-                    videourl = '';
+                    videourl = 'https://youtu.be/CtxnOF32M3Y';
                 } else if (randp == 470) {
                     urllink = "16Q7jh2nijuU-7ePmJgmEFn1n0ymzJw-t";  //기도의 날개
                     flag = "밀리";
-                    videourl = '';
+                    videourl = 'https://youtu.be/UyRrtaM_BLg';
                 } else if (randp == 471) {
                     urllink = "1PA5uj9PoVhOxNBdJYzFuknsly0oqee44";  //기도의 날개
                     flag = "밀리";
-                    videourl = '';
+                    videourl = 'https://youtu.be/UyRrtaM_BLg';
                 } else if (randp == 472) {
                     urllink = "1in4IyPTP547010cAGJp06tg0u4IewBwX";  //비에다 노래하자♪
                     flag = "밀리";
-                    videourl = '';
+                    videourl = 'https://youtu.be/ONtRy59FFyA';
                 } else if (randp == 473) {
                     urllink = "1ai40UL98qiA-m4ZWjyieo74RT21XKSvk";  //비에다 노래하자♪
                     flag = "밀리";
-                    videourl = '';
+                    videourl = 'https://youtu.be/ONtRy59FFyA';
                 } else if (randp == 474) {
                     urllink = "1mdyNE5-nEFcctH-DTnz_Y-D19bX7hc3M";  //MY STYLE! OUR STYLE!!!!
                     flag = "밀리";
-                    videourl = '';
+                    videourl = 'https://youtu.be/yB5axTMLDJw';
                 } else if (randp == 475) {
                     urllink = "1MLgqLiBP4AHBsktoYMuFC3_kNET-s2uq";  //MY STYLE! OUR STYLE!!!!
                     flag = "밀리";
-                    videourl = '';
+                    videourl = 'https://youtu.be/yB5axTMLDJw';
                 } else if (randp == 476) {
                     urllink = "1gUf410BxnVDKxMkYwygDgFc8aNeJpHtL";  //작은 사랑의 발소리
                     flag = "밀리";
-                    videourl = '';
+                    videourl = 'https://youtu.be/79gSZ3LGHsc';
                 } else if (randp == 477) {
                     urllink = "1hmYkOoOG1-Xhpc4PceNHeFYaAPqfhkRY";  //작은 사랑의 발소리
                     flag = "밀리";
-                    videourl = '';
+                    videourl = 'https://youtu.be/79gSZ3LGHsc';
                 } else if (randp == 478) {
                     urllink = "12qegyGXYf-zkUfEi2ABSNX871xxQcVT-";  //저녁바람의 멜로디
                     flag = "밀리";
-                    videourl = '';
+                    videourl = 'https://youtu.be/dnAqGbshnoc';
                 } else if (randp == 479) {
                     urllink = "13WSYWGTlFFWV4idw62RK2mubaFJSQgy0";  //저녁바람의 멜로디
                     flag = "밀리";
-                    videourl = '';
+                    videourl = 'https://youtu.be/dnAqGbshnoc';
                 } else if (randp == 480) {
                     urllink = "1dcDXQ1_F6BSnyvR-iVTwZPhIaDam4ToP";  //마이페이스☆마이웨이
                     flag = "밀리";
-                    videourl = '';
+                    videourl = 'https://youtu.be/zoGzsFnzTzw';
                 } else if (randp == 481) {
                     urllink = "1HtrnW1NUdqaH9kuOCH2-fxUTf8BIDldU";  //마이페이스☆마이웨이
                     flag = "밀리";
-                    videourl = '';
+                    videourl = 'https://youtu.be/zoGzsFnzTzw';
                 } else if (randp == 482) {
                     urllink = "17ovcgfawJhjeacWqTcjObv7SjPw6EDKz";  //바람 VS 마이 퓨처
                     flag = "밀리";
-                    videourl = '';
+                    videourl = 'https://youtu.be/AD_7JzYt_9g';
                 } else if (randp == 483) {
                     urllink = "1oqH7kJF0A-oF9rZqFwTgM6FPr120kBaD";  //바람 VS 마이 퓨처
                     flag = "밀리";
-                    videourl = '';
+                    videourl = 'https://youtu.be/AD_7JzYt_9g';
                 } else if (randp == 484) {
                     urllink = "1g7q4ZOf8y1m0ZY_G0IbZmmhG7xhQAwA1";  //WE ARE ONE!!
                     flag = "밀리";
-                    videourl = '';
+                    videourl = 'https://youtu.be/RqgKg5yXgLg';
                 } else if (randp == 485) {
                     urllink = "1R4aD9UwOP4zYuZjDIK0oxIIZTE79FMzh";  //WE ARE ONE!!
                     flag = "밀리";
-                    videourl = '';
+                    videourl = 'https://youtu.be/RqgKg5yXgLg';
                 } else if (randp == 486) {
-                    urllink = "";  //
+                    urllink = "";  //네가 있어 꿈이 되어
                     flag = "밀리";
-                    videourl = '';
+                    videourl = 'https://youtu.be/bPyNPX-nNmI';
                 } else if (randp == 487) {
-                    urllink = "";  //
+                    urllink = "";  //네가 있어 꿈이 되어
                     flag = "밀리";
-                    videourl = '';
+                    videourl = 'https://youtu.be/bPyNPX-nNmI';
                 } else if (randp == 488) {
-                    urllink = "";  //
+                    urllink = "";  //Snow White
                     flag = "밀리";
                     videourl = '';
                 } else if (randp == 489) {
-                    urllink = "";  //
+                    urllink = "";  //Snow White
                     flag = "밀리";
                     videourl = '';
                 } else if (randp == 490) {
-                    urllink = "";  //
+                    urllink = "";  //추억의 샌드글라스
                     flag = "밀리";
                     videourl = '';
                 } else if (randp == 491) {
+                    urllink = "";  //추억의 샌드글라스
+                    flag = "밀리";
+                    videourl = '';
+                } else if (randp == 492) {
+                    urllink = "";  //FAKE SELF×TRUE SELF
+                    flag = "밀리";
+                    videourl = '';
+                } else if (randp == 493) {
+                    urllink = "";  //FAKE SELF×TRUE SELF
+                    flag = "밀리";
+                    videourl = '';
+                } else if (randp == 494) {
+                    urllink = "";  //Impervious Resolution
+                    flag = "밀리";
+                    videourl = '';
+                } else if (randp == 495) {
+                    urllink = "";  //Impervious Resolution
+                    flag = "밀리";
+                    videourl = '';
+                } else if (randp == 496) {
+                    urllink = "";  //하트 워밍
+                    flag = "밀리";
+                    videourl = '';
+                } else if (randp == 497) {
+                    urllink = "";  //하트 워밍
+                    flag = "밀리";
+                    videourl = '';
+                } else if (randp == 498) {
+                    urllink = "";  //스트로베리・큐피트
+                    flag = "밀리";
+                    videourl = '';
+                } else if (randp == 499) {
+                    urllink = "";  //스트로베리・큐피트
+                    flag = "밀리";
+                    videourl = '';
+                } else if (randp == 500) {
+                    urllink = "";  //프라이빗 로드쇼
+                    flag = "밀리";
+                    videourl = '';
+                } else if (randp == 501) {
+                    urllink = "";  //프라이빗 로드쇼
+                    flag = "밀리";
+                    videourl = '';
+                } else if (randp == 502) {
+                    urllink = "";  //지구 미러볼
+                    flag = "밀리";
+                    videourl = '';
+                } else if (randp == 503) {
+                    urllink = "";  //지구 미러볼
+                    flag = "밀리";
+                    videourl = '';
+                } else if (randp == 504) {
+                    urllink = "";  //사랑의 꽃
+                    flag = "밀리";
+                    videourl = '';
+                } else if (randp == 505) {
+                    urllink = "";  //사랑의 꽃
+                    flag = "밀리";
+                    videourl = '';
+                } else if (randp == 506) {
+                    urllink = "";  //교차하는 계절
+                    flag = "밀리";
+                    videourl = '';
+                } else if (randp == 507) {
+                    urllink = "";  //교차하는 계절
+                    flag = "밀리";
+                    videourl = '';
+                } else if (randp == 508) {
+                    urllink = "";  //GREEDY GIRL
+                    flag = "밀리";
+                    videourl = '';
+                } else if (randp == 509) {
+                    urllink = "";  //GREEDY GIRL
+                    flag = "밀리";
+                    videourl = '';
+                } else if (randp == 510) {
+                    urllink = "";  //Liar's good bye
+                    flag = "밀리";
+                    videourl = '';
+                } else if (randp == 511) {
+                    urllink = "";  //Liar's good bye
+                    flag = "밀리";
+                    videourl = '';
+                } else if (randp == 512) {
+                    urllink = "";  //미소지었기에, 알아챈거야.
+                    flag = "밀리";
+                    videourl = '';
+                } else if (randp == 513) {
+                    urllink = "";  //미소지었기에, 알아챈거야.
+                    flag = "밀리";
+                    videourl = '';
+                } else if (randp == 514) {
+                    urllink = "";  //타임머신에 뛰어오르자!
+                    flag = "밀리";
+                    videourl = '';
+                } else if (randp == 515) {
+                    urllink = "";  //타임머신에 뛰어오르자!
+                    flag = "밀리";
+                    videourl = '';
+                } else if (randp == 516) {
+                    urllink = "";  //DETECTIVE HIGH! ~사랑탐정 이야기~
+                    flag = "밀리";
+                    videourl = '';
+                } else if (randp == 517) {
+                    urllink = "";  //DETECTIVE HIGH! ~사랑탐정 이야기~
+                    flag = "밀리";
+                    videourl = '';
+                } else if (randp == 518) {
+                    urllink = "";  //유니크 스타 플레이어!
+                    flag = "밀리";
+                    videourl = '';
+                } else if (randp == 519) {
+                    urllink = "";  //유니크 스타 플레이어!
+                    flag = "밀리";
+                    videourl = '';
+                } else if (randp == 520) {
+                    urllink = "";  //
+                    flag = "밀리";
+                    videourl = '';
+                } else if (randp == 521) {
                     urllink = "";  //
                     flag = "밀리";
                     videourl = '';
@@ -8555,35 +8806,35 @@
                 } else if (randp == 1164) {
                     urllink = "12EkyQeJEY1a5ELgIT_PVEVRb0cUpQeMO";  //신은 죽었다, 며
                     flag = "샤니";
-                    videourl = 'https://youtu.be/XdPq-9Qt7RY';
+                    videourl = '';
                 } else if (randp == 1165) {
                     urllink = "1bAfpH7y5ar9BFVN_mHPyAz4q3TiaIWSi";  //시즌1
                     flag = "샤니";
-                    videourl = 'https://youtu.be/XdPq-9Qt7RY';
+                    videourl = '';
                 } else if (randp == 1166) {
                     urllink = "1LkPmW90SHaxT46eaFk1GdCvWAhWw9Hhu";  //시즌1
                     flag = "샤니";
-                    videourl = 'https://youtu.be/XdPq-9Qt7RY';
+                    videourl = '';
                 } else if (randp == 1167) {
                     urllink = "1p46xm8jr1ln2ErymWM-wUu0HiLaXiA0G";  //데이브레이크에이지
                     flag = "샤니";
-                    videourl = 'https://youtu.be/XdPq-9Qt7RY';
+                    videourl = '';
                 } else if (randp == 1168) {
                     urllink = "1Re4Yo3St6VEPio0_XWBJS6MZh776C9de";  //데이브레이크에이지
                     flag = "샤니";
-                    videourl = 'https://youtu.be/XdPq-9Qt7RY';
+                    videourl = '';
                 } else if (randp == 1169) {
                     urllink = "";  //
                     flag = "샤니";
-                    videourl = 'https://youtu.be/XdPq-9Qt7RY';
+                    videourl = '';
                 } else if (randp == 1170) {
                     urllink = "";  //
                     flag = "샤니";
-                    videourl = 'https://youtu.be/XdPq-9Qt7RY';
+                    videourl = '';
                 } else if (randp == 1171) {
                     urllink = "";  //
                     flag = "샤니";
-                    videourl = 'https://youtu.be/XdPq-9Qt7RY';
+                    videourl = '';
                 }
             }
                 if(true){ //노래 받기 데레 셀렉터
@@ -11153,14 +11404,14 @@
                 <button class="btn btn-success" id="songchangebutton" title="다음 노래를 재생합니다" onclick="SongChange()">
                     노래받기<i class="bi bi-music-note"></i>
                 </button>
-                <button class="btn btn-outline-success" title="초성힌트를 표시합니다" onclick="hint()">
+                <button id="hintButton" class="btn btn-outline-success" title="초성힌트를 표시합니다" onclick="hint()">
                     힌트<i class="bi bi-stars"></i>
                 </button>
                 <button style="visibility: hidden;">빈공간</button>
-                <button class="btn btn-outline-danger" title="정답을 표시합니다" onclick="surrend()">
+                <button id="surButton" class="btn btn-outline-danger" title="정답을 표시합니다" onclick="surrend()">
                     정답 보기
                 </button>
-                <button class="btn btn-outline-danger" title="해당 노래를 유튜브로 재생합니다" onclick="videolink()">
+                <button id="linkButton" class="btn btn-outline-danger" title="해당 노래를 유튜브로 재생합니다" onclick="videolink()">
                     <i class="bi bi-youtube"></i> 링크
                 </button>
                 <button class="btn btn-danger" title="도움말" onclick="modalpopup()">
@@ -11195,8 +11446,7 @@
                                   <button type="submit" class="btn btn-primary" onclick="record()">기록 추가하기</button>
                                 </div>
                               </fieldset>
-                            </form>
-                            </div>
+                            </form> 
                           </section>
                     </div>
                 </div>
