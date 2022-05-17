@@ -4,7 +4,6 @@
         <meta charset="UTF-8" />
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <title>Zacgoon's M@SQUIZ</title>
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.min.js"></script>
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css">
         <link
@@ -13,30 +12,24 @@
             integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU"
             crossorigin="anonymous"
         />
+        <title>Zacgoon's M@SQUIZ</title>
         <script src="./script.js"></script>
-        <title>Modal</title> 
-    <style>
-        
-    </style>
+        <title>Modal</title>
     </head>
-
     <body>
         <h2 id="mainTitle1">M@S SONG QUIZ made by Zacgoon</h2>
         <img src='http://drive.google.com/uc?export=view&id=1YJPk_gbfoiT_95Rv9km-uhK03nqHsPGr' width="60" style="margin-top: -2px; margin-left: 2px;" id="image1">
         <p id="mainTitle2" class="hankuku" >
             한국어도 됩니다! 영어는 되도록이면 소문자, 띄어쓰기 해주세요.
         </p>
-            <p id="tips" class="line">
-                TIP) 입력창을 선택하고 [Enter] = 제출 / [Alt] = 노래받기 / "//"입력 = 힌트
-            </p>
-        </fieldset>
+        <p id="tips" class="line">
+            TIP) 입력창을 선택하고 [Enter] = 제출 / [Alt] = 노래받기 / "//"입력 = 힌트
+        </p>
         <div class="modal">
             <div class="modal_body" id="mod">Modal</div>
         </div> 
-        
         <style>
             @import url(//spoqa.github.io/spoqa-han-sans/css/SpoqaHanSansNeo.css);
-
             * {
                 font-family: "Spoqa Han Sans Neo", "sans-serif" !important;
             }
@@ -75,7 +68,6 @@
                 display: inline;
                 text-shadow: 1px 1px 2px gray;
                 color: white;
-                
             }
             #modal .title h2 {
                 display: inline;
@@ -89,7 +81,6 @@
                 text-shadow: 1px 1px 2px gray;
                 color: white;
             }
-            
             #modal .content {
                 margin-top: 20px;
                 padding: 0px 10px;
@@ -192,7 +183,6 @@
                 font-size: small;
                 color: black;
                 font-weight: bold;
-                
                 margin-bottom: 10px;
             }
             #your {
@@ -224,7 +214,6 @@
             }#tag5 {
                 color :black;
             }
-
             body {
                 background-color: rgb(255, 255, 255);
             }
@@ -271,29 +260,28 @@
                 text-align: center;
             }
         </style>
-            <div class="d-flex justify-content-center">
+        <div class="d-flex justify-content-center">
             <fieldset id="music_box" style="background: rgb(208, 208, 208); width: 600px; height: 180px;">
                 <legend class="googleDrive"> Release 1.6 </legend>
                 <audio controls id="song" autoplay><source src="" type='audio/mp3'/></audio>
                 <!--<iframe src="" id="song" controls frameborder="0" scrolling="no" height="100" width="800"></iframe>-->
-            </div>
             </fieldset>
-
+        </div>
         <div class="d-flex justify-content-center">
             <fieldset>
                 <div class="form-control text-center" id="form1">
-                    답 : <input type="text" id="input" class="text-center" title="답을 작성합니다" onKeyPress="if( event.keyCode==13 ){submit();}" onkeydown="if( event.keyCode==18 ){SongChange();}"/>
+                    답 : <input type="text" id="input" class="text-center" title="답을 작성합니다" onKeyPress="if( event.keyCode==13 ){submit();}" onkeydown="if( event.keyCode==18 && hardmode_answer != 0 ){SongChange();}"/>
                 </div>
-                <br />
+                <br/>
                 <button style="visibility: hidden;">빈공간</button>
                 <button style="visibility: hidden;">빈공간</button>
                 <h3>
-                        <i class="bi bi-tags" style="font-size: 25px; color: rgb(204, 27, 240);"></i>
-                <input type="checkbox" class="form-check-input" id="본가" value="본가" checked="checked" title="체크시 본가 곡 포함"><span id="tag1">본가</span>
-		        <input type="checkbox" class="form-check-input" id="밀리" value="밀리" checked="checked" title="체크시 밀리 곡 포함"><span id="tag2">밀리</span>
-		        <input type="checkbox" class="form-check-input" id="데레" value="데레" checked="checked" title="체크시 데레 곡 포함"><span id="tag3">데레</span>
-		        <input type="checkbox" class="form-check-input" id="샤니" value="샤니" checked="checked" title="체크시 샤니 곡 포함"><span id="tag4">샤니</span>
-                <input type="checkbox" class="form-check-input" id="기타" value="기타" checked="checked" title="체크시 기타 곡 포함"><span id="tag5">기타</span>
+                    <i class="bi bi-tags" style="font-size: 25px; color: rgb(204, 27, 240);"></i>
+                    <input type="checkbox" class="form-check-input" id="본가" value="본가" checked="checked" title="체크시 본가 곡 포함"><span id="tag1">본가</span>
+		            <input type="checkbox" class="form-check-input" id="밀리" value="밀리" checked="checked" title="체크시 밀리 곡 포함"><span id="tag2">밀리</span>
+		            <input type="checkbox" class="form-check-input" id="데레" value="데레" checked="checked" title="체크시 데레 곡 포함"><span id="tag3">데레</span>
+		            <input type="checkbox" class="form-check-input" id="샤니" value="샤니" checked="checked" title="체크시 샤니 곡 포함"><span id="tag4">샤니</span>
+                    <input type="checkbox" class="form-check-input" id="기타" value="기타" checked="checked" title="체크시 기타 곡 포함"><span id="tag5">기타</span>
                 </h3>
                 <br/>
                 <button style="visibility: hidden;">빈공간</button>
@@ -323,13 +311,10 @@
                         <li class="list-group-item" id="answer"></li>
                     </ul>
                 </div>
+
                 <div class="card text-center" style="width: 25rem;">
                     <div class="card-body" id="card-body">
                       <p class="card-text" id="your">정답:포기:정답률 / ? : ? : ?</p>
-                      <!--<a href="mailto:leegy1110@naver.com?
-                               &amp;subject= OOO - 닉네임을 적어주세요
-                               &amp;body=점수를 적어주세요"
-                        class="btn btn-primary">기록 남기기</a>-->
 
                         <section class="email-me">
                             <form class="gform" action="https://script.google.com/macros/s/AKfycbxQkSkbFaRU7nESZn-OSvMtmcWrzzwWlrqSbx4WcXKqjLmXfz0Y843SkvQmSW5V_tzP/exec" method="POST" data-email="leegy1110@naver.com" target="iframe10">
@@ -351,17 +336,17 @@
                 </div>
             </fieldset>
         </div>
-            <br>
-            <br>
-            <br>
-            <br>
-            <br>
-            <br>
-            <p align="middle">
-                <iframe id="score_list" width="750" height="250"
-                src="https://docs.google.com/spreadsheets/d/e/2PACX-1vRZOVdX2ekWTiWZ36rn4aDnOK6eECsHjr3Pu6QQZ1VsyoX40euYMQQiSqQsarvdvS-Hb6_cbJoiUjZP/pubhtml?widget=true&amp;">
-                </iframe>
-            </p>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <p align="middle">
+            <iframe id="score_list" width="750" height="250"
+            src="https://docs.google.com/spreadsheets/d/e/2PACX-1vRZOVdX2ekWTiWZ36rn4aDnOK6eECsHjr3Pu6QQZ1VsyoX40euYMQQiSqQsarvdvS-Hb6_cbJoiUjZP/pubhtml?widget=true&amp;">
+            </iframe>
+        </p>
         <div id="modal" class="modal-overlay">
             <div class="modal-window">
                 <div class="title">
