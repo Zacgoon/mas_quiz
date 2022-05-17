@@ -1,17 +1,20 @@
-// 스프레드 시트를 이용하여 DB 만들기 **
-hardmode = 0;
-flag = "";
-notran = [""];
-randp = 100000;
-winpoint = 1;
-win = 0;
-lose = 0;
-rate = 0;
+// ** 할거 : 스프레드 시트를 이용하여 DB 만들기 **
+hardmode = 0; // 하드모드 플레그함수
+hardmode_answer = 1; // 하드모드 제출 클릭 함수용 변수
+flag = ""; // 음악의 태그
+notran = [""]; // 재생한 음악을 담는 배열
+randp = 100000; // 랜덤함수의 크기 상수
+winpoint = 1; // 정답을 입력시 정답 처리 변수
+win = 0; // 정답 변수
+lose = 0; // 포기 변수
+rate = 0; // 정답 비율 변수
 function submit() {
+    hardmode_answer = 1;
+    document.getElementById("songchangebutton").style.visibility = "";
     document.getElementById("songchangebutton").className = "btn btn-success";
     document.getElementById("score_list").src =
         "https://docs.google.com/spreadsheets/d/e/2PACX-1vRZOVdX2ekWTiWZ36rn4aDnOK6eECsHjr3Pu6QQZ1VsyoX40euYMQQiSqQsarvdvS-Hb6_cbJoiUjZP/pubhtml?widget=true&amp;headers=false";
-    hints = "";
+    hints = ""; // 힌트 비워두기
     answer = new Array(
         "날먹하지마요",
         "dkssudgktpdy!",
@@ -6021,12 +6024,7 @@ function submit() {
             answer[5] = "";
         }
     }
-    var inputText = document.getElementById("input").value;
-    if (inputText == "") {
-        document.getElementById("answer").textContent =
-            "빈칸에 답을 작성해주세요.";
-        return 0;
-    }
+    var inputText = document.getElementById("input").value; // 입력 값 변수 선언
     //특수 이스터에그 모드 설정
     메인1 = document.getElementById("mainTitle1");
     메인2 = document.getElementById("mainTitle2");
@@ -6041,8 +6039,11 @@ function submit() {
     카드바탕 = document.getElementById("card-body");
     뮤직박스 = document.getElementById("music_box");
     이미지 = document.getElementById("image1");
-
-    if (inputText == "vivid_rabbit") {
+    if (inputText == "") { // 입력이 빈칸일 때 되돌림
+        해설.textContent =
+            "빈칸에 답을 작성해주세요.";
+        return 0;
+    } else if (inputText == "vivid_rabbit") { // 모치즈키 다크모드
         메인1.style.backgroundColor = "#7E6CA8";
         메인2.style.backgroundColor = "#7E6CA8";
         해설.style.backgroundColor = "#7E6CA8";
@@ -6062,7 +6063,7 @@ function submit() {
         alert("<vivid_rabbit>로 접속합니다.");
         document.getElementById("input").value = "";
         return 0;
-    } else if (inputText == "7272") {
+    } else if (inputText == "7272") { // 키사라기 블루모드
         메인1.style.backgroundColor = "#2743D2";
         메인2.style.backgroundColor = "#2743D2";
         해설.style.backgroundColor = "#2743D2";
@@ -6081,7 +6082,11 @@ function submit() {
         alert("?? : 작은 건 나쁜 것이 아닌, 미래 지향적이고 실용적인 것이다");
         document.getElementById("input").value = "";
         return 0;
-    } else if (inputText == "/reset") {
+    } else if (inputText == "/reset") { // 기본으로 되돌리기
+        if(hardmode){
+            hardmode = 0;
+            alert("챌린지모드를 종료합니다.");
+        }
         document.getElementById("hintButton").style.visibility = "";
         document.getElementById("surButton").style.visibility = "";
         document.getElementById("linkButton").style.visibility = "";
@@ -6102,7 +6107,7 @@ function submit() {
             "http://drive.google.com/uc?export=view&id=1YJPk_gbfoiT_95Rv9km-uhK03nqHsPGr";
         document.getElementById("input").value = "";
         return 0;
-    } else if (inputText == "nano") {
+    } else if (inputText == "nano") { // 호시이 그린모드
         메인1.style.backgroundColor = "#B5DF50";
         메인2.style.backgroundColor = "#B5DF50";
         해설.style.backgroundColor = "#B5DF50";
@@ -6121,7 +6126,7 @@ function submit() {
         alert("사실 초록색인거나노");
         document.getElementById("input").value = "";
         return 0;
-    } else if (inputText == "143cm") {
+    } else if (inputText == "143cm") { // 바바 핑크모드
         메인1.style.backgroundColor = "#F1BECB";
         메인2.style.backgroundColor = "#F1BECB";
         해설.style.backgroundColor = "#F1BECB";
@@ -6140,7 +6145,7 @@ function submit() {
         alert("합법(?) 섹시레이디 소환");
         document.getElementById("input").value = "";
         return 0;
-    } else if (inputText == "ryamu") {
+    } else if (inputText == "ryamu") { // 유메미 모드
         메인1.style.backgroundColor = "#E79BDC";
         메인2.style.backgroundColor = "#E79BDC";
         해설.style.backgroundColor = "#6cedee";
@@ -6159,7 +6164,7 @@ function submit() {
         alert("?? : 오타쿠 개꿀이네 ㅋㅋ");
         document.getElementById("input").value = "";
         return 0;
-    } else if (inputText == "//" && hardmode == 0) {
+    } else if (inputText == "//" && hardmode == 0) { // 힌트 받기 커맨드
         if (hints == "") {
             document.getElementById("answer").textContent =
                 "노래 받기를 먼저 눌러주세요.";
@@ -6170,8 +6175,9 @@ function submit() {
             document.getElementById("input").value = "";
         }
         return 0;
-    } else if (inputText == "/hardmode") {
+    } else if (inputText == "/hardmode") { // 챌린지모드 도전
         hardmode = 1;
+        hardmode_answer = 0;
         document.getElementById("hintButton").style.visibility = "hidden";
         document.getElementById("surButton").style.visibility = "hidden";
         document.getElementById("linkButton").style.visibility = "hidden";
@@ -6190,34 +6196,19 @@ function submit() {
         case answer[7]:
         case answer[8]:
             document.getElementById("answer").textContent =
-                "< " +
-                answer[0] +
-                " > \n     ' " +
-                inputText +
-                " ' 정답입니다.";
-            if (inputText == "날먹하지마요") {
+                "< " + answer[0] + " > \n     ' " + inputText + " ' 정답입니다.";
+            if(inputText == "날먹하지마요") {
                 document.getElementById("answer").textContent =
                     "< 날먹하지말라니까요 > 정답입니다?";
             }
-            if (winpoint == 0) winpoint = 1;
-            if (winpoint == 1) {
+            if(winpoint == 0) winpoint = 1;
+            if(winpoint == 1) {
                 win++;
                 rate = (win / (lose + win)) * 100;
                 document.getElementById("your").textContent =
-                    "정답:포기:정답률 / " +
-                    win +
-                    " : " +
-                    lose +
-                    " : " +
-                    rate.toFixed(1) +
-                    "%";
+                    "정답:포기:정답률 / " + win + " : " + lose + " : " + rate.toFixed(1) + "%";
                 document.getElementById("userMessage").value =
-                    "정답:" +
-                    win +
-                    " 포기:" +
-                    lose +
-                    " 정답률:" +
-                    rate.toFixed(1);
+                    "정답:" + win + " 포기:" + lose + " 정답률:" + rate.toFixed(1);
                 winpoint = 2;
             }
             break;
@@ -6229,12 +6220,15 @@ function answerFocus() {
     document.getElementById("input").focus();
 }
 function SongChange() {
+    if(hardmode){
+        hardmode_answer = 0;
+        document.getElementById("songchangebutton").style.visibility = "hidden";
+    }
     document.getElementById("songchangebutton").className =
         "btn btn-outline-success";
     document.getElementById("answer").textContent = "정답을 입력해주세요.";
     videourl = "";
     randp = Math.floor(Math.random() * 3200);
-    //randp = 1106;
     if (
         notran.indexOf(randp) != -1 ||
         (randp > 485) & (randp <= 1000) ||
@@ -11336,17 +11330,14 @@ function SongChange() {
     const temp1 = document.getElementById("input");
     temp1.value = "";
     if (winpoint == 0) {
+        if(hardmode){
+            alert("정답은 " + answer[0] +"입니다.");
+        }
         lose++;
     } else winpoint = 0;
     rate = (win / (lose + win)) * 100;
     document.getElementById("your").textContent =
-        "정답:포기:정답률 / " +
-        win +
-        " : " +
-        lose +
-        " : " +
-        rate.toFixed(1) +
-        "%";
+        "정답:포기:정답률 / " + win + " : " + lose + " : " + rate.toFixed(1) + "%";
     document.getElementById("userMessage").value =
         "사용자 기록" + win + ":" + lose + ":" + rate.toFixed(1);
     notran.push(randp); //한번 나온 곡 저장해두기
