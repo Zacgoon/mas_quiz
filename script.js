@@ -2618,53 +2618,58 @@ function submit() {
             answer[6] = "치얼업! 하트업!";
             answer[7] = "치얼업! 하츠업!";
         }if (randp == 530 || randp == 531) {
-            hints = "";
-            answer[0] = "";
-            answer[1] = "";
-            answer[2] = "";
-            answer[3] = "";
-            answer[4] = "";
-            answer[5] = "";
+            hints = "ㅎㄴㅅ♡ㅂㅅㄷㅇㅋㄷ";
+            answer[0] = "하늘색♡ Birthday Card";
+            answer[1] = "하늘색 Birthday Card";
+            answer[2] = "하늘색 birthday card";
+            answer[3] = "하늘색 버스데이 카드";
+            answer[4] = "하늘색버스데이카드";
+            answer[5] = "하늘색 버스데이카드";
         }if (randp == 532 || randp == 533) {
-            hints = "";
-            answer[0] = "";
-            answer[1] = "";
-            answer[2] = "";
-            answer[3] = "";
-            answer[4] = "";
-            answer[5] = "";
+            hints = "ㅇㅊㅁ";
+            answer[0] = "it's me";
+            answer[1] = "its me";
+            answer[2] = "It's me";
+            answer[3] = "잇츠 미";
+            answer[4] = "이츠 미";
+            answer[5] = "잇츠미";
+            answer[6] = "이츠미";
         }if (randp == 534 || randp == 535) {
-            hints = "";
-            answer[0] = "";
-            answer[1] = "";
-            answer[2] = "";
-            answer[3] = "";
-            answer[4] = "";
-            answer[5] = "";
+            hints = "ㅍㄹㅇㄱ!ㄹㅇㄷ";
+            answer[0] = "Play GO! Round";
+            answer[1] = "play go! round";
+            answer[2] = "play go round";
+            answer[3] = "Play Go Round";
+            answer[4] = "플레이 고! 라운드";
+            answer[5] = "플레이 고 라운드";
+            answer[6] = "플레이고 라운드";
+            answer[7] = "플레이고라운드";
         }if (randp == 536 || randp == 537) {
-            hints = "";
-            answer[0] = "";
-            answer[1] = "";
-            answer[2] = "";
-            answer[3] = "";
-            answer[4] = "";
-            answer[5] = "";
+            hints = "ㅅㅍㅍㅋㅍㅅ!!";
+            answer[0] = "Super Funky Piece!!";
+            answer[1] = "super funky piece";
+            answer[2] = "Super Funky Piece";
+            answer[3] = "수퍼 펀키 피스";
+            answer[4] = "슈퍼 펀키 피스";
+            answer[5] = "수퍼펀키피스";
+            answer[6] = "슈퍼펀키피스";
+            answer[7] = "수퍼 펀키 피스!!";
         }if (randp == 538 || randp == 539) {
-            hints = "";
-            answer[0] = "";
-            answer[1] = "";
-            answer[2] = "";
-            answer[3] = "";
-            answer[4] = "";
-            answer[5] = "";
+            hints = "ㅍㅍㅌㄱㅇ";
+            answer[0] = "퍼펙트 게임";
+            answer[1] = "퍼팩트 게임";
+            answer[2] = "퍼펙트게임";
+            answer[3] = "퍼팩트게임";
+            answer[4] = "퍼펙 겜";
+            answer[5] = "perfect game";
         }if (randp == 540 || randp == 541) {
-            hints = "";
-            answer[0] = "";
-            answer[1] = "";
-            answer[2] = "";
-            answer[3] = "";
-            answer[4] = "";
-            answer[5] = "";
+            hints = "ㅎㅂㅇㄷㄹ";
+            answer[0] = "행복 엔드 롤";
+            answer[1] = "행복 엔드롤";
+            answer[2] = "행복엔드롤";
+            answer[3] = "행복 앤드 롤";
+            answer[4] = "행복 앤드롤";
+            answer[5] = "행복앤드롤";
         }if (randp == 542 || randp == 543) {
             hints = "";
             answer[0] = "";
@@ -4729,29 +4734,29 @@ function submit() {
             answer[4] = "일루미네이트 컨서트";
             answer[5] = "일루미네이트 컨설트";
         }if (randp == 1173 || randp == 1174) {
-            hints = "";
-            answer[0] = "";
-            answer[1] = "";
-            answer[2] = "";
-            answer[3] = "";
-            answer[4] = "";
-            answer[5] = "";
+            hints = "ㅋㄹ×ㅁㅅ";
+            answer[0] = "Killer×Mission";
+            answer[1] = "KillerxMission";
+            answer[2] = "killerxmission";
+            answer[3] = "킬러x미션";
+            answer[4] = "킬러 x 미션";
+            answer[5] = "killer x mission";
         }if (randp == 1175 || randp == 1176) {
-            hints = "";
-            answer[0] = "";
-            answer[1] = "";
-            answer[2] = "";
-            answer[3] = "";
-            answer[4] = "";
-            answer[5] = "";
+            hints = "ㅇㅇㅇㅇㄱㅋㅅ";
+            answer[0] = "아이아이가쿠샤";
+            answer[1] = "아이아이가쿠샤";
+            answer[2] = "아이아이가쿠샤";
+            answer[3] = " 아이아이가쿠샤";
+            answer[4] = "아이아이가쿠샤 ";
+            answer[5] = " 아이아이가쿠샤 ";
         }if (randp == 1177 || randp == 1178) {
-            hints = "";
-            answer[0] = "";
-            answer[1] = "";
-            answer[2] = "";
-            answer[3] = "";
-            answer[4] = "";
-            answer[5] = "";
+            hints = "ㅅㅋㄹㅇㅌㅍㅇ";
+            answer[0] = "Secret utopIA";
+            answer[1] = "secret utopIA";
+            answer[2] = "secret utopia";
+            answer[3] = "시크릿 유토피아";
+            answer[4] = "시크릿유토피아";
+            answer[5] = "시크릿 유토피에이";
         }if (randp == 1179 || randp == 1180) {
             hints = "";
             answer[0] = "";
@@ -6543,7 +6548,7 @@ function SongChange() {
     randp = Math.floor(Math.random() * 3200);
     if (
         notran.indexOf(randp) != -1 ||
-        (randp > 529) & (randp <= 1000) ||
+        (randp > 541) & (randp <= 1000) ||
         (randp > 1172 && randp <= 1500) ||
         (randp > 1752 && randp <= 2000) ||
         (randp > 2292 && randp <= 3000) ||
@@ -8676,51 +8681,51 @@ function SongChange() {
             flag = "밀리";
             videourl = "";
         } else if (randp == 530) {
-            urllink = ""; //
+            urllink = "1dEz5DKayll4_Q2HsnL6JV7sfuFBgDKMI"; // 하늘색 버스데이
             flag = "밀리";
             videourl = "";
         } else if (randp == 531) {
-            urllink = ""; //
+            urllink = "1JtGt4DuQ36PWaXjZPl6X6USk-DcoQiEq"; // 하늘색 버스데이
             flag = "밀리";
             videourl = "";
         } else if (randp == 532) {
-            urllink = ""; //
+            urllink = "13ji4U6F_muNkQ_zIr2ICCYz8eSYWrsv2"; //it's me
             flag = "밀리";
             videourl = "";
         } else if (randp == 533) {
-            urllink = ""; //
+            urllink = "180XSlamsYebGt4iIWQirjKuCqGbK2fDT"; //이츠 미
             flag = "밀리";
             videourl = "";
         } else if (randp == 534) {
-            urllink = ""; //
+            urllink = "193ftBHI9C5XiaOTNfwlwfwftVsSJClec"; //플레이 고 라운드
             flag = "밀리";
             videourl = "";
         } else if (randp == 535) {
-            urllink = ""; //
+            urllink = "1yNKHtZoenFw0AMiwUR29ns3RDKImMpex"; //플레이 고 라운드
             flag = "밀리";
             videourl = "";
         } else if (randp == 536) {
-            urllink = ""; //
+            urllink = "1X5IkP6T9koA-EVlG7b73KKIvNfavMN56"; //수퍼 펀키 피스
             flag = "밀리";
             videourl = "";
         } else if (randp == 537) {
-            urllink = ""; //
+            urllink = "1xrI4xn7OkGtk8ig_LOQnxcNpeKhVAwZs"; //수퍼 펀키 피스
             flag = "밀리";
             videourl = "";
         } else if (randp == 538) {
-            urllink = ""; //
+            urllink = "1KQ-6v_MCw769Ol0Y8_EH97J-KTFd4Kn9"; //퍼펙트 게임
             flag = "밀리";
             videourl = "";
         } else if (randp == 539) {
-            urllink = ""; //
+            urllink = "1TXbd7l4xcOBXVBIv8zYLY3vmvpoHI_4j"; //퍼펙트 게임
             flag = "밀리";
             videourl = "";
         } else if (randp == 540) {
-            urllink = ""; //
+            urllink = "1nsk4decw-pEdV887rqQhoxcrIK89tV_G"; //행복 엔드 롤
             flag = "밀리";
             videourl = "";
         } else if (randp == 541) {
-            urllink = ""; //
+            urllink = "1v8oe5AuRD1g1RE4QCSmqIwKCx2tc70v9"; //행복 엔드 롤
             flag = "밀리";
             videourl = "";
         } else if (randp == 542) {
@@ -9455,27 +9460,27 @@ function SongChange() {
             flag = "샤니";
             videourl = "";
         } else if (randp == 1173) {
-            urllink = ""; //
+            urllink = "16iVzwcyQzE2JuoNRaeyOjAMzkrGY5klD"; //킬러 미션
             flag = "샤니";
             videourl = "";
         } else if (randp == 1174) {
-            urllink = ""; //
+            urllink = "12JhRBN06vyJyYFBMsB9skkSWwpzysYCT"; //킬러 미션
             flag = "샤니";
             videourl = "";
         } else if (randp == 1175) {
-            urllink = ""; //
+            urllink = "1klXOL3fUWIAKKvCeYTydq_VJQgaiwPum"; //아이아이카쿠샤
             flag = "샤니";
             videourl = "";
         } else if (randp == 1176) {
-            urllink = ""; //
+            urllink = "1ev_A_zmN9BGnxl60u2usZ-cTuUgleTP8"; //아이아이카쿠샤
             flag = "샤니";
             videourl = "";
         } else if (randp == 1177) {
-            urllink = ""; //
+            urllink = "1BL0VvF980AqP6TmW11yfhFVG9rhJrgQg"; //시크릿 유토피아
             flag = "샤니";
             videourl = "";
         } else if (randp == 1178) {
-            urllink = ""; //
+            urllink = "1OdHvBxRHaBFFc466wub4efXBXNjRjSXF"; //시크릿 유토피아
             flag = "샤니";
             videourl = "";
         } else if (randp == 1179) {
