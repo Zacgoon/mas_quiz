@@ -6549,7 +6549,7 @@ function SongChange() {
     if (
         notran.indexOf(randp) != -1 ||
         (randp > 541) & (randp <= 1000) ||
-        (randp > 1172 && randp <= 1500) ||
+        (randp > 1178 && randp <= 1500) ||
         (randp > 1752 && randp <= 2000) ||
         (randp > 2292 && randp <= 3000) ||
         (randp > 3026 && randp <= 3200)
