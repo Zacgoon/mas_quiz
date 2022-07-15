@@ -2671,13 +2671,14 @@ function submit() {
             answer[4] = "행복 앤드롤";
             answer[5] = "행복앤드롤";
         }if (randp == 542 || randp == 543) {
-            hints = "";
-            answer[0] = "";
-            answer[1] = "";
-            answer[2] = "";
-            answer[3] = "";
-            answer[4] = "";
-            answer[5] = "";
+            hints = "ㄲㅇㄱㄴㄹㅇㅂㅇ";
+            answer[0] = "꿈에 거는 Rainbow";
+            answer[1] = "꿈을 향해 달리는 Rainbow";
+            answer[2] = "꿈에 그리는 Rainbow";
+            answer[3] = "꿈에 거는 rainbow";
+            answer[4] = "꿈에 거는 레인보우";
+            answer[5] = "꿈에 그리는 레인보우";
+            answer[6] = "꿈에거는 레인보우"
         }if (randp == 544 || randp == 545) {
             hints = "";
             answer[0] = "";
@@ -4758,6 +4759,22 @@ function submit() {
             answer[4] = "시크릿유토피아";
             answer[5] = "시크릿 유토피에이";
         }if (randp == 1179 || randp == 1180) {
+            hints = "ㅎㅂㅇㄴㄱㅇㄲㄷ";
+            answer[0] = "한방은 네가 이끈다";
+            answer[1] = "한방은 니가 이끈다";
+            answer[2] = "한방은네가이끈다";
+            answer[3] = "한방은니가이끈다";
+            answer[4] = "한니끈";
+            answer[5] = "한네끈";
+        }if (randp == 1181 || randp == 1182) {
+            hints = "ㅋㅅㅋㄷ";
+            answer[0] = "캣스쿼드";
+            answer[1] = "켓스쿼드";
+            answer[2] = "캣 스쿼드";
+            answer[3] = "켓 스쿼드";
+            answer[4] = "고양이 스쿼드";
+            answer[5] = "고양이스쿼드";
+        }if (randp == 1183 || randp == 1184) {
             hints = "";
             answer[0] = "";
             answer[1] = "";
@@ -4765,7 +4782,31 @@ function submit() {
             answer[3] = "";
             answer[4] = "";
             answer[5] = "";
-        }if (randp == 1181 || randp == 1182) {
+        }if (randp == 1185 || randp == 1186) {
+            hints = "";
+            answer[0] = "";
+            answer[1] = "";
+            answer[2] = "";
+            answer[3] = "";
+            answer[4] = "";
+            answer[5] = "";
+        }if (randp == 1187 || randp == 1188) {
+            hints = "";
+            answer[0] = "";
+            answer[1] = "";
+            answer[2] = "";
+            answer[3] = "";
+            answer[4] = "";
+            answer[5] = "";
+        }if (randp == 1189 || randp == 1190) {
+            hints = "";
+            answer[0] = "";
+            answer[1] = "";
+            answer[2] = "";
+            answer[3] = "";
+            answer[4] = "";
+            answer[5] = "";
+        }if (randp == 1191 || randp == 1192) {
             hints = "";
             answer[0] = "";
             answer[1] = "";
@@ -6549,7 +6590,7 @@ function SongChange() {
     if (
         notran.indexOf(randp) != -1 ||
         (randp > 541) & (randp <= 1000) ||
-        (randp > 1178 && randp <= 1500) ||
+        (randp > 1172 && randp <= 1500) ||
         (randp > 1752 && randp <= 2000) ||
         (randp > 2292 && randp <= 3000) ||
         (randp > 3026 && randp <= 3200)
@@ -8729,11 +8770,11 @@ function SongChange() {
             flag = "밀리";
             videourl = "";
         } else if (randp == 542) {
-            urllink = ""; //
+            urllink = "1nwFd8_sz-QbwEkMRyqAlcGtHK6t4yxfE"; //꿈 레인보우
             flag = "밀리";
             videourl = "";
         } else if (randp == 543) {
-            urllink = ""; //
+            urllink = "1uUg_pmj7kyu3Zj2kOEHT7UF0S03rIESX"; //꿈 레인보우
             flag = "밀리";
             videourl = "";
         } else if (randp == 544) {
@@ -9484,14 +9525,54 @@ function SongChange() {
             flag = "샤니";
             videourl = "";
         } else if (randp == 1179) {
-            urllink = ""; //
+            urllink = "1KfXuNzpoVUfSF0sycA_siGgZD03krtNm"; //한방은 네가
             flag = "샤니";
             videourl = "";
         } else if (randp == 1180) {
-            urllink = ""; //
+            urllink = "1uzYZBoV_RYVUhNbeirsJPpZDfFukvO6p"; //한방은 네가
             flag = "샤니";
             videourl = "";
         } else if (randp == 1181) {
+            urllink = "16YbPOWn6ZiHUm1eOQLGtvGYsPGFEgzHd"; //캣스쿼드
+            flag = "샤니";
+            videourl = "";
+        } else if (randp == 1182) {
+            urllink = "1O0dTLt8KKvQWgch25NmP47npGmaZNAKf"; //캣스쿼드
+            flag = "샤니";
+            videourl = "";
+        } else if (randp == 1183) {
+            urllink = ""; //
+            flag = "샤니";
+            videourl = "";
+        } else if (randp == 1184) {
+            urllink = ""; //
+            flag = "샤니";
+            videourl = "";
+        } else if (randp == 1185) {
+            urllink = ""; //
+            flag = "샤니";
+            videourl = "";
+        } else if (randp == 1186) {
+            urllink = ""; //
+            flag = "샤니";
+            videourl = "";
+        } else if (randp == 1187) {
+            urllink = ""; //
+            flag = "샤니";
+            videourl = "";
+        } else if (randp == 1188) {
+            urllink = ""; //
+            flag = "샤니";
+            videourl = "";
+        } else if (randp == 1189) {
+            urllink = ""; //
+            flag = "샤니";
+            videourl = "";
+        } else if (randp == 1190) {
+            urllink = ""; //
+            flag = "샤니";
+            videourl = "";
+        } else if (randp == 1191) {
             urllink = ""; //
             flag = "샤니";
             videourl = "";
