@@ -6589,8 +6589,8 @@ function SongChange() {
     randp = Math.floor(Math.random() * 3200);
     if (
         notran.indexOf(randp) != -1 ||
-        (randp > 541) & (randp <= 1000) ||
-        (randp > 1172 && randp <= 1500) ||
+        (randp > 543) & (randp <= 1000) ||
+        (randp > 1176 && randp <= 1500) ||
         (randp > 1752 && randp <= 2000) ||
         (randp > 2292 && randp <= 3000) ||
         (randp > 3026 && randp <= 3200)
@@ -12043,4 +12043,7 @@ function record() {
     } else {
         alert("오류가 발생했습니다.");
     }
+}
+function ans1s(){
+
 }
