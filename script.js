@@ -2723,22 +2723,46 @@ function submit() {
             answer[4] = "핑크로즈 어 플로즈";
             answer[5] = "핑크 로즈 어 플로즈";
         }if (randp == 554 || randp == 555) {
-            hints = "";
-            answer[0] = "";
-            answer[1] = "";
-            answer[2] = "";
-            answer[3] = "";
-            answer[4] = "";
-            answer[5] = "";
+            hints = "ㅂㄱㅅㅍㄹ";
+            answer[0] = "번개 스피릿";
+            answer[1] = "번개스피릿";
+            answer[2] = "번게 스피릿";
+            answer[3] = "번게스피릿";
+            answer[4] = "천둥 스피릿";
+            answer[5] = "벼락 스피릿";
         }if (randp == 556 || randp == 557) {
-            hints = "";
-            answer[0] = "";
-            answer[1] = "";
-            answer[2] = "";
-            answer[3] = "";
-            answer[4] = "";
-            answer[5] = "";
+            hints = "ㅇㅋㅇㄷㅅㅋㅇ";
+            answer[0] = "Walking on the Square";
+            answer[1] = "walking on the square";
+            answer[2] = "워킹 온 더 스퀘어";
+            answer[3] = "워킹온더스퀘어";
+            answer[4] = "워킹 온 더스퀘어";
+            answer[5] = "워킹 온더 스퀘어";
         }if (randp == 558 || randp == 559) {
+            hints = "ㅂㄷㅅㄹㅇㅇㅁㄹㅅㅋ";
+            answer[0] = "변덕스러운 유머레스크";
+            answer[1] = "변덕스러운유머레스크";
+            answer[2] = "변덕스러운 유머러스크";
+            answer[3] = "변덕적인 유머레스크";
+            answer[4] = "변덕스러운 유머레스크크";
+            answer[5] = "변덕스러운 유머렛크";
+        }if (randp == 560 || randp == 561) {
+            hints = "ㅇㅇㄷ";
+            answer[0] = "I Do";
+            answer[1] = "I do";
+            answer[2] = "Ido";
+            answer[3] = "i do";
+            answer[4] = "아이 두";
+            answer[5] = "아이두";
+        }if (randp == 562 || randp == 563) {
+            hints = "ㄷㅇㅅㅇㄴㅂㅈㄹ";
+            answer[0] = "둘이서 잇는 별자리";
+            answer[1] = "둘이서 잇는별자리";
+            answer[2] = "둘이서잇는 별자리";
+            answer[3] = "둘이서잇는별자리";
+            answer[4] = "둘이서 있는 별자리";
+            answer[5] = "둘이 잇는 별자리";
+        }if (randp == 564 || randp == 565) {
             hints = "";
             answer[0] = "";
             answer[1] = "";
@@ -2746,7 +2770,23 @@ function submit() {
             answer[3] = "";
             answer[4] = "";
             answer[5] = "";
-        }if (randp == 560 || randp == 561) {
+        }if (randp == 566 || randp == 567) {
+            hints = "";
+            answer[0] = "";
+            answer[1] = "";
+            answer[2] = "";
+            answer[3] = "";
+            answer[4] = "";
+            answer[5] = "";
+        }if (randp == 568 || randp == 569) {
+            hints = "";
+            answer[0] = "";
+            answer[1] = "";
+            answer[2] = "";
+            answer[3] = "";
+            answer[4] = "";
+            answer[5] = "";
+        }if (randp == 570 || randp == 571) {
             hints = "";
             answer[0] = "";
             answer[1] = "";
@@ -3916,21 +3956,21 @@ function submit() {
             answer[4] = "street run way";
             answer[5] = "streetrunway";
         }if (randp == 1755 || randp == 1756) {
-            hints = "";
-            answer[0] = "";
-            answer[1] = "";
-            answer[2] = "";
-            answer[3] = "";
-            answer[4] = "";
-            answer[5] = "";
+            hints = "ㅊㅋㄹ?ㄹㅁㄴㅇㄷ?ㅇㄴㅉ??";
+            answer[0] = "초콜릿? 레모네이드? 어느 쪽??";
+            answer[1] = "초콜릿?레모네이드?어느쪽??";
+            answer[2] = "초콜릿? 레모네이드? 어느쪽??";
+            answer[3] = "초콜렛 레모네이드 어느 쪽??";
+            answer[4] = "초콜렛 레모네이드 어느쪽??";
+            answer[5] = "초콜렛레모네이드어느쪽";
         }if (randp == 1757 || randp == 1758) {
-            hints = "";
-            answer[0] = "";
-            answer[1] = "";
-            answer[2] = "";
-            answer[3] = "";
-            answer[4] = "";
-            answer[5] = "";
+            hints = "ㅇㅈㅎㅈㅈㅇㅇㄷㄱㅊㅇ";
+            answer[0] = "인정해주지 않아도 괜찮아";
+            answer[1] = "인정해주지않아도괜찮아";
+            answer[2] = "인정하지 않아도 괜찮아";
+            answer[3] = "인정하지않아도괜찮아";
+            answer[4] = "인정 안해줘도 괜찮아";
+            answer[5] = "인정안해줘도괜찮아";
         }if (randp == 1759 || randp == 1760) {
             hints = "";
             answer[0] = "";
@@ -4834,14 +4874,30 @@ function submit() {
             answer[4] = "기브미섬모어";
             answer[5] = "기브 미 썸 모어";
         }if (randp == 1187 || randp == 1188) {
-            hints = "";
-            answer[0] = "";
-            answer[1] = "";
-            answer[2] = "";
-            answer[3] = "";
-            answer[4] = "";
-            answer[5] = "";
+            hints = "ㅌㄹㅇㅅㄷㅍㄷ";
+            answer[0] = "Tracing Defender";
+            answer[1] = "tracing defender";
+            answer[2] = "트레이싱 디펜더";
+            answer[3] = "트레이싱 디팬더";
+            answer[4] = "트레이싱디펜터";
+            answer[5] = "트레이싱디팬더";
         }if (randp == 1189 || randp == 1190) {
+            hints = "ㅇㅂㄷㄹㅇㅂㅇㅁㅅ";
+            answer[0] = "Overdrive Emotion";
+            answer[1] = "overdrive emotion";
+            answer[2] = "오버드라이브 이모션";
+            answer[3] = "오버드라이브이모션";
+            answer[4] = "오버 드라이브 이모션";
+            answer[5] = "오버드라이브 이머션";
+        }if (randp == 1191 || randp == 1192) {
+            hints = "";
+            answer[0] = "Catch the Breeze";
+            answer[1] = "";
+            answer[2] = "";
+            answer[3] = "";
+            answer[4] = "";
+            answer[5] = "";
+        }if (randp == 1193 || randp == 1194) {
             hints = "";
             answer[0] = "";
             answer[1] = "";
@@ -4849,7 +4905,31 @@ function submit() {
             answer[3] = "";
             answer[4] = "";
             answer[5] = "";
-        }if (randp == 1191 || randp == 1192) {
+        }if (randp == 1195 || randp == 1196) {
+            hints = "";
+            answer[0] = "";
+            answer[1] = "";
+            answer[2] = "";
+            answer[3] = "";
+            answer[4] = "";
+            answer[5] = "";
+        }if (randp == 1197 || randp == 1198) {
+            hints = "";
+            answer[0] = "";
+            answer[1] = "";
+            answer[2] = "";
+            answer[3] = "";
+            answer[4] = "";
+            answer[5] = "";
+        }if (randp == 1199 || randp == 1200) {
+            hints = "";
+            answer[0] = "";
+            answer[1] = "";
+            answer[2] = "";
+            answer[3] = "";
+            answer[4] = "";
+            answer[5] = "";
+        }if (randp == 1201 || randp == 1202) {
             hints = "";
             answer[0] = "";
             answer[1] = "";
@@ -6632,9 +6712,9 @@ function SongChange() {
     randp = Math.floor(Math.random() * 3200);
     if (
         notran.indexOf(randp) != -1 ||
-        (randp > 553) & (randp <= 1000) ||
-        (randp > 1186 && randp <= 1500) ||
-        (randp > 1754 && randp <= 2000) ||
+        (randp > 563) & (randp <= 1000) ||
+        (randp > 1190 && randp <= 1500) ||
+        (randp > 1758 && randp <= 2000) ||
         (randp > 2292 && randp <= 3000) ||
         (randp > 3026 && randp <= 3200)
     ) {
@@ -8861,34 +8941,74 @@ function SongChange() {
             flag = "밀리";
             videourl = "";
         } else if (randp == 554) {
-            urllink = ""; //
+            urllink = "1HdqsQPhLmnDEBVz3fbmQVB1-sjZso1GF"; //번개 스피릿
             flag = "밀리";
             videourl = "";
         } else if (randp == 555) {
-            urllink = ""; //
+            urllink = "1eXtwsBQsBNkm5NJ8VRIJ9kNbYSAfh_IB"; //번개 스피릿
             flag = "밀리";
             videourl = "";
         } else if (randp == 556) {
-            urllink = ""; //
+            urllink = "1Y5kgOfvcI65uF3nHPDZEi0eoeNMEVNv0"; //walking on the squa
             flag = "밀리";
             videourl = "";
         } else if (randp == 557) {
-            urllink = ""; //
+            urllink = "1dyDf_tjuG4hrACqLJzFIcdGbkIbYRF1A"; //Walking on the squa
             flag = "밀리";
             videourl = "";
         } else if (randp == 558) {
-            urllink = ""; //
+            urllink = "1zrdl16ECDrl15dHsB8y9fIX62qKSrDPk"; //변덕스러운 유머
             flag = "밀리";
             videourl = "";
         } else if (randp == 559) {
-            urllink = ""; //
+            urllink = "1gje5Ds9oEYCoMQ823X1nFqv1TWFYWyZX"; //변덕스러운 유머레스크
             flag = "밀리";
             videourl = "";
         } else if (randp == 560) {
-            urllink = ""; //
+            urllink = "1_XHcXDYs3sfWJkoRIQaYFXYmrw7yYstv"; //I Do
             flag = "밀리";
             videourl = "";
         } else if (randp == 561) {
+            urllink = "1g799yLLMmD8y6S9HihudrQC20rrJuTXQ"; //I Do
+            flag = "밀리";
+            videourl = "";
+        } else if (randp == 562) {
+            urllink = "1z5e2t3PmH4LrrUNo6pV9JUOYE7ZWqcpF"; //둘이서 잇는 별자리
+            flag = "밀리";
+            videourl = "";
+        } else if (randp == 563) {
+            urllink = "1nZMoTdFjeTPOXUmzbpEWZbbNzMXmKF_E"; //둘이서 잇는 별자리
+            flag = "밀리";
+            videourl = "";
+        } else if (randp == 564) {
+            urllink = ""; //
+            flag = "밀리";
+            videourl = "";
+        } else if (randp == 565) {
+            urllink = ""; //
+            flag = "밀리";
+            videourl = "";
+        } else if (randp == 566) {
+            urllink = ""; //
+            flag = "밀리";
+            videourl = "";
+        } else if (randp == 567) {
+            urllink = ""; //
+            flag = "밀리";
+            videourl = "";
+        } else if (randp == 568) {
+            urllink = ""; //
+            flag = "밀리";
+            videourl = "";
+        } else if (randp == 569) {
+            urllink = ""; //
+            flag = "밀리";
+            videourl = "";
+        } else if (randp == 570) {
+            urllink = ""; //
+            flag = "밀리";
+            videourl = "";
+        } else if (randp == 571) {
             urllink = ""; //
             flag = "밀리";
             videourl = "";
@@ -9640,19 +9760,19 @@ function SongChange() {
             flag = "샤니";
             videourl = "";
         } else if (randp == 1187) {
-            urllink = ""; //Tracing Defender 여기 링크 넣어야돼애ㅐ애애
+            urllink = "1GIdmqnpg4w37H-oaav7zFbLNRUxmZXzp"; //Tracing Defender
             flag = "샤니";
             videourl = "";
         } else if (randp == 1188) {
-            urllink = ""; //Tracing Defender
+            urllink = "1tGfE98DyKelder5iKn6zPSO5QmXj8t6k"; //Tracing Defender
             flag = "샤니";
             videourl = "";
         } else if (randp == 1189) {
-            urllink = ""; //Overdrive Emotion
+            urllink = "1Rex1W9cHpwFRd443d5qGnSfk9JivamkK"; //Overdrive Emotion
             flag = "샤니";
             videourl = "";
         } else if (randp == 1190) {
-            urllink = ""; //Overdrive Emotion
+            urllink = "1t3tiZmPYN8KET2EtffLN8-rakUatXHoO"; //Overdrive Emotion
             flag = "샤니";
             videourl = "";
         } else if (randp == 1191) {
@@ -10679,19 +10799,19 @@ function SongChange() {
             flag = "데레";
             videourl = "";
         } else if (randp == 1755) {
-            urllink = ""; //
+            urllink = "1fUmBd56UeQ73r2UuTNw0gIqMDr-eMM2t"; //초콜릿? 레모네이드? 어느 쪽??
             flag = "데레";
             videourl = "";
         } else if (randp == 1756) {
-            urllink = ""; //
+            urllink = "10XRGJKdLITylppspVXOkAk5OBjnurbN3"; //초콜릿? 레모네이드? 어느 쪽??
             flag = "데레";
             videourl = "";
         } else if (randp == 1757) {
-            urllink = ""; //
+            urllink = "176cnXiVcqQCUWtIoR_dNCckxcVW1oGI6"; //인정해주지 않아도 괜찮아
             flag = "데레";
             videourl = "";
         } else if (randp == 1758) {
-            urllink = ""; //
+            urllink = "1ZyLZsTSibte5hyRrE_R9S_-7xBEQ-10x"; //인정해주지 않아도 괜찮아
             flag = "데레";
             videourl = "";
         } else if (randp == 1759) {
@@ -12085,9 +12205,9 @@ function SongChange() {
             randp = Math.floor(Math.random() * 3200);
     if (
         notran.indexOf(randp) != -1 ||
-        (randp > 553) & (randp <= 1000) ||
-        (randp > 1186 && randp <= 1500) ||
-        (randp > 1754 && randp <= 2000) ||
+        (randp > 563) & (randp <= 1000) ||
+        (randp > 1190 && randp <= 1500) ||
+        (randp > 1758 && randp <= 2000) ||
         (randp > 2292 && randp <= 3000) ||
         (randp > 3026 && randp <= 3200)
     ) {
@@ -12100,9 +12220,9 @@ function SongChange() {
             randp = Math.floor(Math.random() * 3200);
     if (
         notran.indexOf(randp) != -1 ||
-        (randp > 553) & (randp <= 1000) ||
-        (randp > 1186 && randp <= 1500) ||
-        (randp > 1754 && randp <= 2000) ||
+        (randp > 563) & (randp <= 1000) ||
+        (randp > 1190 && randp <= 1500) ||
+        (randp > 1758 && randp <= 2000) ||
         (randp > 2292 && randp <= 3000) ||
         (randp > 3026 && randp <= 3200)
     ) {
@@ -12121,9 +12241,9 @@ function SongChange() {
             randp = Math.floor(Math.random() * 3200);
     if (
         notran.indexOf(randp) != -1 ||
-        (randp > 553) & (randp <= 1000) ||
-        (randp > 1186 && randp <= 1500) ||
-        (randp > 1754 && randp <= 2000) ||
+        (randp > 563) & (randp <= 1000) ||
+        (randp > 1190 && randp <= 1500) ||
+        (randp > 1758 && randp <= 2000) ||
         (randp > 2292 && randp <= 3000) ||
         (randp > 3026 && randp <= 3200)
     ) {
@@ -12136,9 +12256,9 @@ function SongChange() {
             randp = Math.floor(Math.random() * 3200);
     if (
         notran.indexOf(randp) != -1 ||
-        (randp > 553) & (randp <= 1000) ||
-        (randp > 1186 && randp <= 1500) ||
-        (randp > 1754 && randp <= 2000) ||
+        (randp > 563) & (randp <= 1000) ||
+        (randp > 1190 && randp <= 1500) ||
+        (randp > 1758 && randp <= 2000) ||
         (randp > 2292 && randp <= 3000) ||
         (randp > 3026 && randp <= 3200)
     ) {
@@ -12157,9 +12277,9 @@ function SongChange() {
             randp = Math.floor(Math.random() * 3200);
     if (
         notran.indexOf(randp) != -1 ||
-        (randp > 553) & (randp <= 1000) ||
-        (randp > 1186 && randp <= 1500) ||
-        (randp > 1754 && randp <= 2000) ||
+        (randp > 563) & (randp <= 1000) ||
+        (randp > 1190 && randp <= 1500) ||
+        (randp > 1758 && randp <= 2000) ||
         (randp > 2292 && randp <= 3000) ||
         (randp > 3026 && randp <= 3200)
     ) {
@@ -12172,9 +12292,9 @@ function SongChange() {
             randp = Math.floor(Math.random() * 3200);
     if (
         notran.indexOf(randp) != -1 ||
-        (randp > 553) & (randp <= 1000) ||
-        (randp > 1186 && randp <= 1500) ||
-        (randp > 1754 && randp <= 2000) ||
+        (randp > 563) & (randp <= 1000) ||
+        (randp > 1190 && randp <= 1500) ||
+        (randp > 1758 && randp <= 2000) ||
         (randp > 2292 && randp <= 3000) ||
         (randp > 3026 && randp <= 3200)
     ) {
