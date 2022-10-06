@@ -6521,8 +6521,10 @@ function submit() {
     뮤직박스 = document.getElementById("music_box");
     이미지 = document.getElementById("image1");
     if (inputText == "") { // 입력이 빈칸일 때 되돌림
+        if(!beta_mode){
         해설.textContent =
-            "빈칸에 답을 작성해주세요.";
+            "빈칸에 답을 작성해주세요.";}
+        else 해설.textContent = "테마코드를 입력하세요.";
         return 0;
     } else if (inputText == "vivid_rabbit") { // 모치즈키 다크모드
         메인1.style.backgroundColor = "#7E6CA8";
