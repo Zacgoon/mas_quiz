@@ -4994,21 +4994,22 @@ function submit() {
             answer[4] = "에스팔트를 울려";
             answer[5] = "애스팔트를 울려";
         }if (randp == 1195 || randp == 1196) {
-            hints = "";
-            answer[0] = "";
-            answer[1] = "";
-            answer[2] = "";
-            answer[3] = "";
-            answer[4] = "";
-            answer[5] = "";
+            hints = "ㅍㅅㄴㅇㅂ";
+            answer[0] = "Fashionable";
+            answer[1] = "fashionable";
+            answer[2] = "패션네이블";
+            answer[3] = "패션너블";
+            answer[4] = "패션내이블";
+            answer[5] = "패션 네이블";
         }if (randp == 1197 || randp == 1198) {
-            hints = "";
-            answer[0] = "";
-            answer[1] = "";
-            answer[2] = "";
-            answer[3] = "";
-            answer[4] = "";
-            answer[5] = "";
+            hints = "ㅂㅇㅅㄱ";
+            answer[0] = "Bouncy Girl";
+            answer[1] = "bouncy girl";
+            answer[2] = "Bouncy girl";
+            answer[3] = "바운시 걸";
+            answer[4] = "바운시걸";
+            answer[5] = "바운씨 걸";
+            answer[6] = "bouncygirl";
         }if (randp == 1199 || randp == 1200) {
             hints = "";
             answer[0] = "";
@@ -6801,7 +6802,7 @@ function SongChange() {
     if (
         notran.indexOf(randp) != -1 ||
         (randp > 571) & (randp <= 1000) ||
-        (randp > 1194 && randp <= 1500) ||
+        (randp > 1198 && randp <= 1500) ||
         (randp > 1762 && randp <= 2000) ||
         (randp > 2292 && randp <= 3000) ||
         (randp > 3026 && randp <= 3200)
@@ -9920,19 +9921,19 @@ function SongChange() {
             flag = "샤니";
             videourl = "";
         } else if (randp == 1195) {
-            urllink = ""; //
+            urllink = "136UBzjyHGfvuyeCWdvwmsGJQZYn4-E_8"; //패션네이블
             flag = "샤니";
             videourl = "";
         } else if (randp == 1196) {
-            urllink = ""; //
+            urllink = "1dUTfMNA_CXA-h_4qf1K8Uq7zUaGV4sBx"; //패션너블
             flag = "샤니";
             videourl = "";
         } else if (randp == 1197) {
-            urllink = ""; //
+            urllink = "10hxGTrdcitgSsvg6Li5959MXxvoHeFLb"; //바운시 걸
             flag = "샤니";
             videourl = "";
         } else if (randp == 1198) {
-            urllink = ""; //
+            urllink = "1hJC2nucEeFdNsxRiCerf9BVO9gDbbfc7"; //바운시걸
             flag = "샤니";
             videourl = "";
         } else if (randp == 1199) {
@@ -12414,7 +12415,7 @@ function SongChange() {
     if (
         notran.indexOf(randp) != -1 ||
         (randp > 571) & (randp <= 1000) ||
-        (randp > 1194 && randp <= 1500) ||
+        (randp > 1198 && randp <= 1500) ||
         (randp > 1762 && randp <= 2000) ||
         (randp > 2292 && randp <= 3000) ||
         (randp > 3026 && randp <= 3200)
@@ -12429,7 +12430,7 @@ function SongChange() {
     if (
         notran.indexOf(randp) != -1 ||
         (randp > 571) & (randp <= 1000) ||
-        (randp > 1194 && randp <= 1500) ||
+        (randp > 1198 && randp <= 1500) ||
         (randp > 1762 && randp <= 2000) ||
         (randp > 2292 && randp <= 3000) ||
         (randp > 3026 && randp <= 3200)
@@ -12450,7 +12451,7 @@ function SongChange() {
     if (
         notran.indexOf(randp) != -1 ||
         (randp > 571) & (randp <= 1000) ||
-        (randp > 1194 && randp <= 1500) ||
+        (randp > 1198 && randp <= 1500) ||
         (randp > 1762 && randp <= 2000) ||
         (randp > 2292 && randp <= 3000) ||
         (randp > 3026 && randp <= 3200)
@@ -12465,7 +12466,7 @@ function SongChange() {
     if (
         notran.indexOf(randp) != -1 ||
         (randp > 571) & (randp <= 1000) ||
-        (randp > 1194 && randp <= 1500) ||
+        (randp > 1198 && randp <= 1500) ||
         (randp > 1762 && randp <= 2000) ||
         (randp > 2292 && randp <= 3000) ||
         (randp > 3026 && randp <= 3200)
@@ -12486,7 +12487,7 @@ function SongChange() {
     if (
         notran.indexOf(randp) != -1 ||
         (randp > 571) & (randp <= 1000) ||
-        (randp > 1194 && randp <= 1500) ||
+        (randp > 1198 && randp <= 1500) ||
         (randp > 1762 && randp <= 2000) ||
         (randp > 2292 && randp <= 3000) ||
         (randp > 3026 && randp <= 3200)
@@ -12501,7 +12502,7 @@ function SongChange() {
     if (
         notran.indexOf(randp) != -1 ||
         (randp > 571) & (randp <= 1000) ||
-        (randp > 1194 && randp <= 1500) ||
+        (randp > 1198 && randp <= 1500) ||
         (randp > 1762 && randp <= 2000) ||
         (randp > 2292 && randp <= 3000) ||
         (randp > 3026 && randp <= 3200)
