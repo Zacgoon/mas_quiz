@@ -2849,37 +2849,39 @@ function submit() {
             answer[5] = "싱 어 윙송";
             answer[6] = "싱 어윙송";
         }if (randp == 582 || randp == 583) {
-            hints = "";
-            answer[0] = "";
-            answer[1] = "";
-            answer[2] = "";
-            answer[3] = "";
-            answer[4] = "";
-            answer[5] = "";
+            hints = "ㅅㅇㄷㅇㅂㅂㄱㄴ";
+            answer[0] = "사운드 오브 비기닝";
+            answer[1] = "시작의 소리";
+            answer[2] = "sound of begining";
+            answer[3] = "사운드오브비기닝";
+            answer[4] = "사오비";
+            answer[5] = "Sound of Begining";
         }if (randp == 584 || randp == 585) {
-            hints = "";
-            answer[0] = "";
-            answer[1] = "";
-            answer[2] = "";
-            answer[3] = "";
-            answer[4] = "";
-            answer[5] = "";
+            hints = "ㅅㅍㅅㄴㅂㅅㅌ!";
+            answer[0] = "Supersonic Booster!";
+            answer[1] = "Supersonic Booster";
+            answer[2] = "supersonic booster!";
+            answer[3] = "supersonic booster";
+            answer[4] = "수퍼소닉 부스터!";
+            answer[5] = "수퍼소닉 부스터";
+            answer[6] = "슈퍼소닉 부스터!";
+            answer[7] = "슈퍼소닉 부스터";
         }if (randp == 586 || randp == 587) {
-            hints = "";
-            answer[0] = "";
-            answer[1] = "";
-            answer[2] = "";
-            answer[3] = "";
-            answer[4] = "";
-            answer[5] = "";
+            hints = "ㅇㄹㅈㅇㅍㅅㄷ";
+            answer[0] = "오렌지 에피소드";
+            answer[1] = "오렌지에피소드";
+            answer[2] = "오렌지 애피소드";
+            answer[3] = "오렌지애피소드";
+            answer[4] = "orange episode";
+            answer[5] = "Orange Episode";
         }if (randp == 588 || randp == 589) {
-            hints = "";
-            answer[0] = "";
-            answer[1] = "";
-            answer[2] = "";
-            answer[3] = "";
-            answer[4] = "";
-            answer[5] = "";
+            hints = "ㄹㅇㅋㅌㅇㅋㄹㅅㅌㅅ";
+            answer[0] = "Like twinkling STARS";
+            answer[1] = "like twinkling stars";
+            answer[2] = "라이크 트윙클링 스타스";
+            answer[3] = "라이크 트윙클링 스타";
+            answer[4] = "라이크 트윈클링 스타스";
+            answer[5] = "라트스";
         }if (randp == 590 || randp == 591) {
             hints = "";
             answer[0] = "";
@@ -4123,30 +4125,38 @@ function submit() {
             answer[4] = "조릿대잎에물거품에";
             answer[5] = "조릿대이페, 물거품에";
         }if (randp == 1773 || randp == 1774) {
-            hints = "";
-            answer[0] = "";
-            answer[1] = "";
-            answer[2] = "";
-            answer[3] = "";
-            answer[4] = "";
-            answer[5] = "";
+            hints = "ㅅㅌㄹㄴㅇㅌ";
+            answer[0] = "Starry Night";
+            answer[1] = "starry night";
+            answer[2] = "스태리 나이트";
+            answer[3] = "스태리나이트";
+            answer[4] = "스테리 나이트";
+            answer[5] = "스테리나이트";
         }if (randp == 1775 || randp == 1776) {
-            hints = "";
-            answer[0] = "";
-            answer[1] = "";
-            answer[2] = "";
-            answer[3] = "";
-            answer[4] = "";
-            answer[5] = "";
+            hints = "ㅅㅇㅇㄷㅅㅋㅇ☆";
+            answer[0] = "Shine In The Sky☆";
+            answer[1] = "shine in the sky☆";
+            answer[2] = "shine in the sky";
+            answer[3] = "샤인 인 더 스카이";
+            answer[4] = "샤인인더스카이";
+            answer[5] = "샤인 인 더 스카이☆";
         }if (randp == 1777 || randp == 1778) {
-            hints = "";
-            answer[0] = "";
-            answer[1] = "";
-            answer[2] = "";
-            answer[3] = "";
-            answer[4] = "";
-            answer[5] = "";
+            hints = "ㄷㄹㅂㄴㄹㅌㅅㅌ";
+            answer[0] = "들러 보는 리틀 스타";
+            answer[1] = "들러보는 리틀스타";
+            answer[2] = "들러 보는 리틀스타";
+            answer[3] = "들러보는 리틀 스타";
+            answer[4] = "들러보는리틀스타";
+            answer[5] = "들러보는 little star";
         }if (randp == 1779 || randp == 1780) {
+            hints = "ㄴㅇㅌㅇㅇ";
+            answer[0] = "Nightwear";
+            answer[1] = "nightwear";
+            answer[2] = "나이트웨어";
+            answer[3] = "나이트 웨어";
+            answer[4] = "Night wear";
+            answer[5] = "night wear";
+        }if (randp == 1781 || randp == 1782) {
             hints = "";
             answer[0] = "";
             answer[1] = "";
@@ -4154,7 +4164,39 @@ function submit() {
             answer[3] = "";
             answer[4] = "";
             answer[5] = "";
-        }if (randp == 1781 || randp == 1782) {
+        }if (randp == 1783 || randp == 1784) {
+            hints = "";
+            answer[0] = "";
+            answer[1] = "";
+            answer[2] = "";
+            answer[3] = "";
+            answer[4] = "";
+            answer[5] = "";
+        }if (randp == 1785 || randp == 1786) {
+            hints = "";
+            answer[0] = "";
+            answer[1] = "";
+            answer[2] = "";
+            answer[3] = "";
+            answer[4] = "";
+            answer[5] = "";
+        }if (randp == 1787 || randp == 1788) {
+            hints = "";
+            answer[0] = "";
+            answer[1] = "";
+            answer[2] = "";
+            answer[3] = "";
+            answer[4] = "";
+            answer[5] = "";
+        }if (randp == 1789 || randp == 1790) {
+            hints = "";
+            answer[0] = "";
+            answer[1] = "";
+            answer[2] = "";
+            answer[3] = "";
+            answer[4] = "";
+            answer[5] = "";
+        }if (randp == 1791 || randp == 1792) {
             hints = "";
             answer[0] = "";
             answer[1] = "";
@@ -5115,38 +5157,78 @@ function submit() {
             answer[4] = "샤이니 운동";
             answer[5] = "샤이니운동";
         }if (randp == 1203 || randp == 1204) {
-            hints = "";
-            answer[0] = "";
-            answer[1] = "";
-            answer[2] = "";
-            answer[3] = "";
-            answer[4] = "";
-            answer[5] = "";
+            hints = "ㅍㅇㄷㅁㅊ!!!";
+            answer[0] = "Forward March!!!";
+            answer[1] = "forward march!!!";
+            answer[2] = "forward march";
+            answer[3] = "포와드 마치!!!";
+            answer[4] = "포와드 마치";
+            answer[5] = "포와드마치";
         }if (randp == 1205 || randp == 1206) {
-            hints = "";
-            answer[0] = "";
-            answer[1] = "";
-            answer[2] = "";
-            answer[3] = "";
-            answer[4] = "";
-            answer[5] = "";
+            hints = "ㅂㅇㅎㄹㄱ";
+            answer[0] = "별이 흐르고";
+            answer[1] = "별이흐르고";
+            answer[2] = "호시가흐르고";
+            answer[3] = "별 흐르고";
+            answer[4] = "별이 흐르며";
+            answer[5] = "별이흐르며";
         }if (randp == 1207 || randp == 1208) {
-            hints = "";
-            answer[0] = "";
-            answer[1] = "";
-            answer[2] = "";
-            answer[3] = "";
-            answer[4] = "";
-            answer[5] = "";
+            hints = "ㅂㄹㅇㅌㅅㅌㅎㅇㅌ";
+            answer[0] = "BRIGHTEST WHITE";
+            answer[1] = "brightest white";
+            answer[2] = "브라이티스트 화이트";
+            answer[3] = "브라이트스트 화이트";
+            answer[4] = "브라이티스트화이트";
+            answer[5] = "가장 밝은 화이트";
         }if (randp == 1209 || randp == 1210) {
-            hints = "";
-            answer[0] = "";
+            hints = "ㅇㄸㅇㅇㄷㅇㅇㅇㄱ";
+            answer[0] = "어떤 영웅들의 이야기";
             answer[1] = "";
             answer[2] = "";
             answer[3] = "";
             answer[4] = "";
             answer[5] = "";
         }if (randp == 1211 || randp == 1212) {
+            hints = "ㅇㅅㅎㅇㄹㅅ";
+            answer[0] = "Unsung Heroes";
+            answer[1] = "";
+            answer[2] = "";
+            answer[3] = "";
+            answer[4] = "";
+            answer[5] = "";
+        }if (randp == 1213 || randp == 1214) {
+            hints = "ㅇㅊㅅㅇㄹㅋ";
+            answer[0] = "유채색 유레카";
+            answer[1] = "";
+            answer[2] = "";
+            answer[3] = "";
+            answer[4] = "";
+            answer[5] = "";
+        }if (randp == 1215 || randp == 1216) {
+            hints = "ㅎㄴㅅㅋㅅㅇㅅㅇ";
+            answer[0] = "하나사카사이사이";
+            answer[1] = "하나사카 사이사이";
+            answer[2] = "hanasakasaisai";
+            answer[3] = "하나사카사이사이";
+            answer[4] = "하나싸카싸이싸이";
+            answer[5] = "하나 사카 사이 사이";
+        }if (randp == 1217 || randp == 1218) {
+            hints = "ㅈㄹㅇㅅ";
+            answer[0] = "전력 앤서";
+            answer[1] = "전력앤서";
+            answer[2] = "전력 엔서";
+            answer[3] = "전력엔서";
+            answer[4] = "젠료쿠 앤서";
+            answer[5] = "전력 Answer";
+        }if (randp == 1219 || randp == 1220) {
+            hints = "ㅇㄹㅁㅈㅇㅋ";
+            answer[0] = "일력 모자이크";
+            answer[1] = "일력모자이크";
+            answer[2] = "일력 모자이쿠";
+            answer[3] = "일력모자이쿠";
+            answer[4] = "일료쿠 모자이크";
+            answer[5] = "일력 Mosaic";
+        }if (randp == 1221 || randp == 1222) {
             hints = "";
             answer[0] = "";
             answer[1] = "";
@@ -6695,13 +6777,13 @@ function submit() {
             answer[5] = "덴덴덴";
         }
         if (randp == 3027 || randp == 3028) {
-            hints = "";
-            answer[0] = "";
-            answer[1] = "";
-            answer[2] = "";
-            answer[3] = "";
-            answer[4] = "";
-            answer[5] = "";
+            hints = "ㅋㄹㅅㅌㄹㅇㄷ";
+            answer[0] = "CRYST@LOUD";
+            answer[1] = "CRYSTALOUD ";
+            answer[2] = "cryst@loud";
+            answer[3] = "크리스탈라우드";
+            answer[4] = "crystaloud";
+            answer[5] = "크라";
         }
         if (randp == 3029 || randp == 3030) {
             hints = "";
@@ -6921,6 +7003,7 @@ function UpdatedSongChange(){
     flagUD = "";
     SongChange();
     if(flagUD != "업"){
+        lose--;
         UpdatedSongChange();
         return 0;
     }
@@ -6936,12 +7019,12 @@ function SongChange() {
     videourl = "";
     randp = Math.floor(Math.random() * 3200);
     if (
-        notran.indexOf(randp) != -1 ||
-        (randp > 581) & (randp <= 1000) ||
-        (randp > 1202 && randp <= 1500) ||
-        (randp > 1772 && randp <= 2000) ||
+        notran.indexOf(randp) != -1 || (randp >= 1209 && randp <= 1214) || // <- 안티카 CANVAS 없음으로 제외
+        (randp > 589) & (randp <= 1000) ||
+        (randp > 1220 && randp <= 1500) ||
+        (randp > 1780 && randp <= 2000) ||
         (randp > 2292 && randp <= 3000) ||
-        (randp > 3026 && randp <= 3200)
+        (randp > 3028 && randp <= 3200) 
     ) {
         //alert('중복입니다.');
         SongChange();
@@ -9278,36 +9361,44 @@ function SongChange() {
             flag = "밀리";
             videourl = "";
         } else if (randp == 582) {
-            urllink = ""; //
+            urllink = "1txy_tPJqnSdPS-DvgkjTa3Tw363dZ_IS"; //사운드 오브 비기닝
             flag = "밀리";
+                        flagUD = "업";
             videourl = "";
         } else if (randp == 583) {
-            urllink = ""; //
+            urllink = "1IF2Ee0JDblAlH0WPy-tkLptkxgV-7g55"; //사운드 오브 비기닝
             flag = "밀리";
+                        flagUD = "업";
             videourl = "";
         } else if (randp == 584) {
-            urllink = ""; //
+            urllink = "1WC-5aXpoY6TBrFJAGcJGJ8QeCN2GGAn5"; //Supersonic Booster!
             flag = "밀리";
+                        flagUD = "업";
             videourl = "";
         } else if (randp == 585) {
-            urllink = ""; //
+            urllink = "1jzbht55YbqLARA3wiWka27RJ4RQMTyS-"; //Supersonic Booster
             flag = "밀리";
+                        flagUD = "업";
             videourl = "";
         } else if (randp == 586) {
-            urllink = ""; //
+            urllink = "1xSaLqGrS27D7YLXsR0RN2uuh_K63jnio"; //오렌지 에피소드
             flag = "밀리";
+                        flagUD = "업";
             videourl = "";
         } else if (randp == 587) {
-            urllink = ""; //
+            urllink = "1lRxEFcCbe4U5V8vDR4KMJcTKsPaJIDgk"; //오렌지 에피소드
             flag = "밀리";
+                        flagUD = "업";
             videourl = "";
         } else if (randp == 588) {
-            urllink = ""; //
+            urllink = "1O_WpK54aobQEvvaDEzd_9A--DI6_HT44"; //Like twinkling STARS
             flag = "밀리";
+                        flagUD = "업";
             videourl = "";
         } else if (randp == 589) {
-            urllink = ""; //
+            urllink = "1kD_DRaoGLoq16bWw8WLqB4eyG7qIo_Ef"; //Like twinkling STARS
             flag = "밀리";
+                        flagUD = "업";
             videourl = "";
         } else if (randp == 590) {
             urllink = ""; //
@@ -10115,56 +10206,110 @@ function SongChange() {
         } else if (randp == 1199) {
             urllink = "1bebLP_ErQeiPR60W4IdtDuav22dL4sd8"; // 283체조
             flag = "샤니";
-                        flagUD = "업";
             videourl = "";
         } else if (randp == 1200) {
             urllink = "1zpUB8gV3o9tPliWAPBa92-0QSJrtozKf"; // 283체조
             flag = "샤니";
-                        flagUD = "업";
             videourl = "";
         } else if (randp == 1201) {
             urllink = "1vVkdosYjuPYXT5PYa0WIj0YApJeZ04Po"; //샤이니 엑서사이즈
             flag = "샤니";
-                        flagUD = "업";
             videourl = "";
         } else if (randp == 1202) {
             urllink = "1FKYS8n_KC2O_KZ2Sx3NvdRD5JiY0I0L2"; //샤이니 엑서사이즈
             flag = "샤니";
-                        flagUD = "업";
             videourl = "";
         } else if (randp == 1203) {
-            urllink = ""; //
+            urllink = "1H9PJ66uJ2PoaxYvutC0loY2iN2S_ZC0S"; //Forward March
             flag = "샤니";
+                        flagUD = "업";
             videourl = "";
         } else if (randp == 1204) {
-            urllink = ""; //
+            urllink = "1Ptx5gsMgmbOkGUAVCsZ5Ph1AJkJ1GIj1"; //Forward March
             flag = "샤니";
+                        flagUD = "업";
             videourl = "";
         } else if (randp == 1205) {
-            urllink = ""; //
+            urllink = "1GpfE3myiE4NhsLfxCsaHItxNkMCSt5DI"; //별이 흐르고
             flag = "샤니";
+                        flagUD = "업";
             videourl = "";
         } else if (randp == 1206) {
-            urllink = ""; //
+            urllink = "1_iPbXkwPRQr2AeU55Em3Jxtvsh9yYEiA"; //별이 흐르고
             flag = "샤니";
+                        flagUD = "업";
             videourl = "";
         } else if (randp == 1207) {
-            urllink = ""; //
+            urllink = "1RomZBT0fRX0esQUlcxZIhplMD5JBsPRC"; //BRIGHTEST WHITE
             flag = "샤니";
+                        flagUD = "업";
             videourl = "";
         } else if (randp == 1208) {
-            urllink = ""; //
+            urllink = "131yX77Zkx_AkhH87bmP5t-hVRbQngLOc"; //BRIGHTEST WHITE
             flag = "샤니";
+                        flagUD = "업";
             videourl = "";
         } else if (randp == 1209) {
-            urllink = ""; //
+            urllink = ""; //어떤 영웅들의 이야기
             flag = "샤니";
+                        flagUD = "업";
             videourl = "";
         } else if (randp == 1210) {
-            urllink = ""; //
+            urllink = ""; //어떤 영웅들의 이야기
             flag = "샤니";
+                        flagUD = "업";
             videourl = "";
         } else if (randp == 1211) {
+            urllink = ""; //Unsung Heroes
+            flag = "샤니";
+                        flagUD = "업";
+            videourl = "";
+        } else if (randp == 1212) {
+            urllink = ""; //Unsung Heroes
+            flag = "샤니";
+                        flagUD = "업";
+            videourl = "";
+        } else if (randp == 1213) {
+            urllink = ""; //유채색 유레카
+            flag = "샤니";
+                        flagUD = "업";
+            videourl = "";
+        } else if (randp == 1214) {
+            urllink = ""; //유채색 유레카
+            flag = "샤니";
+                        flagUD = "업";
+            videourl = "";
+        } else if (randp == 1215) {
+            urllink = "15dnfFpPxqkAeOGYkSzajr29naw0cUCE9"; //하나사카사이사이
+            flag = "샤니";
+                        flagUD = "업";
+            videourl = "";
+        } else if (randp == 1216) {
+            urllink = "1zD1PMOc-ThB0uw1sMfVy5BsjufgvlSnK"; //하나사카사이사이
+            flag = "샤니";
+                        flagUD = "업";
+            videourl = "";
+        } else if (randp == 1217) {
+            urllink = "1LppfCvu5uyN06PkVN_infTNOAmcTHO2j"; //전력 앤서
+            flag = "샤니";
+                        flagUD = "업";
+            videourl = "";
+        } else if (randp == 1218) {
+            urllink = "153D7LsPkWkNoue-NwWR0G2Xq7fAD_-lp"; //전력 앤서
+            flag = "샤니";
+                        flagUD = "업";
+            videourl = "";
+        } else if (randp == 1219) {
+            urllink = "1QGwX6EoBZ_YBy1q8BdHz4v7-X3xr3Czk"; //일력 모자이크
+            flag = "샤니";
+                        flagUD = "업";
+            videourl = "";
+        } else if (randp == 1220) {
+            urllink = "18-GiSdAKIS84o-2Y8np8swEOsr8rDddt"; //일력 모자이크
+            flag = "샤니";
+                        flagUD = "업";
+            videourl = "";
+        } else if (randp == 1221) {
             urllink = ""; //
             flag = "샤니";
             videourl = "";
@@ -11222,86 +11367,124 @@ function SongChange() {
         } else if (randp == 1763) {
             urllink = "1wURTIAOXUxNjiZ-aonFY-i43nepn6tZG"; //MOTTO
             flag = "데레";
-                        flagUD = "업";
             videourl = "";
         } else if (randp == 1764) {
             urllink = "1lPeTv31mk9IlHCeXEvGYC2-oPCAShtMc"; //모또
             flag = "데레";
-                        flagUD = "업";
             videourl = "";
         } else if (randp == 1765) {
             urllink = "1ppNI9DZ332sIo6AvMxRpjdNFQ-pBVt8I"; //유니크 보이스
             flag = "데레";
-                        flagUD = "업";
             videourl = "";
         } else if (randp == 1766) {
             urllink = "11Ln0hC8UUCG6iQ20P2_tLUUfByGwQFyJ"; //유니크 보이스
             flag = "데레";
-                        flagUD = "업";
             videourl = "";
         } else if (randp == 1767) {
             urllink = "19PZCCfeCBBagQcyRJiVJS-IM8In0_TZf"; //서머 사이다
             flag = "데레";
-                        flagUD = "업";
             videourl = "";
         } else if (randp == 1768) {
             urllink = "18Rtu2fCNHb2uwJa3u7zV0sRT_6ughZ2w"; //서머 사이다
             flag = "데레";
-                        flagUD = "업";
             videourl = "";
         } else if (randp == 1769) {
             urllink = "1LhseqIg6CVARpdmzOmC6LP1IFKeI2nRi"; //댄싱 데드
             flag = "데레";
-                        flagUD = "업";
             videourl = "";
         } else if (randp == 1770) {
             urllink = "1CECRytXQJIC_FgqRxaxyv0jwdq8cKmbE"; //댄싱 데드
             flag = "데레";
-                        flagUD = "업";
             videourl = "";
         } else if (randp == 1771) {
             urllink = "158wGkiAhP9IBfiCXVBMFTniyY-JlOQwO"; //조릿대잎에, 물거품에
             flag = "데레";
-                        flagUD = "업";
             videourl = "";
         } else if (randp == 1772) {
             urllink = "1wF28yFj9cSQN9sct071Z6dIlZLzk55kb"; //조릿대잎에, 물거품에
             flag = "데레";
-                        flagUD = "업";
             videourl = "";
         } else if (randp == 1773) {
-            urllink = ""; //
+            urllink = "10RIG8e1io3eI_yfU1pjrgR5RIYwHNOY0"; //Starry Night
             flag = "데레";
+                        flagUD = "업";
             videourl = "";
         } else if (randp == 1774) {
-            urllink = ""; //
+            urllink = "1Z1duWSl8acsv_x6RjNysRuHNEeygvNOi"; //Starry Night
             flag = "데레";
+                        flagUD = "업";
             videourl = "";
         } else if (randp == 1775) {
-            urllink = ""; //
+            urllink = "1ZShTd3WMgqOZdlVM8OuGu2UDwV_hYZoo"; //Shine In The Sky☆
             flag = "데레";
+                        flagUD = "업";
             videourl = "";
         } else if (randp == 1776) {
-            urllink = ""; //
+            urllink = "12HBzdwmsqkaQE1dpMhzxht1_iGDcY-rc"; //Shine In The Sky
             flag = "데레";
+                        flagUD = "업";
             videourl = "";
         } else if (randp == 1777) {
-            urllink = ""; //
+            urllink = "1b0t5MHG-Tm6bB84v-n0zcnp9t67YGUUq"; //들러 보는 리틀 스타
             flag = "데레";
+                        flagUD = "업";
             videourl = "";
         } else if (randp == 1778) {
-            urllink = ""; //
+            urllink = "1MhjyWI3TlhB4b8BXJJAylY7d8r1_BIC7"; //들러 보는 리틀 스타
             flag = "데레";
+                        flagUD = "업";
             videourl = "";
         } else if (randp == 1779) {
-            urllink = ""; //
+            urllink = "1f-d6qWpX_fsuaWwSzzIZsAHwNkge06U8"; //Nightwear
             flag = "데레";
+                        flagUD = "업";
             videourl = "";
         } else if (randp == 1780) {
+            urllink = "1GXp-ta5bjYXq0n_2bmVi7qYuQaw6KPb7"; //Nightwear
+            flag = "데레";
+                        flagUD = "업";
+            videourl = "";
+        } else if (randp == 1781) {
             urllink = ""; //
             flag = "데레";
             videourl = "";
-        } else if (randp == 1781) {
+        } else if (randp == 1782) {
+            urllink = ""; //
+            flag = "데레";
+            videourl = "";
+        } else if (randp == 1783) {
+            urllink = ""; //
+            flag = "데레";
+            videourl = "";
+        } else if (randp == 1784) {
+            urllink = ""; //
+            flag = "데레";
+            videourl = "";
+        } else if (randp == 1785) {
+            urllink = ""; //
+            flag = "데레";
+            videourl = "";
+        } else if (randp == 1786) {
+            urllink = ""; //
+            flag = "데레";
+            videourl = "";
+        } else if (randp == 1787) {
+            urllink = ""; //
+            flag = "데레";
+            videourl = "";
+        } else if (randp == 1788) {
+            urllink = ""; //
+            flag = "데레";
+            videourl = "";
+        } else if (randp == 1789) {
+            urllink = ""; //
+            flag = "데레";
+            videourl = "";
+        } else if (randp == 1790) {
+            urllink = ""; //
+            flag = "데레";
+            videourl = "";
+        } else if (randp == 1791) {
             urllink = ""; //
             flag = "데레";
             videourl = "";
@@ -12620,12 +12803,14 @@ function SongChange() {
             flag = "기타";
             videourl = "";
         } else if (randp == 3027) {
-            urllink = ""; //
+            urllink = "1pExqz0USrhPZWr0DmRTk9yvzFf-0xZVz"; //CRYST@LOUD 
             flag = "기타";
+                        flagUD = "업";
             videourl = "";
         } else if (randp == 3028) {
-            urllink = ""; //
+            urllink = "1LcG01GecMVDd5Lxkm9yF0wlCN6Js8AUh"; //크리스탈라우드
             flag = "기타";
+                        flagUD = "업";
             videourl = "";
         } else if (randp == 3029) {
             urllink = ""; //
@@ -12683,12 +12868,12 @@ function SongChange() {
             document.getElementById('ans1').textContent = answer[0];
             randp = Math.floor(Math.random() * 3200);
         if (
-        notran.indexOf(randp) != -1 ||
-        (randp > 581) & (randp <= 1000) ||
-        (randp > 1202 && randp <= 1500) ||
-        (randp > 1772 && randp <= 2000) ||
+        notran.indexOf(randp) != -1 || (randp >= 1209 && randp <= 1214) || // <- 안티카 CANVAS 없음으로 제외
+        (randp > 589) & (randp <= 1000) ||
+        (randp > 1220 && randp <= 1500) ||
+        (randp > 1780 && randp <= 2000) ||
         (randp > 2292 && randp <= 3000) ||
-        (randp > 3026 && randp <= 3200)
+        (randp > 3028 && randp <= 3200) 
         ) {
         //alert('중복입니다.');
         SongChange();
@@ -12698,12 +12883,12 @@ function SongChange() {
             document.getElementById('ans2').textContent = answer[0];
             randp = Math.floor(Math.random() * 3200);
     if (
-        notran.indexOf(randp) != -1 ||
-        (randp > 581) & (randp <= 1000) ||
+        notran.indexOf(randp) != -1 || (randp >= 1209 && randp <= 1214) ||
+        (randp > 589) & (randp <= 1000) ||
         (randp > 1202 && randp <= 1500) ||
-        (randp > 1772 && randp <= 2000) ||
+        (randp > 1780 && randp <= 2000) ||
         (randp > 2292 && randp <= 3000) ||
-        (randp > 3026 && randp <= 3200)
+        (randp > 3028 && randp <= 3200)
     ) {
         //alert('중복입니다.');
         SongChange();
@@ -12719,12 +12904,12 @@ function SongChange() {
             document.getElementById('ans2').textContent = answer[0];
             randp = Math.floor(Math.random() * 3200);
     if (
-        notran.indexOf(randp) != -1 ||
-        (randp > 581) & (randp <= 1000) ||
+        notran.indexOf(randp) != -1 || (randp >= 1209 && randp <= 1214) ||
+        (randp > 589) & (randp <= 1000) ||
         (randp > 1202 && randp <= 1500) ||
-        (randp > 1772 && randp <= 2000) ||
+        (randp > 1780 && randp <= 2000) ||
         (randp > 2292 && randp <= 3000) ||
-        (randp > 3026 && randp <= 3200)
+        (randp > 3028 && randp <= 3200)
     ) {
         //alert('중복입니다.');
         SongChange();
@@ -12734,12 +12919,12 @@ function SongChange() {
             document.getElementById('ans1').textContent = answer[0];
             randp = Math.floor(Math.random() * 3200);
     if (
-        notran.indexOf(randp) != -1 ||
-        (randp > 581) & (randp <= 1000) ||
+        notran.indexOf(randp) != -1 || (randp >= 1209 && randp <= 1214) ||
+        (randp > 589) & (randp <= 1000) ||
         (randp > 1202 && randp <= 1500) ||
-        (randp > 1772 && randp <= 2000) ||
+        (randp > 1780 && randp <= 2000) ||
         (randp > 2292 && randp <= 3000) ||
-        (randp > 3026 && randp <= 3200)
+        (randp > 3028 && randp <= 3200)
     ) {
         //alert('중복입니다.');
         SongChange();
@@ -12755,12 +12940,12 @@ function SongChange() {
             document.getElementById('ans3').textContent = answer[0];
             randp = Math.floor(Math.random() * 3200);
     if (
-        notran.indexOf(randp) != -1 ||
-        (randp > 581) & (randp <= 1000) ||
+        notran.indexOf(randp) != -1 || (randp >= 1209 && randp <= 1214) ||
+        (randp > 589) & (randp <= 1000) ||
         (randp > 1202 && randp <= 1500) ||
-        (randp > 1772 && randp <= 2000) ||
+        (randp > 1780 && randp <= 2000) ||
         (randp > 2292 && randp <= 3000) ||
-        (randp > 3026 && randp <= 3200)
+        (randp > 3028 && randp <= 3200)
     ) {
         //alert('중복입니다.');
         SongChange();
@@ -12770,12 +12955,12 @@ function SongChange() {
             document.getElementById('ans2').textContent = answer[0];
             randp = Math.floor(Math.random() * 3200);
     if (
-        notran.indexOf(randp) != -1 ||
-        (randp > 581) & (randp <= 1000) ||
+        notran.indexOf(randp) != -1 || (randp >= 1209 && randp <= 1214) ||
+        (randp > 589) & (randp <= 1000) ||
         (randp > 1202 && randp <= 1500) ||
-        (randp > 1772 && randp <= 2000) ||
+        (randp > 1780 && randp <= 2000) ||
         (randp > 2292 && randp <= 3000) ||
-        (randp > 3026 && randp <= 3200)
+        (randp > 3028 && randp <= 3200)
     ) {
         //alert('중복입니다.');
         SongChange();
